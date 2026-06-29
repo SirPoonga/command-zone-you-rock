@@ -1,0 +1,2 @@
+[console_scripts]
+yourock = yourock.cli:main

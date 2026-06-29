@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "command-zone-you-rock"
+version = "0.1.0"
+description = "Find and catalog The Command Zone podcast You Rock shout-outs."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Kevin Jonas"}]
+dependencies = [
+  "Flask>=3.1,<4",
+  "Pillow>=11,<13",
+  "playwright>=1.52,<2",
+  "numpy>=1.26,<3",
+  "onnxruntime>=1.20,<2",
+  "rapidocr>=3.9,<4",
+  "youtube-transcript-api>=1.2.4,<2",
+  "yt-dlp>=2026.6.9",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+  "ruff>=0.11,<1",
+]
+
+[project.scripts]
+yourock = "yourock.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

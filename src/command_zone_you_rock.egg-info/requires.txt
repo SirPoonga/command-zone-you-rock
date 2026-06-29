@@ -1,0 +1,12 @@
+Flask<4,>=3.1
+Pillow<13,>=11
+playwright<2,>=1.52
+numpy<3,>=1.26
+onnxruntime<2,>=1.20
+rapidocr<4,>=3.9
+youtube-transcript-api<2,>=1.2.4
+yt-dlp>=2026.6.9
+
+[dev]
+pytest<10,>=8
+ruff<1,>=0.11

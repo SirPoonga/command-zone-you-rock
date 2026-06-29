@@ -1,0 +1,12 @@
+.venv/
+.browser-profile/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+cookies.txt
+*.cookies.txt
+
+backup-before-*/
+transcript-diagnostic-*.json
+test-you-rock.*
