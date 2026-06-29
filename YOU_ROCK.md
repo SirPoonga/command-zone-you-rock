@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**16 verified shout-outs** across **16 episodes**.
+**18 verified shout-outs** across **18 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -109,6 +109,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=6oS1E5BGi0U&amp;t=559s">#730 — Why Your Deck Feels Clunky and How to Fix It</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=6oS1E5BGi0U&amp;t=559s"><strong>9:19</strong></a></td>
       <td><a href="screenshots/6oS1E5BGi0U-559-bookmark.jpg"><img src="screenshots/6oS1E5BGi0U-559-bookmark.jpg" alt="Brian Praamsma shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>David Hurse</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=DbcbZmQbTm0&amp;t=984s">#728 — The TMNT Cards You Need to Know</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=DbcbZmQbTm0&amp;t=984s"><strong>16:24</strong></a></td>
+      <td><a href="screenshots/DbcbZmQbTm0-984-bookmark.jpg"><img src="screenshots/DbcbZmQbTm0-984-bookmark.jpg" alt="David Hurse shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kathleen Kennedy</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=9XzCokjm5Vs&amp;t=731s">#726 — Wizards Makes It Official re: Hybrid Mana, Bans/Unbans, and More</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=9XzCokjm5Vs&amp;t=731s"><strong>12:11</strong></a></td>
+      <td><a href="screenshots/9XzCokjm5Vs-731-bookmark.jpg"><img src="screenshots/9XzCokjm5Vs-731-bookmark.jpg" alt="Kathleen Kennedy shout-out" width="300"></a></td>
     </tr>
   </tbody>
 </table>
