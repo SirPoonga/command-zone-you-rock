@@ -11,8 +11,6 @@ from typing import Any
 from PIL import Image, ImageEnhance, ImageOps
 
 from .browser_capture import capture_browser_frames
-from .browser_capture import capture_browser_frames
-from .browser_capture import capture_browser_frames
 from .config import ProjectConfig
 from .detection import parse_name_from_ocr
 

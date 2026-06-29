@@ -9,7 +9,9 @@ src/command_zone_you_rock.egg-info/requires.txt
 src/command_zone_you_rock.egg-info/top_level.txt
 src/yourock/__init__.py
 src/yourock/__main__.py
+src/yourock/bookmark_scan.py
 src/yourock/browser_capture.py
+src/yourock/browser_transcripts.py
 src/yourock/capture.py
 src/yourock/cli.py
 src/yourock/config.py
@@ -21,6 +23,9 @@ src/yourock/storage.py
 src/yourock/transcripts.py
 src/yourock/utils.py
 src/yourock/youtube.py
+tests/test_bookmark_sequence.py
+tests/test_bookmarks.py
 tests/test_detection.py
 tests/test_markdown.py
+tests/test_review.py
 tests/test_utils.py
