@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**28 verified shout-outs** across **28 episodes**.
+**34 verified shout-outs** across **34 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -181,6 +181,42 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=DxIomU_20bc&amp;t=435s">#707 — These New Avatar Cards Will Blow You Away</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=DxIomU_20bc&amp;t=435s"><strong>7:15</strong></a></td>
       <td><a href="screenshots/DxIomU_20bc-435-bookmark.jpg"><img src="screenshots/DxIomU_20bc-435-bookmark.jpg" alt="Lissa Metzler shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jordan Travers</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Nu8bL0cCLkA&amp;t=1631s">#701 — Our Favorite NEW Decks</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Nu8bL0cCLkA&amp;t=1631s"><strong>27:11</strong></a></td>
+      <td><a href="screenshots/Nu8bL0cCLkA-1631-bookmark.jpg"><img src="screenshots/Nu8bL0cCLkA-1631-bookmark.jpg" alt="Jordan Travers shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brian Miller</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=agL2LV596Kc&amp;t=1048s">#699 — 4x Awesome Spider-Man Commander Decks to Build Right Now</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=agL2LV596Kc&amp;t=1048s"><strong>17:28</strong></a></td>
+      <td><a href="screenshots/agL2LV596Kc-1048-bookmark.jpg"><img src="screenshots/agL2LV596Kc-1048-bookmark.jpg" alt="Brian Miller shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Rick Price</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=aLNJ9JEWFaw&amp;t=587s">#696 — BROKEN NEWS: New Spider-Man Villain ALWAYS has Blue Mana Open</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=aLNJ9JEWFaw&amp;t=587s"><strong>9:47</strong></a></td>
+      <td><a href="screenshots/aLNJ9JEWFaw-587-bookmark.jpg"><img src="screenshots/aLNJ9JEWFaw-587-bookmark.jpg" alt="Rick Price shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jade Eyes</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=I6kd3ggg81w&amp;t=542s">#690 — When Your Deck is Too Good (But Also Too Bad)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=I6kd3ggg81w&amp;t=542s"><strong>9:02</strong></a></td>
+      <td><a href="screenshots/I6kd3ggg81w-542-bookmark.jpg"><img src="screenshots/I6kd3ggg81w-542-bookmark.jpg" alt="Jade Eyes shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Clem Healy</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ys0pgB72LIk&amp;t=801s">#687 — Most Powerful Commanders in Edge of Eternities</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ys0pgB72LIk&amp;t=801s"><strong>13:21</strong></a></td>
+      <td><a href="screenshots/ys0pgB72LIk-801-bookmark.jpg"><img src="screenshots/ys0pgB72LIk-801-bookmark.jpg" alt="Clem Healy shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Drago Duncan</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=0xOXEYmbDnk&amp;t=476s">#686 — “Counter Intelligence” Precon Upgrade | Edge of Eternities</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=0xOXEYmbDnk&amp;t=476s"><strong>7:56</strong></a></td>
+      <td><a href="screenshots/0xOXEYmbDnk-476-bookmark.jpg"><img src="screenshots/0xOXEYmbDnk-476-bookmark.jpg" alt="Drago Duncan shout-out" width="300"></a></td>
     </tr>
   </tbody>
 </table>
