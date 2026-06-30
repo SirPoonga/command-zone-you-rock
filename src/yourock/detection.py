@@ -51,21 +51,58 @@ def find_candidates(
 
 
 def parse_name_from_ocr(text: str) -> str:
-    cleaned = " ".join(text.replace("\n", " ").split()).upper()
+    """Extract the name from the OCR segment associated with YOU ROCK."""
     rock = r"Y[O0]U\s+R[O0]C[KX](?:\s*[!1I|W]*)?"
+
+    for raw_line in text.replace("\r", "\n").splitlines():
+        line = " ".join(raw_line.split())
+        if not line:
+            continue
+
+        segments = [
+            segment.strip()
+            for segment in re.split(r"\s*\|\s*", line)
+            if segment.strip()
+        ]
+        for index, segment in enumerate(segments):
+            if not re.search(rock, segment, flags=re.IGNORECASE):
+                continue
+
+            candidates = [segment]
+            if index > 0:
+                candidates.append(f"{segments[index - 1]} {segment}")
+
+            for candidate in candidates:
+                name = _name_before_rock(candidate, rock)
+                if name:
+                    return _format_ocr_name(name)
+
+    flattened = " ".join(text.replace("\n", " ").split())
+    name = _name_before_rock(flattened, rock)
+    return _format_ocr_name(name) if name else ""
+
+
+def _name_before_rock(text: str, rock: str) -> str:
+    cleaned = " ".join(text.split()).upper()
     match = re.search(rf"(.{{2,80}}?)\s*[-–—:|]\s*{rock}", cleaned)
     if not match:
         match = re.search(rf"(.{{2,80}}?)\s+{rock}", cleaned)
     if not match:
         return ""
 
-    name = match.group(1)
-    name = re.sub(r"[^A-Z0-9' .-]", " ", name)
+    name = re.sub(r"[^A-Z0-9' .-]", " ", match.group(1))
     name = re.sub(r"\s+", " ", name).strip(" .-|")
     words = name.split()
     if len(words) > 6:
         words = words[-6:]
-    return " ".join(word.capitalize() if not word.isdigit() else word for word in words)
+    return " ".join(words)
+
+
+def _format_ocr_name(name: str) -> str:
+    return " ".join(
+        word.capitalize() if not word.isdigit() else word
+        for word in name.split()
+    )
 
 
 def _normalize_text(text: str) -> str:

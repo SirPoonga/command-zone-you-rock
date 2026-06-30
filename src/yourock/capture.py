@@ -202,11 +202,93 @@ def _ocr(image: Image.Image) -> tuple[str, float]:
         use_cls=False,
         use_rec=True,
     )
-    texts = tuple(getattr(result, "txts", ()) or ())
-    scores = tuple(float(value) for value in (getattr(result, "scores", ()) or ()))
-    text = " ".join(str(value).strip() for value in texts if str(value).strip())
+    texts = tuple(
+        str(value).strip()
+        for value in (getattr(result, "txts", ()) or ())
+        if str(value).strip()
+    )
+    scores = tuple(
+        float(value)
+        for value in (getattr(result, "scores", ()) or ())
+    )
+    raw_boxes = getattr(result, "boxes", None)
+    boxes = tuple(raw_boxes) if raw_boxes is not None else ()
+    text = _join_ocr_lines(texts, boxes)
     confidence = sum(scores) / len(scores) if scores else 0.0
     return text, confidence
+
+
+def _join_ocr_lines(
+    texts: tuple[str, ...],
+    boxes: tuple[Any, ...],
+) -> str:
+    """Preserve OCR rows and mark large horizontal gaps with pipes."""
+    if not texts:
+        return ""
+    if len(boxes) != len(texts):
+        return " ".join(texts)
+
+    items: list[tuple[str, float, float, float, float]] = []
+    for value, box in zip(texts, boxes, strict=True):
+        try:
+            points = list(box)
+            xs = [float(point[0]) for point in points]
+            ys = [float(point[1]) for point in points]
+        except (IndexError, TypeError, ValueError):
+            return " ".join(texts)
+
+        if not xs or not ys:
+            return " ".join(texts)
+
+        left = min(xs)
+        right = max(xs)
+        top = min(ys)
+        bottom = max(ys)
+        center_y = (top + bottom) / 2
+        height = bottom - top
+        items.append((value, left, right, center_y, height))
+
+    rows: list[list[tuple[str, float, float, float, float]]] = []
+    for item in sorted(items, key=lambda current: (current[3], current[1])):
+        best_row = None
+        best_distance = float("inf")
+
+        for row in rows:
+            row_center = sum(current[3] for current in row) / len(row)
+            row_height = max(current[4] for current in row)
+            tolerance = max(8.0, row_height * 0.65, item[4] * 0.65)
+            distance = abs(item[3] - row_center)
+            if distance <= tolerance and distance < best_distance:
+                best_row = row
+                best_distance = distance
+
+        if best_row is None:
+            rows.append([item])
+        else:
+            best_row.append(item)
+
+    rendered_rows: list[str] = []
+    for row in sorted(
+        rows,
+        key=lambda current: min(item[3] for item in current),
+    ):
+        ordered = sorted(row, key=lambda current: current[1])
+        pieces = [ordered[0][0]]
+
+        for previous, current in zip(
+            ordered,
+            ordered[1:],
+            strict=False,
+        ):
+            gap = current[1] - previous[2]
+            typical_height = max(1.0, previous[4], current[4])
+            large_gap = max(24.0, typical_height * 2.5)
+            separator = " | " if gap > large_gap else " "
+            pieces.append(separator + current[0])
+
+        rendered_rows.append("".join(pieces))
+
+    return "\n".join(rendered_rows)
 
 
 def _get_ocr_engine() -> Any:

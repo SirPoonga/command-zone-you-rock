@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**18 verified shout-outs** across **18 episodes**.
+**28 verified shout-outs** across **28 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -121,6 +121,66 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=9XzCokjm5Vs&amp;t=731s">#726 — Wizards Makes It Official re: Hybrid Mana, Bans/Unbans, and More</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=9XzCokjm5Vs&amp;t=731s"><strong>12:11</strong></a></td>
       <td><a href="screenshots/9XzCokjm5Vs-731-bookmark.jpg"><img src="screenshots/9XzCokjm5Vs-731-bookmark.jpg" alt="Kathleen Kennedy shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>32bit</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=IBxHD3M87e8&amp;t=533s">#724 — “Dance of the Elements” Precon Upgrade | Lorwyn Eclipsed</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=IBxHD3M87e8&amp;t=533s"><strong>8:53</strong></a></td>
+      <td><a href="screenshots/IBxHD3M87e8-533-bookmark.jpg"><img src="screenshots/IBxHD3M87e8-533-bookmark.jpg" alt="32bit shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Eddieroaddogg</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=DlUqF9W8E7M&amp;t=499s">#722 — “Blight Curse” Precon Upgrade | Lorwyn Eclipsed</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=DlUqF9W8E7M&amp;t=499s"><strong>8:19</strong></a></td>
+      <td><a href="screenshots/DlUqF9W8E7M-499-bookmark.jpg"><img src="screenshots/DlUqF9W8E7M-499-bookmark.jpg" alt="Eddieroaddogg shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Caleb John</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=iqjLbIJOMlw&amp;t=1780s">#721 — Lorwyn Eclipsed’s Most Powerful New Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=iqjLbIJOMlw&amp;t=1780s"><strong>29:40</strong></a></td>
+      <td><a href="screenshots/iqjLbIJOMlw-1780-bookmark.jpg"><img src="screenshots/iqjLbIJOMlw-1780-bookmark.jpg" alt="Caleb John shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Travis Morin</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=yOKIc0vTnvU&amp;t=749s">#716 — How to Make Your Decks Less Boring</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=yOKIc0vTnvU&amp;t=749s"><strong>12:29</strong></a></td>
+      <td><a href="screenshots/yOKIc0vTnvU-749-bookmark.jpg"><img src="screenshots/yOKIc0vTnvU-749-bookmark.jpg" alt="Travis Morin shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Carina Holste</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Cwz_GemcWg4&amp;t=882s">#715 — Play These Cards At Your Own Risk</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Cwz_GemcWg4&amp;t=882s"><strong>14:42</strong></a></td>
+      <td><a href="screenshots/Cwz_GemcWg4-882-bookmark.jpg"><img src="screenshots/Cwz_GemcWg4-882-bookmark.jpg" alt="Carina Holste shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ryan Greene</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=kdsXbCeaQDU&amp;t=1843s">#714 — Commanders We Just Can’t Crack</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=kdsXbCeaQDU&amp;t=1843s"><strong>30:43</strong></a></td>
+      <td><a href="screenshots/kdsXbCeaQDU-1843-bookmark.jpg"><img src="screenshots/kdsXbCeaQDU-1843-bookmark.jpg" alt="Ryan Greene shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brady White</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=JnITPj7bsmA&amp;t=841s">#712 — The Best Budget Cards in Every Color Pair</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=JnITPj7bsmA&amp;t=841s"><strong>14:01</strong></a></td>
+      <td><a href="screenshots/JnITPj7bsmA-841-bookmark.jpg"><img src="screenshots/JnITPj7bsmA-841-bookmark.jpg" alt="Brady White shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kevin Bennett</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=0dBH8QxdpAE&amp;t=969s">#711 — 4 Avatar Commander Decks to Build Right Now</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=0dBH8QxdpAE&amp;t=969s"><strong>16:09</strong></a></td>
+      <td><a href="screenshots/0dBH8QxdpAE-969-bookmark.jpg"><img src="screenshots/0dBH8QxdpAE-969-bookmark.jpg" alt="Kevin Bennett shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Caleb John</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=f9320Lqo4eI&amp;t=969s">#709 — Avatar’s Most Powerful New Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=f9320Lqo4eI&amp;t=969s"><strong>16:09</strong></a></td>
+      <td><a href="screenshots/f9320Lqo4eI-969-bookmark.jpg"><img src="screenshots/f9320Lqo4eI-969-bookmark.jpg" alt="Caleb John shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Lissa Metzler</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=DxIomU_20bc&amp;t=435s">#707 — These New Avatar Cards Will Blow You Away</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=DxIomU_20bc&amp;t=435s"><strong>7:15</strong></a></td>
+      <td><a href="screenshots/DxIomU_20bc-435-bookmark.jpg"><img src="screenshots/DxIomU_20bc-435-bookmark.jpg" alt="Lissa Metzler shout-out" width="300"></a></td>
     </tr>
   </tbody>
 </table>
