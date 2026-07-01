@@ -29,6 +29,12 @@ class _BrowserRuntime:
 _RUNTIME: _BrowserRuntime | None = None
 
 
+class VideoUnavailableError(RuntimeError):
+    """Raised when YouTube explicitly reports that a video cannot be played."""
+
+
+
+
 def capture_browser_frames(
     config: ProjectConfig,
     video_id: str,
@@ -214,6 +220,11 @@ def _wait_for_video(
     while time.monotonic() < deadline:
         _dismiss_consent(page)
         _skip_visible_ad(page)
+
+        reason = _video_unavailable_reason(page)
+        if reason:
+            raise VideoUnavailableError(reason)
+
         try:
             state = _video_state(page)
             last_state = state
@@ -274,6 +285,12 @@ def _wait_for_video(
 
 
 def _seek_video(page: Any, seconds: float, timeout_ms: int) -> None:
+    reason = _video_unavailable_reason(page)
+    if reason:
+        raise VideoUnavailableError(
+            f"Video became unavailable while seeking: {reason}"
+        )
+
     video = page.locator("video").first
     state = _video_state(page)
     if not state:
@@ -358,6 +375,56 @@ def _video_state(page: Any) -> dict[str, Any] | None:
             };
         }"""
     )
+
+
+
+def _video_unavailable_reason(page: Any) -> str | None:
+    """Return YouTube's visible playback error, when one is present."""
+    try:
+        result = page.evaluate(
+            r"""() => {
+                const selectors = [
+                    'ytd-player-error-message-renderer',
+                    '#error-screen',
+                    '.ytp-error',
+                    '#reason',
+                    '#subreason'
+                ];
+                const parts = [];
+                for (const selector of selectors) {
+                    for (const element of document.querySelectorAll(selector)) {
+                        const text = (element.innerText || element.textContent || '')
+                            .replace(/\s+/g, ' ')
+                            .trim();
+                        if (text) parts.push(text);
+                    }
+                }
+
+                const title = (document.title || '').trim();
+                const combined = [title, ...parts].join(' | ');
+                const normalized = combined.toLowerCase();
+                const phrases = [
+                    'video unavailable',
+                    'this video is unavailable',
+                    "this video isn't available",
+                    'video has been removed',
+                    'video was removed',
+                    'private video',
+                    'account associated with this video has been terminated',
+                    'uploader has not made this video available',
+                    'not available in your country'
+                ];
+
+                return phrases.some(phrase => normalized.includes(phrase))
+                    ? combined.slice(0, 500)
+                    : '';
+            }"""
+        )
+    except Exception:
+        return None
+
+    reason = str(result or "").strip()
+    return reason or None
 
 
 def _skip_visible_ad(page: Any) -> None:

@@ -4,6 +4,7 @@ from dataclasses import dataclass
 from io import BytesIO
 from pathlib import Path
 import re
+import time
 from typing import Any
 
 from PIL import Image
@@ -26,6 +27,8 @@ from .utils import format_timestamp
 MAX_EARLY_BOOKMARKS = 3
 PATREON_SCAN_BEFORE_SECONDS = 45
 PATREON_TO_YOU_ROCK_MAX_SECONDS = 45
+VIDEO_STARTUP_TIMEOUT_SECONDS = 60
+VIDEO_SCAN_TIMEOUT_SECONDS = 300
 
 
 @dataclass(frozen=True)
@@ -57,11 +60,27 @@ class _FrameAnalysis:
     has_you_rock: bool
 
 
+
+def _remaining_video_timeout_ms(
+    deadline: float,
+    *,
+    stage: str,
+) -> int:
+    remaining_ms = int((deadline - time.monotonic()) * 1000)
+    if remaining_ms <= 0:
+        raise TimeoutError(
+            f"Video scan exceeded {VIDEO_SCAN_TIMEOUT_SECONDS} seconds "
+            f"while {stage}."
+        )
+    return max(1, remaining_ms)
+
+
 def scan_description_bookmarks(
     config: ProjectConfig,
     video_id: str,
 ) -> tuple[list[DescriptionBookmark], list[BookmarkMatch]]:
     """Find YOU ROCK lower-thirds near the first chapters, after Patreon URL."""
+    deadline = time.monotonic() + VIDEO_SCAN_TIMEOUT_SECONDS
     runtime = _get_runtime(config)
     page = runtime.page
     timeout_ms = max(30, config.browser_timeout_seconds) * 1000
@@ -70,10 +89,24 @@ def scan_description_bookmarks(
     page.goto(
         f"https://www.youtube.com/watch?v={video_id}&autoplay=1",
         wait_until="domcontentloaded",
-        timeout=timeout_ms,
+        timeout=min(
+            timeout_ms,
+            _remaining_video_timeout_ms(deadline, stage="opening the video"),
+        ),
     )
     _dismiss_consent(page)
-    _wait_for_video(page, timeout_ms, required_seconds=60)
+    _wait_for_video(
+        page,
+        min(
+            timeout_ms,
+            VIDEO_STARTUP_TIMEOUT_SECONDS * 1000,
+            _remaining_video_timeout_ms(
+                deadline,
+                stage="waiting for the main podcast video",
+            ),
+        ),
+        required_seconds=60,
+    )
     page.wait_for_timeout(750)
 
     description_text, anchor_rows = _read_description(page)
@@ -129,8 +162,19 @@ def scan_description_bookmarks(
         bookmark.timestamp_seconds: [] for bookmark in candidate_bookmarks
     }
 
-    for index, (second, bookmark) in enumerate(seconds_to_bookmark.items(), start=1):
-        _seek_video(page, float(second), timeout_ms=min(timeout_ms, 30_000))
+    for index, (second, bookmark) in enumerate(
+        seconds_to_bookmark.items(),
+        start=1,
+    ):
+        remaining_ms = _remaining_video_timeout_ms(
+            deadline,
+            stage=f"scanning frame at {format_timestamp(second)}",
+        )
+        _seek_video(
+            page,
+            float(second),
+            timeout_ms=min(timeout_ms, 30_000, remaining_ms),
+        )
         page.wait_for_timeout(125)
         image_bytes = video.screenshot(type="jpeg", quality=88)
         analysis = _analyze_frame(config, image_bytes, second, bookmark)

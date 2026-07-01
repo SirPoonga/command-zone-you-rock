@@ -5,6 +5,7 @@ import hashlib
 import time
 
 from .bookmark_scan import BookmarkMatch, scan_description_bookmarks
+from .browser_capture import VideoUnavailableError
 from .config import ProjectConfig
 from .detection import Candidate, find_candidates
 from .markdown import generate_markdown
@@ -139,18 +140,24 @@ def scan_playlist(
                 processed_at=now,
             )
         except Exception as exc:
+            status = (
+                "unavailable"
+                if isinstance(exc, VideoUnavailableError)
+                else "retry"
+            )
             _upsert_video(
                 videos,
                 metadata,
                 episode_number,
-                status="retry",
+                status=status,
                 transcript_source="",
                 candidate_count="0",
                 error=f"{exc.__class__.__name__}: {exc}",
                 processed_at=now,
             )
             label = "Bookmark scan" if backend == "browser" else "Transcript"
-            print(f"  {label} error: {exc}")
+            problem = "unavailable" if status == "unavailable" else "error"
+            print(f"  {label} {problem}: {exc}")
 
         write_rows(config.videos_csv, VIDEO_FIELDS, videos)
         write_rows(config.shoutouts_csv, SHOUTOUT_FIELDS, shoutouts)
