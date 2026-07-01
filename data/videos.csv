@@ -52,7 +52,7 @@ hHrjnIpiU74,50,What are we even doing? | The Command Zone 702 | Magic: The Gathe
 Nu8bL0cCLkA,51,Our Favorite NEW Decks | The Command Zone 701 | Magic: The Gathering Commander MTG,701,,6455,https://www.youtube.com/watch?v=Nu8bL0cCLkA,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:34:26+00:00,1,
 ZTw7phD0_Mc,52,The Complete Guide to Mass Disruption | The Command Zone 700 | MTG EDH Magic Gathering,700,,4493,https://www.youtube.com/watch?v=ZTw7phD0_Mc,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:37:09+00:00,0,
 agL2LV596Kc,53,4x Awesome Spider-Man Commander Decks to Build Right Now | The Command Zone 699 | MTG Magic,699,,4081,https://www.youtube.com/watch?v=agL2LV596Kc,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:43:38+00:00,1,
-KMYOoWD3UN4,54,Spider-Man’s Best Cards (In the 99) | The Command Zone 698 | MTG EDH Magic Commander,698,,7206,https://www.youtube.com/watch?v=KMYOoWD3UN4,retry,,2026-07-01T03:24:09+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 79.0s; last video state: {'currentTime': 92.872122, 'duration': 7205.781, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/02f3d9ac-4247-4d90-80fe-a1779b6a59c7', 'adShowing': False}"
+KMYOoWD3UN4,54,Spider-Man’s Best Cards (In the 99) | The Command Zone 698 | MTG EDH Magic Commander,698,,7206,https://www.youtube.com/watch?v=KMYOoWD3UN4,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:38:35+00:00,0,
 TXHP1X6mN9k,55,Spider-Man’s Most Powerful Commanders | The Command Zone 697 | MTG EDH Magic Gathering,697,,6901,https://www.youtube.com/watch?v=TXHP1X6mN9k,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:49:43+00:00,0,
 aLNJ9JEWFaw,56,BROKEN NEWS: New Spider-Man Villain ALWAYS has Blue Mana Open | The Command Zone 696 | MTG EDH Magic,696,,2190,https://www.youtube.com/watch?v=aLNJ9JEWFaw,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:52:34+00:00,1,
 ARaFN9tFTGA,57,JLK’s Personal Commander Decks | The Command Zone 695 | Magic: The Gathering Magic MTG EDH,695,,7528,https://www.youtube.com/watch?v=ARaFN9tFTGA,complete,description-bookmarks+browser+rapidocr,2026-06-30T00:53:44+00:00,0,
@@ -65,18 +65,55 @@ I6kd3ggg81w,62,When Your Deck is Too Good (But Also Too Bad) | The Command Zone 
 eMmY2at6oL8,64,Edge of Eternities’s Best Cards (In the 99) | The Command Zone 688 | MTG EDH Magic Gathering,688,,7775,https://www.youtube.com/watch?v=eMmY2at6oL8,complete,description-bookmarks+browser+rapidocr,2026-06-30T01:13:37+00:00,0,
 ys0pgB72LIk,65,Most Powerful Commanders in Edge of Eternities | The Command Zone 687 | MTG EDH Magic Gathering,687,,5906,https://www.youtube.com/watch?v=ys0pgB72LIk,complete,description-bookmarks+browser+rapidocr,2026-06-30T01:16:20+00:00,1,
 0xOXEYmbDnk,66,“Counter Intelligence” Precon Upgrade | Edge of Eternities | The Command Zone 686 | Magic Commander,686,,3938,https://www.youtube.com/watch?v=0xOXEYmbDnk,complete,description-bookmarks+browser+rapidocr,2026-06-30T01:17:15+00:00,1,
-HxXLWC_JRdM,67,“World Shaper” Full Deck Reveal & Upgrade | Edge of Eternities | The Command Zone 685 | MTG Magic,685,,3848,https://www.youtube.com/watch?v=HxXLWC_JRdM,retry,,2026-07-01T03:27:13+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 69.0s; last video state: {'currentTime': 99.867531, 'duration': 3847.661, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/1492e248-5233-4817-ad99-fc9a32ce87ae', 'adShowing': False}"
-3qeyIICCcqQ,68,You're Doing Commander Politics Wrong | The Command Zone 684 | MTG Magic The Gathering EDH,684,,3874,https://www.youtube.com/watch?v=3qeyIICCcqQ,retry,,2026-06-30T14:14:57+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 113.0s; last video state: {'currentTime': 138.579143, 'duration': 3873.901, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/e8b189fd-7306-4dfb-8262-89e550b6be18', 'adShowing': False}"
-8uxFeTgcEQY,69,The Best Token Commanders | The Command Zone 683 | MTG EDH Magic Gathering,683,,3996,https://www.youtube.com/watch?v=8uxFeTgcEQY,retry,,2026-06-30T14:18:21+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-ioB2d5WW1f8,70,Are These Commander Staples Worth It? | The Command Zone 682 | MTG EDH Magic Gathering,682,,5107,https://www.youtube.com/watch?v=ioB2d5WW1f8,retry,,2026-06-30T14:18:35+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-im_5XbHu4-U,71,We Draft the BIGGEST SPLASHY SORCERIES | The Command Zone 681 | MTG Magic Gathering Commander EDH,681,,4617,https://www.youtube.com/watch?v=im_5XbHu4-U,retry,,2026-06-30T14:18:55+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 187.0s; last video state: {'currentTime': 215.390503, 'duration': 4616.181, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/1a952f7b-2c31-495d-a135-61cd46618159', 'adShowing': False}"
-v3qeDhgVakw,72,Final Fantasy’s Most Iconic Commanders | The Command Zone 680 | MTG EDH Magic Gathering,680,,7320,https://www.youtube.com/watch?v=v3qeDhgVakw,retry,,2026-06-30T14:20:51+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-tLncdhJj5jw,73,The Best Final Fantasy Cards (In the 99) | The Command Zone 679 | MTG EDH Magic Gathering,679,,8316,https://www.youtube.com/watch?v=tLncdhJj5jw,retry,,2026-06-30T14:21:07+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-oKzgROnDNPI,74,Final Fantasy’s Most Powerful Commanders | The Command Zone 678 | MTG EDH Magic: The Gathering,678,,7560,https://www.youtube.com/watch?v=oKzgROnDNPI,retry,,2026-06-30T14:21:34+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-ZqI_-DH7lBc,75,Final Fantasy 6 - Commander Deck Upgrade Guide | “Revival Trance” | The Command Zone 677 | MTG Magic,677,,4350,https://www.youtube.com/watch?v=ZqI_-DH7lBc,retry,,2026-06-30T14:22:13+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-0_18LXLvR9Y,76,Final Fantasy 10 - Commander Deck Upgrade Guide | “Counter Blitz” | The Command Zone 676 | MTG Magic,676,,4562,https://www.youtube.com/watch?v=0_18LXLvR9Y,retry,,2026-06-30T14:22:45+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-iyTTFy9cXYo,77,Our Final Fantasy Preview Card is a BEAST | The Command Zone | MTG EDH Magic Gathering,,,2334,https://www.youtube.com/watch?v=iyTTFy9cXYo,retry,,2026-06-30T14:24:25+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-N63rsMxeOYA,78,Final Fantasy 14 - Commander Deck Upgrade Guide | “Scions & Spellcraft” | The Command Zone 675 | MTG,675,,4540,https://www.youtube.com/watch?v=N63rsMxeOYA,retry,,2026-06-30T14:25:03+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179921ms exceeded.
+HxXLWC_JRdM,67,“World Shaper” Full Deck Reveal & Upgrade | Edge of Eternities | The Command Zone 685 | MTG Magic,685,,3848,https://www.youtube.com/watch?v=HxXLWC_JRdM,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:42:53+00:00,0,
+3qeyIICCcqQ,68,You're Doing Commander Politics Wrong | The Command Zone 684 | MTG Magic The Gathering EDH,684,,3874,https://www.youtube.com/watch?v=3qeyIICCcqQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:44:57+00:00,0,
+8uxFeTgcEQY,69,The Best Token Commanders | The Command Zone 683 | MTG EDH Magic Gathering,683,,3996,https://www.youtube.com/watch?v=8uxFeTgcEQY,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:47:01+00:00,1,
+ioB2d5WW1f8,70,Are These Commander Staples Worth It? | The Command Zone 682 | MTG EDH Magic Gathering,682,,5107,https://www.youtube.com/watch?v=ioB2d5WW1f8,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:48:16+00:00,1,
+im_5XbHu4-U,71,We Draft the BIGGEST SPLASHY SORCERIES | The Command Zone 681 | MTG Magic Gathering Commander EDH,681,,4617,https://www.youtube.com/watch?v=im_5XbHu4-U,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:50:11+00:00,1,
+v3qeDhgVakw,72,Final Fantasy’s Most Iconic Commanders | The Command Zone 680 | MTG EDH Magic Gathering,680,,7320,https://www.youtube.com/watch?v=v3qeDhgVakw,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:50:48+00:00,1,
+tLncdhJj5jw,73,The Best Final Fantasy Cards (In the 99) | The Command Zone 679 | MTG EDH Magic Gathering,679,,8316,https://www.youtube.com/watch?v=tLncdhJj5jw,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:52:02+00:00,0,
+oKzgROnDNPI,74,Final Fantasy’s Most Powerful Commanders | The Command Zone 678 | MTG EDH Magic: The Gathering,678,,7560,https://www.youtube.com/watch?v=oKzgROnDNPI,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:53:58+00:00,1,
+ZqI_-DH7lBc,75,Final Fantasy 6 - Commander Deck Upgrade Guide | “Revival Trance” | The Command Zone 677 | MTG Magic,677,,4350,https://www.youtube.com/watch?v=ZqI_-DH7lBc,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:54:48+00:00,1,
+0_18LXLvR9Y,76,Final Fantasy 10 - Commander Deck Upgrade Guide | “Counter Blitz” | The Command Zone 676 | MTG Magic,676,,4562,https://www.youtube.com/watch?v=0_18LXLvR9Y,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:55:45+00:00,1,
+iyTTFy9cXYo,77,Our Final Fantasy Preview Card is a BEAST | The Command Zone | MTG EDH Magic Gathering,,,2334,https://www.youtube.com/watch?v=iyTTFy9cXYo,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:56:45+00:00,1,
+N63rsMxeOYA,78,Final Fantasy 14 - Commander Deck Upgrade Guide | “Scions & Spellcraft” | The Command Zone 675 | MTG,675,,4540,https://www.youtube.com/watch?v=N63rsMxeOYA,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:57:14+00:00,1,
+xkypTAiPbkU,79,Final Fantasy 7 - Commander Deck Upgrade Guide | “Limit Break” | The Command Zone 674 | MTG Magic,674,,4087,https://www.youtube.com/watch?v=xkypTAiPbkU,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:58:04+00:00,1,
+f4Rf4EeMh1w,80,We HATED these Commanders! Are They Still Bad? | The Command Zone 673 | MTG EDH Magic Gathering,673,,6006,https://www.youtube.com/watch?v=f4Rf4EeMh1w,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:59:05+00:00,1,
+6q0NW3lcEVI,81,"How Bad is Braids, Anyway? | The Command Zone 672 | MTG EDH Magic Gathering",672,,4966,https://www.youtube.com/watch?v=6q0NW3lcEVI,complete,description-bookmarks+browser+rapidocr,2026-07-01T03:59:49+00:00,1,
+jQAJM1Mtoco,82,What’s Wrong with the Commander Brackets? | The Command Zone 671 | MTG EDH Magic Gathering,671,,5806,https://www.youtube.com/watch?v=jQAJM1Mtoco,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:00:31+00:00,1,
+SowjUi0QZfo,83,Major Commander UNBAN Announcement! | The Command Zone 670 | MTG EDH Magic Gathering,670,,7146,https://www.youtube.com/watch?v=SowjUi0QZfo,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:01:21+00:00,1,
+rBlD6rkZpHs,84,Tarkir: Dragonstorm’s Best Cards (In the 99) | The Command Zone 669 | MTG EDH Magic Gathering,669,,7855,https://www.youtube.com/watch?v=rBlD6rkZpHs,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:01:53+00:00,1,
+D1mxqk8enBI,85,“Mardu Surge” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 668 | MTG EDH Magic Gathering,668,,3907,https://www.youtube.com/watch?v=D1mxqk8enBI,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:02:36+00:00,1,
+Zh6se3FAglk,86,“Abzan Armor” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 667 | MTG EDH Magic Gathering,667,,3764,https://www.youtube.com/watch?v=Zh6se3FAglk,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:03:14+00:00,1,
+P0pjdWWi7bs,87,Most Powerful Commanders in Tarkir: Dragonstorm | The Command Zone 666 | MTG EDH Magic Gathering,666,,7530,https://www.youtube.com/watch?v=P0pjdWWi7bs,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:04:13+00:00,1,
+eP1HquJbP_A,88,“Temur Roar” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 665 | MTG EDH Magic Gathering,665,,4118,https://www.youtube.com/watch?v=eP1HquJbP_A,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:05:22+00:00,1,
+L1d7uUR02kg,89,“Sultai Arisen” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 664 | MTG Magic Gathering,664,,4108,https://www.youtube.com/watch?v=L1d7uUR02kg,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:06:20+00:00,1,
+e-P3IO_aAhI,90,“Jeskai Striker” Full Deck Reveal & Upgrade | Tarkir: Dragonstorm | The Command Zone 663 | MTG Magic,663,,4051,https://www.youtube.com/watch?v=e-P3IO_aAhI,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:07:06+00:00,0,
+0mB6NqCZSnc,91,The Complete Guide to Cutting Cards | The Command Zone 662 | MTG EDH Magic Gathering,662,,4081,https://www.youtube.com/watch?v=0mB6NqCZSnc,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:09:03+00:00,1,
+3u1bZQS2zdU,92,The Magic Movie: Baseless Speculation | The Command Zone 661 | MTG EDH Magic Gathering,661,,5937,https://www.youtube.com/watch?v=3u1bZQS2zdU,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:09:58+00:00,1,
+8lchMqp1sZE,93,Conceding is Salty! | Fact or Fiction? | The Command Zone 660 | MTG EDH Magic Gathering Commander,660,,4415,https://www.youtube.com/watch?v=8lchMqp1sZE,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:10:44+00:00,1,
+PUrQpnQ7bi8,94,The Problem with Deckbuilding Templates | The Command Zone 659 | MTG EDH Magic Gathering,659,,6399,https://www.youtube.com/watch?v=PUrQpnQ7bi8,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:11:39+00:00,1,
+OSNV6224cHg,95,Commander Deckbuilding Template for the New Era | The Command Zone 658 | MTG EDH Magic Gathering,658,,6396,https://www.youtube.com/watch?v=OSNV6224cHg,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:12:30+00:00,0,
+P1GFbX_7Iok,96,Will [Brackets] Solve The Power Level Problem? | The Command Zone 657 | MTG EDH Magic Gathering,657,,5149,https://www.youtube.com/watch?v=P1GFbX_7Iok,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:14:25+00:00,1,
+Yh0MkQcaPS0,97,Aetherdrift’s Best Cards (In the 99) | The Command Zone 656 | MTG EDH Magic Gathering,656,,7469,https://www.youtube.com/watch?v=Yh0MkQcaPS0,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:15:16+00:00,0,
+KLn9enP4owU,98,The Most Powerful Commanders in Aetherdrift | The Command Zone 655 | MTG EDH Magic Gathering,655,,9175,https://www.youtube.com/watch?v=KLn9enP4owU,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:17:09+00:00,0,
+8J9lOe-NhZg,99,“Eternal Might” Precon Upgrade | Aetherdrift | The Command Zone 654 | MTG EDH Magic Gathering,654,,4022,https://www.youtube.com/watch?v=8J9lOe-NhZg,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:19:02+00:00,0,
+km1f1W0Tl6k,100,“Living Energy” Full Deck Reveal & Upgrade | Aetherdrift | The Command Zone 653 | MTG EDH Magic,653,,3795,https://www.youtube.com/watch?v=km1f1W0Tl6k,complete,description-bookmarks+browser+rapidocr,2026-07-01T04:20:59+00:00,0,
+osCDXJWm5DU,1,,,,,https://www.youtube.com/watch?v=osCDXJWm5DU,unavailable,,2026-07-01T03:38:08+00:00,0,VideoUnavailableError: YouTube | Video unavailable This video is private | Video unavailable | This video is private
+DN_6bNCJ-kk,140,Who’s the Target? Lessons in Threat Assessment | The Command Zone 652 | MTG EDH Magic Gathering,652,,5216,https://www.youtube.com/watch?v=DN_6bNCJ-kk,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:30:46+00:00,1,
+MJiOaK8HiYE,141,Commanders We Refuse to Play Against | The Command Zone 651 | MTG EDH Magic Gathering,651,,6221,https://www.youtube.com/watch?v=MJiOaK8HiYE,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:31:49+00:00,1,
+Pi9UEf2o-8U,142,MTG in 2024 - Year in Review | The Command Zone 650 | Magic: The Gathering EDH,650,,10455,https://www.youtube.com/watch?v=Pi9UEf2o-8U,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:32:29+00:00,1,
+Dqaxd8fmBIw,143,A Masterclass in Priority & The Stack | The Command Zone 649 | MTG EDH Magic Gathering,649,,4952,https://www.youtube.com/watch?v=Dqaxd8fmBIw,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:33:02+00:00,1,
+peTijsKyeG0,144,We Rank Every Set from 2024 | The Command Zone 648 | MTG EDH Magic Gathering,648,,6568,https://www.youtube.com/watch?v=peTijsKyeG0,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:33:40+00:00,1,
+c6NFHG3Xk-w,146,The Best Cards of 2024 | The Command Zone 647 | MTG Magic Gathering Commander EDH,647,,4835,https://www.youtube.com/watch?v=c6NFHG3Xk-w,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:34:14+00:00,1,
+Ycy2XIPk900,147,Tips for Teaching Magic: The Gathering | The Command Zone 646 | MTG EDH Commander,646,,4499,https://www.youtube.com/watch?v=Ycy2XIPk900,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:34:52+00:00,1,
+CtzeJSx0Vk0,149,We Rank Every Precon from 2024 | The Command Zone 645 | MTG EDH Magic Gathering,645,,8461,https://www.youtube.com/watch?v=CtzeJSx0Vk0,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:35:21+00:00,1,
+EHIN-1EC-KU,150,Do We Need the “Banned as a Commander” Rule Back? | The Command Zone 644 | MTG EDH Magic Gathering,644,,6573,https://www.youtube.com/watch?v=EHIN-1EC-KU,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:35:56+00:00,1,
+JHSPSeFCaxs,151,Start Playing Commander w/ the Foundations Starter Kit | The Command Zone 643 | MTG Magic Gathering,643,,5005,https://www.youtube.com/watch?v=JHSPSeFCaxs,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:36:25+00:00,1,
+QtWyOJHUiFU,152,Magic has changed A LOT since 1994 | The Command Zone 642 | MTG EDH Magic Gathering,642,,7329,https://www.youtube.com/watch?v=QtWyOJHUiFU,retry,,2026-07-01T14:56:50+00:00,0,TimeoutError: Video scan exceeded 300 seconds while early-show sweep at 3:30.
+wuXUVMysjpA,154,Most Powerful Commanders | Foundations Jumpstart | The Command Zone 641 | MTG EDH Magic Gathering,641,,7218,https://www.youtube.com/watch?v=wuXUVMysjpA,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:42:11+00:00,1,
+fA6LwoKDq6s,156,Foundations' Best Cards (In the 99) | The Command Zone 640 | MTG EDH Magic Gathering,640,,7680,https://www.youtube.com/watch?v=fA6LwoKDq6s,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:43:01+00:00,1,
+WWfcx4i3Ia8,158,MARVEL + MTG: Earth’s Mightiest New Commanders! | The Command Zone 639 | EDH Magic Gathering,639,,6285,https://www.youtube.com/watch?v=WWfcx4i3Ia8,retry,,2026-07-01T15:02:58+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
 Call log:
   - taking element screenshot
   - waiting for fonts to load...
@@ -84,28 +121,47 @@ Call log:
   - attempting scroll into view action
     - waiting for element to be stable
 "
-xkypTAiPbkU,79,Final Fantasy 7 - Commander Deck Upgrade Guide | “Limit Break” | The Command Zone 674 | MTG Magic,674,,4087,https://www.youtube.com/watch?v=xkypTAiPbkU,retry,,2026-06-30T14:29:48+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-f4Rf4EeMh1w,80,We HATED these Commanders! Are They Still Bad? | The Command Zone 673 | MTG EDH Magic Gathering,673,,6006,https://www.youtube.com/watch?v=f4Rf4EeMh1w,retry,,2026-06-30T14:30:46+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-6q0NW3lcEVI,81,"How Bad is Braids, Anyway? | The Command Zone 672 | MTG EDH Magic Gathering",672,,4966,https://www.youtube.com/watch?v=6q0NW3lcEVI,retry,,2026-06-30T14:31:11+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-jQAJM1Mtoco,82,What’s Wrong with the Commander Brackets? | The Command Zone 671 | MTG EDH Magic Gathering,671,,5806,https://www.youtube.com/watch?v=jQAJM1Mtoco,retry,,2026-06-30T14:31:26+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 180.0s; last video state: {'currentTime': 191.22, 'duration': 5805.741, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/3ab2a869-47c2-48bf-8af9-ab04530b1936', 'adShowing': False}"
-SowjUi0QZfo,83,Major Commander UNBAN Announcement! | The Command Zone 670 | MTG EDH Magic Gathering,670,,7146,https://www.youtube.com/watch?v=SowjUi0QZfo,retry,,2026-06-30T14:37:30+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-rBlD6rkZpHs,84,Tarkir: Dragonstorm’s Best Cards (In the 99) | The Command Zone 669 | MTG EDH Magic Gathering,669,,7855,https://www.youtube.com/watch?v=rBlD6rkZpHs,retry,,2026-06-30T14:38:00+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-D1mxqk8enBI,85,“Mardu Surge” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 668 | MTG EDH Magic Gathering,668,,3907,https://www.youtube.com/watch?v=D1mxqk8enBI,retry,,2026-06-30T14:38:12+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-Zh6se3FAglk,86,“Abzan Armor” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 667 | MTG EDH Magic Gathering,667,,3764,https://www.youtube.com/watch?v=Zh6se3FAglk,retry,,2026-06-30T14:40:32+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-P0pjdWWi7bs,87,Most Powerful Commanders in Tarkir: Dragonstorm | The Command Zone 666 | MTG EDH Magic Gathering,666,,7530,https://www.youtube.com/watch?v=P0pjdWWi7bs,retry,,2026-06-30T14:40:47+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-eP1HquJbP_A,88,“Temur Roar” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 665 | MTG EDH Magic Gathering,665,,4118,https://www.youtube.com/watch?v=eP1HquJbP_A,retry,,2026-06-30T14:41:00+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-L1d7uUR02kg,89,“Sultai Arisen” Precon Upgrade | Tarkir: Dragonstorm | The Command Zone 664 | MTG Magic Gathering,664,,4108,https://www.youtube.com/watch?v=L1d7uUR02kg,retry,,2026-06-30T14:41:09+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-e-P3IO_aAhI,90,“Jeskai Striker” Full Deck Reveal & Upgrade | Tarkir: Dragonstorm | The Command Zone 663 | MTG Magic,663,,4051,https://www.youtube.com/watch?v=e-P3IO_aAhI,retry,,2026-06-30T14:41:17+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-0mB6NqCZSnc,91,The Complete Guide to Cutting Cards | The Command Zone 662 | MTG EDH Magic Gathering,662,,4081,https://www.youtube.com/watch?v=0mB6NqCZSnc,retry,,2026-06-30T14:41:38+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-3u1bZQS2zdU,92,The Magic Movie: Baseless Speculation | The Command Zone 661 | MTG EDH Magic Gathering,661,,5937,https://www.youtube.com/watch?v=3u1bZQS2zdU,retry,,2026-06-30T14:41:50+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-8lchMqp1sZE,93,Conceding is Salty! | Fact or Fiction? | The Command Zone 660 | MTG EDH Magic Gathering Commander,660,,4415,https://www.youtube.com/watch?v=8lchMqp1sZE,retry,,2026-06-30T14:41:58+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-PUrQpnQ7bi8,94,The Problem with Deckbuilding Templates | The Command Zone 659 | MTG EDH Magic Gathering,659,,6399,https://www.youtube.com/watch?v=PUrQpnQ7bi8,retry,,2026-06-30T14:42:11+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-OSNV6224cHg,95,Commander Deckbuilding Template for the New Era | The Command Zone 658 | MTG EDH Magic Gathering,658,,6396,https://www.youtube.com/watch?v=OSNV6224cHg,retry,,2026-06-30T14:42:23+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-P1GFbX_7Iok,96,Will [Brackets] Solve The Power Level Problem? | The Command Zone 657 | MTG EDH Magic Gathering,657,,5149,https://www.youtube.com/watch?v=P1GFbX_7Iok,retry,,2026-06-30T14:43:12+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-Yh0MkQcaPS0,97,Aetherdrift’s Best Cards (In the 99) | The Command Zone 656 | MTG EDH Magic Gathering,656,,7469,https://www.youtube.com/watch?v=Yh0MkQcaPS0,retry,,2026-06-30T14:43:42+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-KLn9enP4owU,98,The Most Powerful Commanders in Aetherdrift | The Command Zone 655 | MTG EDH Magic Gathering,655,,9175,https://www.youtube.com/watch?v=KLn9enP4owU,retry,,2026-06-30T14:43:53+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
-8J9lOe-NhZg,99,“Eternal Might” Precon Upgrade | Aetherdrift | The Command Zone 654 | MTG EDH Magic Gathering,654,,4022,https://www.youtube.com/watch?v=8J9lOe-NhZg,retry,,2026-06-30T14:44:18+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
-km1f1W0Tl6k,100,“Living Energy” Full Deck Reveal & Upgrade | Aetherdrift | The Command Zone 653 | MTG EDH Magic,653,,3795,https://www.youtube.com/watch?v=km1f1W0Tl6k,retry,,2026-06-30T14:44:29+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179937ms exceeded.
+O-cfZ5_OMQ0,159,The Most Powerful Commanders | Foundations | The Command Zone 638 | MTG EDH Magic Gathering,638,,7708,https://www.youtube.com/watch?v=O-cfZ5_OMQ0,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:43:46+00:00,1,
+hke5GiWgMLA,160,What Are the Best 3+ Mana Rocks in Commander? | The Command Zone 637 | MTG EDH Magic: The Gathering,637,,4383,https://www.youtube.com/watch?v=hke5GiWgMLA,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:44:32+00:00,1,
+rN4-IbjxY10,161,How to Play BLUE w/ Josh Lee Kwai | The Command Zone 636 | MTG EDH Magic Gathering,636,,7528,https://www.youtube.com/watch?v=rN4-IbjxY10,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:45:38+00:00,1,
+r9wck1hVYAY,163,What Should Be Unbanned? | The Command Zone 635 | MTG EDH Magic Gathering Commander,635,,5818,https://www.youtube.com/watch?v=r9wck1hVYAY,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:46:13+00:00,1,
+eYbTaGqTwDg,164,Duskmourn’s Best Cards (In the 99) | The Command Zone 634 | MTG EDH Magic Gathering,634,,7862,https://www.youtube.com/watch?v=eYbTaGqTwDg,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:46:58+00:00,1,
+0bM6dBnKjHw,167,“Miracle Worker” Precon Upgrade | Duskmourn | The Command Zone 633 | MTG EDH Magic Gathering,633,,3832,https://www.youtube.com/watch?v=0bM6dBnKjHw,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:47:41+00:00,1,
+dLWVLujnKLM,170,The Most Powerful Commanders | Duskmourn | The Command Zone 632 | MTG EDH Magic Gathering,632,,7488,https://www.youtube.com/watch?v=dLWVLujnKLM,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:48:21+00:00,1,
+2O9jWyIGqYY,171,“Jump Scare” Precon Upgrade | Duskmourn | The Command Zone 631 | MTG EDH Magic Gathering,631,,3717,https://www.youtube.com/watch?v=2O9jWyIGqYY,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:48:55+00:00,1,
+RfnOeHj9c7w,173,“Endless Punishment” Precon Upgrade | Duskmourn | The Command Zone 630 | MTG EDH Magic Gathering,630,,3566,https://www.youtube.com/watch?v=RfnOeHj9c7w,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:49:22+00:00,1,
+uZY_rkEpTcQ,174,“Death Toll” Full Deck Reveal & Upgrade | Duskmourn | The Command Zone 629 | MTG EDH Magic,629,,4067,https://www.youtube.com/watch?v=uZY_rkEpTcQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:49:52+00:00,1,
+yQcH5K-oEqY,175,The Stupidest Deck I’ve Ever Built | The Command Zone 628 | MTG EDH Magic Gathering,628,,3002,https://www.youtube.com/watch?v=yQcH5K-oEqY,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:50:28+00:00,1,
+RwZiW5qBynM,176,The Most Annoying Cards in Commander | The Command Zone 627 | Magic The Gathering MTG EDH,627,,5907,https://www.youtube.com/watch?v=RwZiW5qBynM,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:51:10+00:00,1,
+gM_Q4_3-rFk,178,How to Play Group Hug w/ Jumbo Commander | The Command Zone 626 | MTG EDH Magic Gathering,626,,6440,https://www.youtube.com/watch?v=gM_Q4_3-rFk,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:51:40+00:00,1,
+mABwgkaYD78,180,Bloomburrow's Best Cards (In the 99) | The Command Zone 625 | MTG Commander EDH Magic The Gathering,625,,9004,https://www.youtube.com/watch?v=mABwgkaYD78,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:52:15+00:00,1,
+gAEp0ji6K3U,181,“Family Matters” Precon Upgrade | Bloomburrow | The Command Zone 624 | MTG Magic Gathering Commander,624,,3792,https://www.youtube.com/watch?v=gAEp0ji6K3U,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:52:52+00:00,1,
+yfvXfOtAulY,183,The Most Powerful Commanders | Bloomburrow | The Command Zone 623 | MTG EDH Magic Gathering,623,,7591,https://www.youtube.com/watch?v=yfvXfOtAulY,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:53:05+00:00,1,
+JAmxY_hPdn8,184,“Animated Army” Precon Upgrade | Bloomburrow | The Command Zone 622 | MTG EDH Magic Gathering,622,,4084,https://www.youtube.com/watch?v=JAmxY_hPdn8,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:53:30+00:00,1,
+QGeWljZSLcA,185,“Peace Offering” Precon Upgrade | Bloomburrow | The Command Zone 621 | MTG EDH Magic Gathering,621,,5122,https://www.youtube.com/watch?v=QGeWljZSLcA,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:53:56+00:00,1,
+gkwO1W3YU6Q,186,“Squirreled Away” Full Deck Reveal & Upgrade - Bloomburrow | The Command Zone 620 | MTG EDH Magic,620,,3850,https://www.youtube.com/watch?v=gkwO1W3YU6Q,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:54:37+00:00,1,
+YBoVPW0wvhY,189,"We Draft the Best “Gotcha"" Spells in Commander | The Command Zone 619 | MTG EDH Magic Gathering",619,,5394,https://www.youtube.com/watch?v=YBoVPW0wvhY,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:55:03+00:00,1,
+DbZ06RkMzZM,190,Cards You Need to Know from Assassin’s Creed | The Command Zone 618 | MTG EDH Magic Gathering,618,,8043,https://www.youtube.com/watch?v=DbZ06RkMzZM,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:55:39+00:00,1,
+Cms0pC17QOI,192,“Tricky Terrain” Precon Upgrade | Modern Horizons 3 | The Command Zone 617 | MTG Commander Magic,617,,5253,https://www.youtube.com/watch?v=Cms0pC17QOI,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:56:12+00:00,1,
+JKQZ8pSh730,193,The Best Cards (In the 99) from Modern Horizons 3 | The Command Zone 616 | MTG Magic Commander,616,,7798,https://www.youtube.com/watch?v=JKQZ8pSh730,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:56:37+00:00,1,
+-hvdCNLnfo8,195,We Rank the MDFCs in MH3 | The Command Zone 615 | MTG EDH Magic Gathering,615,,4288,https://www.youtube.com/watch?v=-hvdCNLnfo8,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:57:07+00:00,1,
+WrP4EbXCi9Y,196,We Reveal a Brand New Assassin’s Creed Card | The Command Zone 614 | MTG Magic Gathering Commander,614,,1726,https://www.youtube.com/watch?v=WrP4EbXCi9Y,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:57:48+00:00,1,
+LR5HnlH1qcA,197,“Graveyard Overdrive” Precon Upgrade | Modern Horizons 3 | The Command Zone 613 | MTG EDH Magic,613,,4609,https://www.youtube.com/watch?v=LR5HnlH1qcA,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:58:23+00:00,1,
+ChVK6K-BzaQ,199,“Eldrazi Incursion” Precon Upgrade | Modern Horizons 3 | The Command Zone 612 | MTG EDH Magic,612,,5166,https://www.youtube.com/watch?v=ChVK6K-BzaQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:58:42+00:00,1,
+CLdcW1y_JFs,201,Most Powerful Commanders from Modern Horizons 3 | The Command Zone 611 | MTG EDH Magic Gathering MH3,611,,8239,https://www.youtube.com/watch?v=CLdcW1y_JFs,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:58:59+00:00,1,
+aMDfxMA0w3k,202,“Creative Energy” Precon Upgrade | Modern Horizons 3 | The Command Zone 610 | Magic Gathering MTG,610,,5272,https://www.youtube.com/watch?v=aMDfxMA0w3k,complete,description-bookmarks+browser+rapidocr,2026-07-01T06:59:34+00:00,1,
+MPpkIP1U8KM,203,“Tricky Terrain” Full Deck Reveal - Modern Horizons 3 | The Command Zone 609 | MTG EDH Magic,609,,3035,https://www.youtube.com/watch?v=MPpkIP1U8KM,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:00:14+00:00,1,
+NNv2uWeCS50,204,Master Deck Building w/ These Scryfall Hacks | The Command Zone 608 | MTG Magic Gathering Commander,608,,5907,https://www.youtube.com/watch?v=NNv2uWeCS50,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:00:49+00:00,1,
+36mEaTK9Fu4,206,Level Up Your Combat Phase | The Command Zone 607 | MTG EDH Magic Gathering,607,,5970,https://www.youtube.com/watch?v=36mEaTK9Fu4,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:01:46+00:00,1,
+n-s47Bf93rU,207,How to Play GREEN w/ Brian Kibler | The Command Zone 606 | MTG Magic @bmkibler @commanderathome,606,,7513,https://www.youtube.com/watch?v=n-s47Bf93rU,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:02:24+00:00,1,
+knhnCHaNZRQ,208,"Game Knights Isn’t Scripted, BUT… | The Command Zone 605 | MTG EDH Magic Gathering",605,,7893,https://www.youtube.com/watch?v=knhnCHaNZRQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:03:03+00:00,1,
+URtAGnwD_Ho,209,The Best Cards (In the 99) from Outlaws of Thunder Junction | The Command Zone 604 | MTG EDH Magic,604,,8454,https://www.youtube.com/watch?v=URtAGnwD_Ho,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:03:36+00:00,1,
+9d9zqLvzR_E,211,“Most Wanted” Precon Upgrade | Outlaws of Thunder Junction | The Command Zone 603 | MTG EDH Magic,603,,3891,https://www.youtube.com/watch?v=9d9zqLvzR_E,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:04:18+00:00,1,
+gnUsQg6NNV4,213,“Grand Larceny” Precon Upgrade | Outlaws of Thunder Junction | The Command Zone 602 | MTG EDH Magic,602,,4872,https://www.youtube.com/watch?v=gnUsQg6NNV4,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:04:33+00:00,1,
+noRbaO3CirU,214,“Desert Bloom” Precon Upgrade | Outlaws of Thunder Junction | The Command Zone 601 | MTG EDH Magic,601,,3966,https://www.youtube.com/watch?v=noRbaO3CirU,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:05:19+00:00,1,
+H8ZUxaeyvlY,215,“Quick Draw” Precon Upgrade | Outlaws of Thunder Junction | The Command Zone 600 | MTG EDH Magic,600,,4989,https://www.youtube.com/watch?v=H8ZUxaeyvlY,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:06:35+00:00,1,
+L22gaWp6GVQ,216,Most Powerful Commanders from Outlaws of Thunder Junction | The Command Zone 599 | MTG EDH Magic,599,,7821,https://www.youtube.com/watch?v=L22gaWp6GVQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:07:14+00:00,1,
+rURePA5zR6M,217,“Most Wanted” Full Deck Reveal - Outlaws of Thunder Junction | The Command Zone 598 | MTG EDH Magic,598,,2699,https://www.youtube.com/watch?v=rURePA5zR6M,retry,,2026-07-01T15:08:39+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
 Call log:
   - taking element screenshot
   - waiting for fonts to load...
@@ -113,4 +169,418 @@ Call log:
   - attempting scroll into view action
     - waiting for element to be stable
 "
-osCDXJWm5DU,1,,,,,https://www.youtube.com/watch?v=osCDXJWm5DU,retry,,2026-07-01T03:13:19+00:00,0,"RuntimeError: YouTube did not expose the main podcast video before the browser timeout. Last page title: (55) The Warriors vs The Baseball Furies (4K) - YouTube; video state: {'currentTime': 0, 'duration': 0, 'readyState': 0, 'networkState': 0, 'paused': True, 'seeking': False, 'ended': False, 'src': '', 'adShowing': False}. Complete any prompt in Chrome and retry."
+fWiXZAfIH2Y,218,The Unwritten Rules of Commander | The Command Zone 597 | MTG EDH Magic Gathering,597,,5875,https://www.youtube.com/watch?v=fWiXZAfIH2Y,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:08:36+00:00,1,
+swjL6prGShE,221,Do This One Thing to Win More Games | How to Playtest | The Command Zone 596 | MTG Commander Magic,596,,7024,https://www.youtube.com/watch?v=swjL6prGShE,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:09:46+00:00,1,
+w_d47pXuCOo,222,We Draft the Best Planeswalkers in Commander | The Command Zone 595 | MTG EDH Magic Gathering,595,,4302,https://www.youtube.com/watch?v=w_d47pXuCOo,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:10:20+00:00,1,
+bIGbLd3_8AE,225,Every Card You Need to Know from Fallout | The Command Zone 594 | MTG EDH Magic Gathering,594,,6111,https://www.youtube.com/watch?v=bIGbLd3_8AE,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:10:43+00:00,1,
+jOzucv3vc74,226,Fallout Precon Upgrade Guide w/ Kyle Hill | SCIENCE! vs Mutant Menace | The Command Zone 593 | MTG,593,,8201,https://www.youtube.com/watch?v=jOzucv3vc74,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:11:22+00:00,1,
+yXVt0ILwvVY,227,"Fallout Precon Upgrade Guides | Hail, Caesar vs Scrappy Survivors | The Command Zone 592",592,,5286,https://www.youtube.com/watch?v=yXVt0ILwvVY,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:12:02+00:00,1,
+lhU4LTnwQQA,228,How to Become a GENIUS at Commander | The Command Zone 591 | MTG EDH Magic Gathering,591,,5004,https://www.youtube.com/watch?v=lhU4LTnwQQA,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:12:53+00:00,1,
+jDUwuYQt48s,229,Official Fallout Preview Card | The Command Zone 590 | MTG Commander EDH Magic: The Gathering,590,,2769,https://www.youtube.com/watch?v=jDUwuYQt48s,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:13:33+00:00,1,
+aMqF_1SzFt4,231,The Best Cards (In the 99) from Murders at Karlov Manor | The Command Zone 589 | MTG EDH Magic,589,,7519,https://www.youtube.com/watch?v=aMqF_1SzFt4,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:14:02+00:00,1,
+9LqXl99Uv-s,233,Karlov Manor Precon Upgrades & Comparison | Deep Clue Sea vs Blame Game | The Command Zone 588,588,,5729,https://www.youtube.com/watch?v=9LqXl99Uv-s,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:14:35+00:00,1,
+5T3pMi6o2zM,234,Karlov Manor Precon Upgrades & Comparison | Deadly Disguise vs Revenant Recon | The Command Zone 587,587,,5361,https://www.youtube.com/watch?v=5T3pMi6o2zM,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:15:35+00:00,1,
+PHV1VtYof98,235,Most Powerful Commanders from Murders at Karlov Manor | The Command Zone 586 | MTG EDH Magic,586,,7188,https://www.youtube.com/watch?v=PHV1VtYof98,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:16:16+00:00,1,
+053iZT8Lqws,236,“Deep Clue Sea” Full Deck Reveal - Murders at Karlov Manor | The Command Zone 585 | MTG EDH Magic,585,,3009,https://www.youtube.com/watch?v=053iZT8Lqws,retry,,2026-07-01T15:14:51+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+0qnFxDNz0bI,238,Cards that Change Your Deck's Power Level | The Command Zone 584 | MTG EDH Magic Gathering,584,,9025,https://www.youtube.com/watch?v=0qnFxDNz0bI,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:22:19+00:00,1,
+gjFvLb3tM5U,239,Most Powerful Old School Commanders | The Command Zone 583 | MTG EDH Magic Gathering,583,,5488,https://www.youtube.com/watch?v=gjFvLb3tM5U,retry,,2026-07-01T15:19:27+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179968ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+wO0e2Bmb3Ac,240,Our Commander New Year's Resolutions | The Command Zone 582 | MTG EDH Magic Gathering,582,,3817,https://www.youtube.com/watch?v=wO0e2Bmb3Ac,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:27:44+00:00,1,
+yyKTuO3f6Zg,241,MTG in 2023 - Year in Review | The Command Zone 581 | Magic: the Gathering Commander EDH Podcast,581,,11510,https://www.youtube.com/watch?v=yyKTuO3f6Zg,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:28:11+00:00,1,
+oYdyAQkJyik,243,We Rank Every Precon from 2023 | The Command Zone 580 | MTG EDH Magic Gathering,580,,9474,https://www.youtube.com/watch?v=oYdyAQkJyik,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:28:45+00:00,1,
+ERcLhi1LTMU,244,Jimmy’s Personal Commander Decks | The Command Zone 579 | MTG EDH Magic Gathering,579,,5866,https://www.youtube.com/watch?v=ERcLhi1LTMU,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:29:48+00:00,1,
+OYKcJZ61Vv4,245,How to Play BLACK w/ Ladee Danger | The Command Zone 578 | MTG EDH Magic Gathering,578,,7192,https://www.youtube.com/watch?v=OYKcJZ61Vv4,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:30:24+00:00,1,
+sIyNw06rTko,247,We Draft the Best Utility Lands in Commander | The Command Zone 577 | MTG EDH Magic Gathering,577,,3553,https://www.youtube.com/watch?v=sIyNw06rTko,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:31:02+00:00,1,
+eDllfszXP0U,248,Vampire Precon Upgrade Guide | “Blood Rites” | Lost Caverns of Ixalan | The Command Zone 576,576,,4899,https://www.youtube.com/watch?v=eDllfszXP0U,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:31:41+00:00,1,
+a3a9nXnCiRs,249,The Best Cards (In the 99) from Lost Caverns of Ixalan | The Command Zone 575 | MTG EDH Magic,575,,9473,https://www.youtube.com/watch?v=a3a9nXnCiRs,retry,,2026-07-01T15:25:47+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+SoGS7ve9MGM,250,Pirate Precon Upgrade Guide | “Ahoy Mateys” | Lost Caverns of Ixalan | The Command Zone 574,574,,4452,https://www.youtube.com/watch?v=SoGS7ve9MGM,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:37:21+00:00,1,
+Dyp5B4jutCY,252,Merfolk Precon Upgrade | “Explorers of the Deep” | Lost Caverns of Ixalan | The Command Zone 573,573,,5095,https://www.youtube.com/watch?v=Dyp5B4jutCY,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:37:47+00:00,1,
+Gd6HeLT4hrY,253,Dinosaur Precon Upgrade Guide | “Veloci-Ramp-Tor” | Lost Caverns of Ixalan | The Command Zone 572,572,,4571,https://www.youtube.com/watch?v=Gd6HeLT4hrY,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:38:04+00:00,1,
+pjAn9kSqhfs,254,Most Powerful Commanders from Lost Caverns of Ixalan | The Command Zone 571 | MTG EDH Magic,571,,10619,https://www.youtube.com/watch?v=pjAn9kSqhfs,retry,,2026-07-01T15:31:44+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+MTbT-2xYfAU,255,“Blood Rites” Full Deck Reveal - Lost Caverns of Ixalan | The Command Zone 570 | MTG Commander Magic,570,,3067,https://www.youtube.com/watch?v=MTbT-2xYfAU,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:43:48+00:00,1,
+IOCar-pgdh4,256,The Best Cards (In the 99) from Doctor Who | The Command Zone 569 | MTG EDH Magic Gathering,569,,8173,https://www.youtube.com/watch?v=IOCar-pgdh4,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:44:14+00:00,1,
+upV7Q0YND3c,258,“Paradox Power” Doctor Who Precon Upgrade | The Command Zone 568 | MTG EDH Magic Gathering,568,,4466,https://www.youtube.com/watch?v=upV7Q0YND3c,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:44:42+00:00,1,
+G5nicVKE5p8,259,The Best Doctors (and Companions) in Doctor Who | The Command Zone 567 | Magic MTG EDH Commander,567,,8193,https://www.youtube.com/watch?v=G5nicVKE5p8,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:45:16+00:00,1,
+DYH4rKEVfsw,260,“Blast from the Past” Doctor Who Precon Upgrade | The Command Zone 566 | MTG EDH Magic Commander,566,,3826,https://www.youtube.com/watch?v=DYH4rKEVfsw,retry,,2026-07-01T15:37:10+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+hePGRRVKhkI,262,“Masters of Evil” Doctor Who Precon Upgrade | The Command Zone 565 | MTG EDH Magic Commander,565,,4753,https://www.youtube.com/watch?v=hePGRRVKhkI,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:51:27+00:00,1,
+q8Q4H27nN9k,263,“Timey-Wimey” Doctor Who Precon Upgrade | The Command Zone 564 | MTG EDH Magic Gathering Commander,564,,4222,https://www.youtube.com/watch?v=q8Q4H27nN9k,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:52:01+00:00,1,
+C8tdw7pAFBA,265,The Most Powerful Commanders in Doctor Who | The Command Zone 563 | MTG EDH Magic Gathering,563,,6144,https://www.youtube.com/watch?v=C8tdw7pAFBA,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:52:47+00:00,1,
+pS13XyQcD5k,267,We Draft the Best Equipment in Commander | The Command Zone 562 | MTG EDH Magic Gathering,562,,4195,https://www.youtube.com/watch?v=pS13XyQcD5k,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:53:22+00:00,1,
+5lOVb4885_I,269,Commanders We Hate Playing Against | The Command Zone 561 | MTG EDH Magic Gathering Deckbuilding,561,,5291,https://www.youtube.com/watch?v=5lOVb4885_I,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:54:23+00:00,1,
+7eBGjtysGcY,270,You're Reading Cards WRONG | The Command Zone 560 | EDH MTG Commander,560,,5942,https://www.youtube.com/watch?v=7eBGjtysGcY,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:55:21+00:00,1,
+xW7oc4hxeLE,271,The Best Wilds of Eldraine Cards (In The 99) | The Command Zone 559 | MTG EDH Magic Commander,559,,9090,https://www.youtube.com/watch?v=xW7oc4hxeLE,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:56:31+00:00,1,
+daqy8_hvsRA,273,“Fae Dominion” Wilds of Eldraine Precon Upgrade Guide | The Command Zone 558 | MTG EDH Magic,558,,4020,https://www.youtube.com/watch?v=daqy8_hvsRA,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:57:49+00:00,1,
+XSqsxRT4NVU,274,The Spiciest Wilds of Eldraine Commanders | The Command Zone 557 | MTG EDH Magic,557,,7686,https://www.youtube.com/watch?v=XSqsxRT4NVU,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:58:31+00:00,1,
+p7bqTM3yAPI,275,“Virtue and Valor” Wilds of Eldraine Precon Upgrade Guide | The Command Zone 556 | MTG EDH Magic,556,,3541,https://www.youtube.com/watch?v=p7bqTM3yAPI,complete,description-bookmarks+browser+rapidocr,2026-07-01T07:59:20+00:00,1,
+1DXu-QRjL4c,276,Wilds of Eldraine Commanders You HAVE to Build | The Command Zone 555 | MTG EDH Magic Gathering,555,,6342,https://www.youtube.com/watch?v=1DXu-QRjL4c,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:00:02+00:00,1,
+-bY4zxb_U3Q,277,“Fae Dominion” Full Deck Reveal - Wilds of Eldraine | The Command Zone 554 | MTG EDH Magic Gathering,554,,3252,https://www.youtube.com/watch?v=-bY4zxb_U3Q,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:01:17+00:00,1,
+pZammxuR_PY,280,Underrated Commanders that Should Be More Popular | The Command Zone 553 | MTG EDH Magic Gathering,553,,7278,https://www.youtube.com/watch?v=pZammxuR_PY,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:02:22+00:00,1,
+cJdyAZ-btWU,282,“Enduring Enchantments” Commander Masters Precon Upgrade Guide | The Command Zone 552 | MTG EDH,552,,3413,https://www.youtube.com/watch?v=cJdyAZ-btWU,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:02:59+00:00,1,
+-xHia4igdVM,283,“Eldrazi Unbound” Commander Masters Precon Upgrade Guide | The Command Zone 551 | MTG EDH Magic,551,,3952,https://www.youtube.com/watch?v=-xHia4igdVM,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:03:34+00:00,1,
+lut1vHn4FxA,285,Most BUSTED New Cards from CMM | The Command Zone 550 | MTG EDH Magic the Gathering,550,,8178,https://www.youtube.com/watch?v=lut1vHn4FxA,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:04:03+00:00,1,
+XvLWezTXjMk,286,“Sliver Swarm” Commander Masters Precon Upgrade Guide | The Command Zone 549 | MTG EDH Magic,549,,3978,https://www.youtube.com/watch?v=XvLWezTXjMk,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:04:37+00:00,1,
+TC0DXuCK2AI,287,“Planeswalker Party” Commander Masters Precon Upgrade Guide | The Command Zone 548 | MTG EDH Magic,548,,4458,https://www.youtube.com/watch?v=TC0DXuCK2AI,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:05:15+00:00,1,
+WARcYHfIbeg,289,Commander Masters “Enduring Enchantments” Full Precon Reveal | The Command Zone 547 | MTG EDH Magic,547,,3559,https://www.youtube.com/watch?v=WARcYHfIbeg,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:05:47+00:00,1,
+Hvfa6p10H6c,290,How to Play WHITE w/ Rachel Weeks | The Command Zone 546 | MTG Commander,546,,4526,https://www.youtube.com/watch?v=Hvfa6p10H6c,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:06:28+00:00,1,
+CKw9MNliFSs,291,The Most Interesting Commanders in LOTR | The Command Zone 545 | MTG Commander Lord of the Rings,545,,8855,https://www.youtube.com/watch?v=CKw9MNliFSs,retry,,2026-07-01T15:43:13+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+GHK0whGDyEM,292,“Riders of Rohan” LOTR Precon Upgrade Guide | The Command Zone 544 | MTG Commander Lord of the Rings,544,,4123,https://www.youtube.com/watch?v=GHK0whGDyEM,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:12:14+00:00,1,
+zgM_XDIYtag,293,The Most Flavorful Commanders in LOTR | The Command Zone 543 | MTG Magic Commander Lord of the Rings,543,,7263,https://www.youtube.com/watch?v=zgM_XDIYtag,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:12:49+00:00,1,
+GRbhbfUP7VQ,294,The Best LOTR Cards (In the 99) | The Command Zone 542 | MTG Magic Commander Lord of the Rings EDH,542,,8887,https://www.youtube.com/watch?v=GRbhbfUP7VQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:13:25+00:00,1,
+aLK7p5EOWFE,296,“Hosts of Mordor” LOTR Precon Upgrade Guide | The Command Zone 541 | MTG Commander Lord of the Rings,541,,3730,https://www.youtube.com/watch?v=aLK7p5EOWFE,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:14:16+00:00,1,
+XPh0M1TPzwY,298,“Elven Council” LOTR Precon Upgrade Guide | The Command Zone 540 | MTG Commander Lord of the Rings,540,,4046,https://www.youtube.com/watch?v=XPh0M1TPzwY,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:15:16+00:00,1,
+N4VUMc0GCvo,299,LOTR’s New Mechanic is ALL POWERFUL | The Command Zone 539 | Magic MTG Commander Lord of the Rings,539,,6518,https://www.youtube.com/watch?v=N4VUMc0GCvo,retry,,2026-07-01T15:49:13+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+j0pTBs2CeKo,300,“Food and Fellowship” LOTR Precon Upgrade | The Command Zone 538 | MTG Lord of the Rings Commander,538,,4567,https://www.youtube.com/watch?v=j0pTBs2CeKo,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:20:57+00:00,1,
+9Lo-e9WynqA,301,These LOTR Commanders are BUSTED! | The Command Zone 537 | Magic The Gathering Lord of the Rings,537,,9181,https://www.youtube.com/watch?v=9Lo-e9WynqA,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:21:38+00:00,1,
+bDmPfEeo69o,302,LOTR “Riders of Rohan” Full Precon Reveal | The Command Zone 536 | Magic The Gathering Commander EDH,536,,2948,https://www.youtube.com/watch?v=bDmPfEeo69o,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:22:16+00:00,1,
+LCqGf27Xyvk,303,Rachel’s Personal Commander Decks | The Command Zone 535 | Magic The Gathering Deckbuilding MTG EDH,535,,4958,https://www.youtube.com/watch?v=LCqGf27Xyvk,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:23:09+00:00,1,
+_zYgDmEOxNE,304,How to Play RED with Jimmy Wong | The Command Zone 534 | Commander Deckbuilding MTG EDH,534,,5678,https://www.youtube.com/watch?v=_zYgDmEOxNE,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:23:50+00:00,1,
+gaJ_2gyLbC4,307,Compleated Commanders - March of the Machine  | The Command Zone 533 | Magic Commander EDH,533,,6584,https://www.youtube.com/watch?v=gaJ_2gyLbC4,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:24:25+00:00,1,
+go8LnaazQ60,310,“Cavalry Charge” Precon Budget Upgrade - March of the Machine | The Command Zone 531 | Commander MTG,531,,3904,https://www.youtube.com/watch?v=go8LnaazQ60,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:24:52+00:00,1,
+KGLtZ4DledU,311,AFTERMATH: Cards You Need to Know | The Command Zone 530 | Magic: The Gathering Commander MTG EDH,530,,7171,https://www.youtube.com/watch?v=KGLtZ4DledU,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:25:27+00:00,1,
+J3ADtaBWX68,312,The Best Cards (In the 99) - March of the Machine | The Command Zone 529 | Magic Gathering Commander,529,,7975,https://www.youtube.com/watch?v=J3ADtaBWX68,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:25:57+00:00,1,
+-PBKuwy3YZ4,314,“Call for Backup” Precon Budget Upgrade - March of the Machine | The Command Zone 528 | Commander,528,,3479,https://www.youtube.com/watch?v=-PBKuwy3YZ4,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:26:31+00:00,1,
+7FgN_8JFclc,316,“Tinker Time” Precon Budget Upgrade - March of the Machine | The Command Zone 527 | EDH Commander,527,,3674,https://www.youtube.com/watch?v=7FgN_8JFclc,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:27:00+00:00,1,
+GjvdYPVQze8,317,Which Praetor Is Most Powerful? | March of the Machine | The Command Zone 526 | EDH Commander MTG,526,,5724,https://www.youtube.com/watch?v=GjvdYPVQze8,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:27:33+00:00,1,
+vqI6jVCv-bs,318,“Growing Threat” Precon Budget Upgrade - March of the Machine | The Command Zone 525 | Magic MTG,525,,4235,https://www.youtube.com/watch?v=vqI6jVCv-bs,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:28:09+00:00,1,
+BCGVRxP68LE,319,March of the Machine - Team Up Commanders (Part 2) | The Command Zone 524 | Magic Commander EDH,524,,6719,https://www.youtube.com/watch?v=BCGVRxP68LE,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:28:41+00:00,1,
+AgsbvCiFnvg,320,March of the Machine - Team Up Commanders (Part 1) | The Command Zone 523 | Magic Commander EDH,523,,6825,https://www.youtube.com/watch?v=AgsbvCiFnvg,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:29:27+00:00,1,
+ztAt03EG140,321,“Divine Convocation” Precon Reveal - March of the Machine | The Command Zone 522 | MTG Commander EDH,522,,3057,https://www.youtube.com/watch?v=ztAt03EG140,retry,,2026-07-01T15:54:59+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+ShTFssyDRio,323,Rules Magic Players Keep Getting Wrong | The Command Zone 521 | Commander EDH,521,,5210,https://www.youtube.com/watch?v=ShTFssyDRio,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:35:05+00:00,1,
+ZA7nX9f19yw,324,Scariest Commanders to Play Against | The Command Zone 520 | Magic The Gathering Commander EDH,520,,5483,https://www.youtube.com/watch?v=ZA7nX9f19yw,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:36:10+00:00,1,
+-1cF7-WCQeQ,326,How to Build a Deck You Love to Play | The Command Zone 519 | Magic The Gathering Commander EDH,519,,4172,https://www.youtube.com/watch?v=-1cF7-WCQeQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:36:43+00:00,1,
+BTsMQiKb8jA,328,Commander Staples That Aren’t Worth the Price | The Command Zone 518 | Magic The Gathering EDH,518,,6618,https://www.youtube.com/watch?v=BTsMQiKb8jA,retry,,2026-07-01T15:58:33+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+iSfD_dI9SQc,330,Bad Magic Cards (We Play Them Anyway) | The Command Zone 517 | Magic The Gathering Commander,517,,3488,https://www.youtube.com/watch?v=iSfD_dI9SQc,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:42:19+00:00,0,
+osaumP0BPCs,332,How To Play Infect with Mr. Infect | The Command Zone 516 | Magic: The Gathering Commander EDH,516,,4737,https://www.youtube.com/watch?v=osaumP0BPCs,retry,,2026-07-01T16:05:05+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+1Ibh_3qF2ac,333,The Best Cards (In the 99) from All Will Be One | The Command Zone 515 | Magic MTG Commander EDH,515,,8773,https://www.youtube.com/watch?v=1Ibh_3qF2ac,retry,,2026-07-01T16:10:13+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+a4v6pSOsC9c,335,New Commander Staples from All Will Be One? | The Command Zone 514 | Magic The Gathering EDH Podcast,514,,5434,https://www.youtube.com/watch?v=a4v6pSOsC9c,retry,,2026-07-01T16:13:42+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+5gL8VKohPF4,336,The Best Mono-Colored Commanders from All Will Be One | The Command Zone 513 | MTG EDH Podcast,513,,6792,https://www.youtube.com/watch?v=5gL8VKohPF4,retry,,2026-07-01T16:19:13+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+VsVloLR-cgo,338,The Best Multi-Colored Commanders from All Will Be One | The Command Zone 512 | MTG EDH Podcast,512,,6624,https://www.youtube.com/watch?v=VsVloLR-cgo,retry,,2026-07-01T16:22:48+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+21ExoXSsFvU,340,“Corrupting Influence” Budget Upgrade Guide - Phyrexia: All Will Be One | The Command Zone 511,511,,3948,https://www.youtube.com/watch?v=21ExoXSsFvU,retry,,2026-07-01T16:28:19+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+NFR6GxUuKqI,341,“Rebellion Rising” Budget Upgrade Guide - Phyrexia: All Will Be One | The Command Zone 510 | Magic,510,,4385,https://www.youtube.com/watch?v=NFR6GxUuKqI,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:46:50+00:00,0,
+YreZouGlA4I,342,“Corrupting Influence” Full Deck Reveal - All Will Be One | The Command Zone 509 | MTG Commander,509,,2788,https://www.youtube.com/watch?v=YreZouGlA4I,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:50:51+00:00,0,
+kM3nZS_hd4o,343,Good Cards We Don’t Play | The Command Zone 508 | Magic: The Gathering Commander EDH,508,,3067,https://www.youtube.com/watch?v=kM3nZS_hd4o,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:54:20+00:00,0,
+20Csgb67ylE,344,Commander Bad Habits You Need to Quit | The Command Zone 507 | Magic: The Gathering Commander EDH,507,,3574,https://www.youtube.com/watch?v=20Csgb67ylE,complete,description-bookmarks+browser+rapidocr,2026-07-01T08:57:52+00:00,0,
+u0AqnI-arFM,345,MTG in 2022 - Year In Review | The Command Zone 506 | Magic: The Gathering Commander EDH,506,,10020,https://www.youtube.com/watch?v=u0AqnI-arFM,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:00:47+00:00,0,
+bTRKPnIKglY,348,The Best New Commanders From Jumpstart 2022 | The Command Zone 505 | Magic Gathering Commander EDH,505,,6160,https://www.youtube.com/watch?v=bTRKPnIKglY,retry,,2026-07-01T16:34:25+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179969ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+aWoEzXLUppM,349,How to Mulligan | The Command Zone 504 | MTG Commander Podcast,504,,4588,https://www.youtube.com/watch?v=aWoEzXLUppM,retry,,2026-07-01T16:38:00+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+jN4TlMcHZNU,350,Cards That Matter - The Brothers War - In the 99 Analysis | The Command Zone 503 | Magic Commander,503,,8515,https://www.youtube.com/watch?v=jN4TlMcHZNU,retry,,2026-07-01T16:43:01+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179984ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+uIgjQVq3LdE,352,Transformers: Decepticon Commanders - The Brothers War | The Command Zone 502 | Magic Commander EDH,502,,4532,https://www.youtube.com/watch?v=uIgjQVq3LdE,retry,,2026-07-01T16:46:39+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179985ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+PlTuYh5hXIc,354,Transformers: Autobot Commanders - The Brothers War | The Command Zone 501 | Magic Commander EDH,501,,5996,https://www.youtube.com/watch?v=PlTuYh5hXIc,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:03:08+00:00,1,
+2qYRuxQWcKU,357,How Good Are the Meld Commanders? | The Brothers' War | The Command Zone 500 | Magic Commander EDH,500,,4519,https://www.youtube.com/watch?v=2qYRuxQWcKU,retry,,2026-07-01T09:05:11+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+DTRoxd-RS-8,358,The Brothers’ War - The Best Multi-Colored Commanders | The Command Zone 499 | Magic Commander EDH,499,,5754,https://www.youtube.com/watch?v=DTRoxd-RS-8,retry,,2026-07-01T09:05:31+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+6rSkge558Ts,359,“Mishra’s Burnished Banner” Budget Upgrade Guide - Brothers War | The Command Zone 498 | MTG,498,,3981,https://www.youtube.com/watch?v=6rSkge558Ts,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:05:54+00:00,0,
+NICPkDlAXio,360,“Urza’s Iron Alliance” Budget Upgrade Guide - Brothers War | The Command Zone 497 | MTG Commander,497,,3267,https://www.youtube.com/watch?v=NICPkDlAXio,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:09:22+00:00,0,
+1zoGTCrQmuk,361,Our Favorite Unfinity Cards | The Command Zone 496 | Magic Commander EDH,496,,5014,https://www.youtube.com/watch?v=1zoGTCrQmuk,retry,,2026-07-01T09:11:57+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+PHm-egAUuwo,363,The Best Cards from Warhammer 40K | The Command Zone 495 | Magic: The Gathering Commander EDH,495,,3819,https://www.youtube.com/watch?v=PHm-egAUuwo,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:12:08+00:00,0,
+EqPqp8TyHnA,364,“Tyranid Swarm” Budget Upgrade Guide - Warhammer 40K | The Command Zone 494 | Magic Commander EDH,494,,4106,https://www.youtube.com/watch?v=EqPqp8TyHnA,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:15:48+00:00,0,
+oWlnFBs0p7k,366,“The Ruinous Powers” Budget Upgrade Guide - Warhammer 40K | The Command Zone 492 | Magic Commander,492,,4112,https://www.youtube.com/watch?v=oWlnFBs0p7k,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:19:56+00:00,0,
+KZaENTo8viA,368,“Necron Dynasties” Budget Upgrade Guide - Warhammer 40K | The Command Zone 491 | Magic Commander,491,,5097,https://www.youtube.com/watch?v=KZaENTo8viA,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:23:47+00:00,0,
+l-W7AvbhufQ,369,Mono-Colored & Uncommon Commanders - Dominaria United | The Command Zone 490 | Magic Commander EDH,490,,7238,https://www.youtube.com/watch?v=l-W7AvbhufQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:27:05+00:00,1,
+XXIY8pH-NyE,371,Cards That Matter - Dominaria United - In the 99 Analysis | The Command Zone 489 | Magic Commander,489,,7423,https://www.youtube.com/watch?v=XXIY8pH-NyE,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:27:38+00:00,0,
+3TCgV7c2si0,372,Box Topper Lost Legends Review (Part 2) Dominaria United | The Command Zone 488 | Magic Commander,488,,6302,https://www.youtube.com/watch?v=3TCgV7c2si0,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:31:49+00:00,0,
+g2UWu8lKU5k,373,“Necron Dynasties” Full Deck Reveal - Warhammer 40K | The Command Zone 487 | Magic Commander EDH,487,,3241,https://www.youtube.com/watch?v=g2UWu8lKU5k,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:36:20+00:00,0,
+JD6znIigKJ4,374,Box Topper Lost Legends Review (Part 1) Dominaria United | The Command Zone 486 | Magic Commander,486,,9548,https://www.youtube.com/watch?v=JD6znIigKJ4,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:39:29+00:00,0,
+JR8tsyLRPoo,375,“Painbow” Budget Precon Upgrade Guide - Dominaria United | The Command Zone 485 | Magic Commander,485,,4298,https://www.youtube.com/watch?v=JR8tsyLRPoo,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:43:01+00:00,0,
+GVezVQMYDi4,378,Dominaria United - Best Multi-colored Commanders (Part 2) | The Command Zone 484 | Magic Gathering,484,,6522,https://www.youtube.com/watch?v=GVezVQMYDi4,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:46:59+00:00,1,
+u7AnyFlDSPo,380,Dominaria United - Best Multicolored Commanders (Part 1) | The Command Zone 483 | Magic Gathering,483,,7617,https://www.youtube.com/watch?v=u7AnyFlDSPo,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:48:14+00:00,0,
+30DePFcGU9g,383,“Legends’ Legacy” Budget Precon Upgrade Guide - Dominaria United | The Command Zone 482 | Magic EDH,482,,3670,https://www.youtube.com/watch?v=30DePFcGU9g,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:52:22+00:00,0,
+DliVsku3kJE,384,“Painbow” Full Deck Reveal - Dominaria United | The Command Zone 481 | Magic: The Gathering EDH,481,,2570,https://www.youtube.com/watch?v=DliVsku3kJE,complete,description-bookmarks+browser+rapidocr,2026-07-01T09:55:55+00:00,1,
+y6vfTRAs63o,385,Playing Competitive w/ Cassius Marsh | The Command Zone 480 | Magic: The Gathering EDH,480,,3703,https://www.youtube.com/watch?v=y6vfTRAs63o,retry,,2026-07-01T09:56:17+00:00,0,"RuntimeError: Timed out while seeking YouTube video to 3221.0s; last video state: {'currentTime': 3250.881523, 'duration': 3702.661, 'readyState': 4, 'networkState': 2, 'paused': False, 'seeking': False, 'ended': False, 'src': 'blob:https://www.youtube.com/38fe9b75-24cf-4a5f-a442-de842f5a2d0d', 'adShowing': False}"
+z5XQcnQf2ks,387,Good Cards That Make Us Salty | The Command Zone 479 | Magic: The Gathering Commander EDH,479,,3645,https://www.youtube.com/watch?v=z5XQcnQf2ks,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:00:38+00:00,0,
+-nDOElrvgR8,388,"""Must Have"" Cards For Your Commander Collection | The Command Zone 478 | Magic: The Gathering EDH",478,,5151,https://www.youtube.com/watch?v=-nDOElrvgR8,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:04:36+00:00,0,
+TYmHbqObgo8,389,The Best 1-Drops in Commander (besides Sol Ring) | The Command Zone 477 | Magic: The Gathering EDH,477,,5610,https://www.youtube.com/watch?v=TYmHbqObgo8,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:08:44+00:00,0,
+WmBnjwW_mtU,391,Is 2X2 the Highest Value Reprint Set Ever?!?! | The Command Zone 476 | Magic Gathering Commander,476,,5243,https://www.youtube.com/watch?v=WmBnjwW_mtU,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:12:35+00:00,1,
+SjNaPdvbPQE,392,The Most Obscure & Underrated Cards | The Command Zone 475 | Magic: The Gathering Commander EDH,475,,4652,https://www.youtube.com/watch?v=SjNaPdvbPQE,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:13:26+00:00,0,
+czSzF8FBzlg,393,“Draconic Dissent” Budget Upgrade Guide - Baldur’s Gate | The Command Zone 474 | Magic Commander,474,,3249,https://www.youtube.com/watch?v=czSzF8FBzlg,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:17:08+00:00,1,
+dwoKpq1hMtU,395,In the 99 Analysis - Baldur’s Gate | The Command Zone 473 | Magic: The Gathering Commander EDH,473,,5129,https://www.youtube.com/watch?v=dwoKpq1hMtU,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:18:00+00:00,0,
+advSNUKAVbM,398,“Mind Flayarrrrs” Budget Upgrade Guide - Baldur’s Gate | The Command Zone 471 | Magic Gathering EDH,471,,3813,https://www.youtube.com/watch?v=advSNUKAVbM,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:21:34+00:00,1,
+SM53VYUivkY,399,Background Breakdown - Baldur’s Gate | The Command Zone 470 | Magic EDH,470,,5246,https://www.youtube.com/watch?v=SM53VYUivkY,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:22:16+00:00,0,
+J1DnIDv5Gts,401,"""Exit From Exile Budget"" Budget Upgrade Guide - Baldur’s Gate | The Command Zone 469 | Magic EDH",469,,3939,https://www.youtube.com/watch?v=J1DnIDv5Gts,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:25:45+00:00,0,
+8UkleX_mZMM,402,Baldur's Gate - Best Multicolored Commanders (Pt2)  | The Command Zone 468 | Magic Gathering EDH,468,,4936,https://www.youtube.com/watch?v=8UkleX_mZMM,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:30:00+00:00,1,
+pgvR_RlGmNQ,403,“Party Time” Full Deck Reveal - Baldur's Gate | The Command Zone 467 | Magic Gathering Commander,467,,2995,https://www.youtube.com/watch?v=pgvR_RlGmNQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:30:57+00:00,0,
+9xaOajblmsc,404,Baldur's Gate - Best Multicolored Commanders (Pt1)  | The Command Zone 466 | Magic Gathering EDH,466,,4975,https://www.youtube.com/watch?v=9xaOajblmsc,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:34:51+00:00,0,
+B6CTZTywzbo,405,How to Organize Your Magic Card Collection | The Command Zone 465 | Magic: The Gathering Commander,465,,3785,https://www.youtube.com/watch?v=B6CTZTywzbo,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:38:37+00:00,0,
+NNjDtl-u-rs,406,Cards You’re Playing WRONG | The Command Zone 464 | Magic: The Gathering Commander EDH,464,,5576,https://www.youtube.com/watch?v=NNjDtl-u-rs,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:42:17+00:00,1,
+Ogh52RYCUm0,408,“Riveteers Rampage” Budget Upgrade Guide - New Capenna | The Command Zone 463 Magic: The Gathering,463,,3206,https://www.youtube.com/watch?v=Ogh52RYCUm0,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:43:56+00:00,1,
+HNceyx4L0Lc,411,In the 99 Analysis - New Capenna | The Command Zone 461 | Magic: The Gathering Commander EDH,461,,6752,https://www.youtube.com/watch?v=HNceyx4L0Lc,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:44:36+00:00,0,
+ga2JC8uFl7o,412,“Bedecked Brokers” Budget Upgrade Guide - New Capenna | The Command Zone 460 | MTG Commander EDH,460,,3402,https://www.youtube.com/watch?v=ga2JC8uFl7o,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:47:56+00:00,1,
+UN-5T_RiS70,416,New Capenna - Best New Multicolored Commanders  | The Command Zone 458 | Magic: The Gathering EDH,458,,6675,https://www.youtube.com/watch?v=UN-5T_RiS70,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:48:13+00:00,0,
+yWqmMTiTAi8,417,“Cabaretti Cacophony” Budget Upgrade Guide - New Capenna  | The Command Zone 457 | MTG Commander,457,,5482,https://www.youtube.com/watch?v=yWqmMTiTAi8,complete,description-bookmarks+browser+rapidocr,2026-07-01T17:56:05+00:00,1,
+mCPn7j15oUY,418,“Maestros Massacre” Budget Upgrade Guide - New Capenna  | The Command Zone 456 | MTG Commander EDH,456,,4458,https://www.youtube.com/watch?v=mCPn7j15oUY,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:53:43+00:00,0,
+Hg7nFiDNeHs,419,The Ultimate Guide to Lands | The Command Zone 455 | Magic: The Gathering Commander EDH,455,,6035,https://www.youtube.com/watch?v=Hg7nFiDNeHs,complete,description-bookmarks+browser+rapidocr,2026-07-01T10:57:57+00:00,0,
+RGdYUoQXnn8,420,Cards We Keep Trying To Crack | The Command Zone 454 | Magic: The Gathering Commander EDH,454,,4921,https://www.youtube.com/watch?v=RGdYUoQXnn8,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:01:53+00:00,0,
+LB6HotI0ntI,424,Advanced Deckbuilding: Mastering Your Mana Curve | The Command Zone 453 | Magic: The Gathering EDH,453,,5492,https://www.youtube.com/watch?v=LB6HotI0ntI,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:05:49+00:00,1,
+GoFgsybYKdc,426,How To Get Into Commander | The Command Zone 452 | Magic: The Gathering EDH,452,,5214,https://www.youtube.com/watch?v=GoFgsybYKdc,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:07:56+00:00,0,
+DykU-eK7bz8,427,Our Biggest Commander Level-Up Moments | The Command Zone 451 | Magic: The Gathering EDH,451,,5850,https://www.youtube.com/watch?v=DykU-eK7bz8,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:11:10+00:00,0,
+5mCh6QKH6-Y,455,"""Vampiric Bloodline"" Full Deck Reveal - Crimson Vow | The Command Zone 430 | Magic The Gathering",430,,3355,https://www.youtube.com/watch?v=5mCh6QKH6-Y,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:14:54+00:00,0,
+jH-0XjETyMM,456,Crimson Vow - Best Multi-Colored Commanders | The Command Zone 429 | Magic: The Gathering EDH,429,,6847,https://www.youtube.com/watch?v=jH-0XjETyMM,retry,,2026-07-01T11:19:06+00:00,0,TimeoutError: Video scan exceeded 300 seconds while scanning frame at 1:09:52.
+AvmMur5Lni8,457,Commander Politics: Dealing with Dealers | The Command Zone 428 | Magic The Gathering Commander EDH,428,,3575,https://www.youtube.com/watch?v=AvmMur5Lni8,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:24:09+00:00,1,
+fF3g-CKtGkI,459,Stranger Things - New Commander Breakdown | The Command Zone 427 | Magic: The Gathering Commander,427,,3615,https://www.youtube.com/watch?v=fF3g-CKtGkI,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:25:12+00:00,0,
+6BpqARm8zZI,460,Decks We Built...But Hated | The Command Zone 426 | Magic: The Gathering Commander EDH,426,,5235,https://www.youtube.com/watch?v=6BpqARm8zZI,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:30:09+00:00,0,
+GKNcCw6_Ju8,462,Midnight Hunt - In the 99 Analysis | The Command Zone 425 | Magic: The Gathering Commander EDH,425,,4136,https://www.youtube.com/watch?v=GKNcCw6_Ju8,retry,,2026-07-01T11:34:05+00:00,0,TimeoutError: Video scan exceeded 300 seconds while scanning frame at 35:50.
+WNJMZauf0hw,467,The Mono-Colored Commanders from Midnight Hunt | The Command Zone 422 | Magic: The Gathering EDH,422,,3897,https://www.youtube.com/watch?v=WNJMZauf0hw,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:39:11+00:00,1,
+AhOQeftJ0_g,470,Midnight Hunt - Best New Multi-Colored Commanders | The Command Zone 420 | Magic: The Gathering EDH,420,,6986,https://www.youtube.com/watch?v=AhOQeftJ0_g,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:39:36+00:00,1,
+Da3cUsqxvks,471,The Most Cutthroat Cards in Commander | The Command Zone 419 | Magic: The Gathering EDH,419,,3954,https://www.youtube.com/watch?v=Da3cUsqxvks,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:39:55+00:00,0,
+oDpjyGdxsJA,473,How to Have More FUN in Commander | The Command Zone 418 | Magic: The Gathering EDH,418,,4286,https://www.youtube.com/watch?v=oDpjyGdxsJA,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:43:52+00:00,0,
+HEKZOcV3bKU,475,Upgrade Your Interaction | The Command Zone 417 | Magic: The Gathering Commander EDH,417,,4355,https://www.youtube.com/watch?v=HEKZOcV3bKU,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:47:19+00:00,1,
+GuYNc7u5ud0,476,AFC Best New Cards | The Command Zone 416 | Magic: The Gathering Commander EDH,416,,5853,https://www.youtube.com/watch?v=GuYNc7u5ud0,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:48:18+00:00,1,
+hyZmrhgjIlc,477,AFC New Commander Analysis | The Command Zone 415 | Magic: The Gathering,415,,5371,https://www.youtube.com/watch?v=hyZmrhgjIlc,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:48:47+00:00,1,
+blqiTJG2Img,478,Bant Equipment - Budget Precon Upgrade Guide - AFC | The Command Zone 414 | Magic: The Gathering,414,,4666,https://www.youtube.com/watch?v=blqiTJG2Img,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:49:22+00:00,0,
+vL7-jRXICFE,479,"AFR - Green, Multicolored & Colorless Review| The Command Zone 413 | Magic: The Gathering Commander",413,,4622,https://www.youtube.com/watch?v=vL7-jRXICFE,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:53:27+00:00,1,
+xzsnmobugl8,481,AFR - Black & White Review Forgotten Realms | The Command Zone 412 | Magic The Gathering Commander,412,,3542,https://www.youtube.com/watch?v=xzsnmobugl8,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:54:03+00:00,1,
+LSuPBKZoVAQ,482,AFR - Red & Blue Review - Forgotten Realms | The Command Zone 411 | Magic: The Gathering Commander,411,,3551,https://www.youtube.com/watch?v=LSuPBKZoVAQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:54:41+00:00,1,
+C1BWlypcPa4,484,Rakdos Treasures - Budget Precon Upgrade Guide - AFC | The Command Zone 410 | Magic: The Gathering,410,,4301,https://www.youtube.com/watch?v=C1BWlypcPa4,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:55:03+00:00,0,
+xOW7tUftC4o,485,Forgotten Realms - Best New Mono Colored Commanders | The Command Zone 409 | Magic: The Gathering,409,,5921,https://www.youtube.com/watch?v=xOW7tUftC4o,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:58:44+00:00,0,
+qZR83W0ruFI,486,Gruul Dragons Budget Precon Upgrade Guide - AFC | The Command Zone 408 | Magic: The Gathering EDH,408,,3598,https://www.youtube.com/watch?v=qZR83W0ruFI,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:02:15+00:00,0,
+Rxngk4FZcI8,488,Esper Dungeons Precon Budget Upgrade Guide - AFC | The Command Zone 407 | Magic: The Gathering,407,,3254,https://www.youtube.com/watch?v=Rxngk4FZcI8,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:05:49+00:00,0,
+qLRkVvg2a-Y,489,Bant Equipment Full Deck Reveal - Forgotten Realms | The Command Zone 406 | Magic: The Gathering,406,,4135,https://www.youtube.com/watch?v=qLRkVvg2a-Y,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:09:53+00:00,0,
+oX3VTbifVic,490,Forgotten Realms - Best New Multicolored Commanders | The Command Zone 405 | Magic: The Gathering,405,,7314,https://www.youtube.com/watch?v=oX3VTbifVic,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:13:56+00:00,0,
+w7aC6TQSE8E,491,The Best Game Enders in Commander | The Command Zone 404 | Magic: The Gathering EDH,404,,3778,https://www.youtube.com/watch?v=w7aC6TQSE8E,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:17:15+00:00,0,
+_BWguwtx40c,492,MH2 - Green & Red Review | The Command Zone 403 | Magic: The Gathering EDH,403,,4026,https://www.youtube.com/watch?v=_BWguwtx40c,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:20:57+00:00,1,
+OvWv7Os9kg4,494,MH2 - Blue & Colorless Review | The Command Zone 402 | Magic: The Gathering EDH,402,,4319,https://www.youtube.com/watch?v=OvWv7Os9kg4,retry,,2026-07-01T12:22:08+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+y8LFCjTzCOc,496,"MH2 - White, Black & Multicolored Review | The Command Zone 401 | Magic: The Gathering EDH",401,,4989,https://www.youtube.com/watch?v=y8LFCjTzCOc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:22:18+00:00,1,
+eaNjXcAqCAY,499,How to Play Commander | The Command Zone 400 | Magic: The Gathering EDH,400,,4855,https://www.youtube.com/watch?v=eaNjXcAqCAY,retry,,2026-07-01T12:22:39+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+dvVVleUWbVo,500,The Best New Commanders from Modern Horizons 2 | The Command Zone 399 | Magic: The Gathering EDH,399,,7213,https://www.youtube.com/watch?v=dvVVleUWbVo,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:22:57+00:00,1,
+KwrSB085FSw,502,C21 New Commander Deep Dive (Part Two) | The Command Zone 398 | Magic: The Gathering EDH,398,,7017,https://www.youtube.com/watch?v=KwrSB085FSw,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:24:34+00:00,1,
+FT4IROaDnGk,504,C21 New Commander Deep Dive (Part One) | The Command Zone 397 | Magic: The Gathering EDH,397,,7209,https://www.youtube.com/watch?v=FT4IROaDnGk,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:25:56+00:00,0,
+P1O9h5vsLmY,505,C21 New Card Analysis (Part Two) | The Command Zone 396 | Magic: The Gathering  Commander EDH,396,,5097,https://www.youtube.com/watch?v=P1O9h5vsLmY,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:29:48+00:00,1,
+2ajwEJ3typc,508,C21 New Card Analysis (Part One) | The Command Zone 395 | Magic: The Gathering  Commander EDH,395,,5292,https://www.youtube.com/watch?v=2ajwEJ3typc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:30:29+00:00,1,
+2TF9wQvOzCI,509,Witherbloom Precon - Budget Upgrade Guide | The Command Zone 394 | Magic: The Gathering Commander,394,,4175,https://www.youtube.com/watch?v=2TF9wQvOzCI,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:30:50+00:00,1,
+q0chC-yoQ4E,510,Strixhaven Set Review (Part Two) | The Command Zone 393 | Magic: The Gathering  Commander EDH,393,,4553,https://www.youtube.com/watch?v=q0chC-yoQ4E,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:31:17+00:00,0,
+c1WJs00XRfY,511,Strixhaven Set Review (Part One) | The Command Zone 392 | Magic: The Gathering  Commander EDH,392,,4711,https://www.youtube.com/watch?v=c1WJs00XRfY,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:35:23+00:00,1,
+EbLmvADJoug,513,Silverquill Precon - Budget Upgrade Guide | The Command Zone 391 | Magic: The Gathering  Commander,391,,4707,https://www.youtube.com/watch?v=EbLmvADJoug,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:36:20+00:00,1,
+H0ue3q8FUls,514,Strixhaven Traditional Commander Review | The Command Zone 390 | Magic: The Gathering  EDH,390,,6441,https://www.youtube.com/watch?v=H0ue3q8FUls,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:36:52+00:00,1,
+rWaKrL5pSqA,516,Quandrix Precon - Budget Upgrade Guide | The Command Zone 388 | Magic: The Gathering Commander EDH,388,,4064,https://www.youtube.com/watch?v=rWaKrL5pSqA,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:37:56+00:00,1,
+rv7O1xMNCvs,517,Strixhaven MDFCommanders | The Command Zone 387 | Magic: The Gathering Commander,387,,4096,https://www.youtube.com/watch?v=rv7O1xMNCvs,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:39:17+00:00,0,
+hdyRJsTQfTk,518,Prismari Precon - Budget Upgrade Guide | The Command Zone 386 | Magic: The Gathering Commander,386,,3877,https://www.youtube.com/watch?v=hdyRJsTQfTk,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:42:55+00:00,0,
+ipS8qV-qiCU,519,Lorehold Precon Full Deck Reveal Strixhaven | The Command Zone 385 | Magic The Gathering Commander,385,,3964,https://www.youtube.com/watch?v=ipS8qV-qiCU,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:47:05+00:00,0,
+TvNxaEtpxF4,520,Strixhaven Preview Card - Tempted by the Oriq | The Command Zone 384 | Magic: The Gathering EDH,384,,1140,https://www.youtube.com/watch?v=TvNxaEtpxF4,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:50:35+00:00,1,
+BN3-OJgW_mc,521,The Most Powerful Synergies in Commander| The Command Zone 383 | Magic: The Gathering EDH,383,,4165,https://www.youtube.com/watch?v=BN3-OJgW_mc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:51:36+00:00,1,
+ZrYvJqAuM-k,525,The Art of the Board Wipe | The Command Zone 382 | Magic: The Gathering Commander EDH,382,,4482,https://www.youtube.com/watch?v=ZrYvJqAuM-k,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:52:29+00:00,0,
+GXxCMvhnVcg,526,How Did We Get Here? | Our Origin Stories | The Command Zone 381 | Magic Gathering Commander EDH,381,,5181,https://www.youtube.com/watch?v=GXxCMvhnVcg,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:56:02+00:00,0,
+sm6ySaTpBJc,527,Time Spiral Remastered Preview Cards | The Command Zone 380 | Magic: The Gathering Commander,380,,1157,https://www.youtube.com/watch?v=sm6ySaTpBJc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:58:53+00:00,0,
+3K9PEeLG_6M,528,The NEW Commander Deck Building Template | The Command Zone 379 | Magic: the Gathering EDH Podcast,379,,5833,https://www.youtube.com/watch?v=3K9PEeLG_6M,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:02:40+00:00,0,
+Jxng3koUR5o,530,"Azorius ""Phantom Premonition"" Budget Upgrade | The Command Zone 378 | Magic The Gathering Commander",378,,4924,https://www.youtube.com/watch?v=Jxng3koUR5o,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:06:37+00:00,1,
+3D_tsJsnG9A,532,"Golgari ""Elven Empire"" Budget Upgrade Guide | The Command Zone 377 | Magic: The Gathering",377,,3789,https://www.youtube.com/watch?v=3D_tsJsnG9A,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:07:02+00:00,1,
+ZjWR90dc6YI,533,Kaldheim Set Review | The Command Zone 376 | Magic: The Gathering EDH,376,,8276,https://www.youtube.com/watch?v=ZjWR90dc6YI,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:08:13+00:00,1,
+cv4bMZd6e2w,535,Kaldheim - Traditional Commanders | The Command Zone 375 | Magic: The Gathering EDH,375,,6779,https://www.youtube.com/watch?v=cv4bMZd6e2w,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:10:03+00:00,1,
+VCr6GstBLpk,536,Kaldheim MDFCommanders | The Command Zone 374 | Magic: The Gathering EDH,374,,5685,https://www.youtube.com/watch?v=VCr6GstBLpk,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:11:07+00:00,0,
+iqV6Ytnzn4c,538,Life Lessons Learned from Commander | The Command Zone 373 | Magic: The Gathering EDH,373,,4503,https://www.youtube.com/watch?v=iqV6Ytnzn4c,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:14:30+00:00,1,
+_W4a25ty1Ao,539,Introduction to Commander Deck Building | The Command Zone 372 | Magic: The Gathering EDH,372,,5697,https://www.youtube.com/watch?v=_W4a25ty1Ao,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:15:40+00:00,0,
+VGWVgEfEpSQ,540,"Was the ""Year of Commander"" a Success? | The Command Zone 371 | Magic: The Gathering EDH",371,,6015,https://www.youtube.com/watch?v=VGWVgEfEpSQ,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:19:17+00:00,0,
+OmZPZOB4-_U,541,Commander Legends - New Card Analysis (Part 2) | The Command Zone 370 | Magic: The Gathering EDH,370,,5687,https://www.youtube.com/watch?v=OmZPZOB4-_U,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:23:17+00:00,0,
+CrWXs5KQo0I,542,Commander Legends - New Card Analysis (Part 1) | The Command Zone 369 | Magic: The Gathering EDH,369,,7055,https://www.youtube.com/watch?v=CrWXs5KQo0I,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:27:04+00:00,1,
+_p0SBuCVb84,544,Blue Partner Review - Commander Legends | The Command Zone 368 | Magic: The Gathering EDH,368,,2913,https://www.youtube.com/watch?v=_p0SBuCVb84,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:28:21+00:00,1,
+cYRom4Yex6w,545,Black Partner Review - Commander Legends | The Command Zone 367 | Magic: The Gathering EDH,367,,3964,https://www.youtube.com/watch?v=cYRom4Yex6w,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:29:27+00:00,1,
+Q2XZ369bRkk,546,Green Partner Review - Commander Legends | The Command Zone 366 | Magic: The Gathering EDH,366,,4026,https://www.youtube.com/watch?v=Q2XZ369bRkk,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:30:22+00:00,0,
+ndBshxnDIC4,547,"Simic Landfall ""Reap the Tides"" Budget Upgrade Guide | The Command Zone 365 | Magic: The Gathering",365,,2484,https://www.youtube.com/watch?v=ndBshxnDIC4,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:33:13+00:00,1,
+uu6Bdv_aIrs,550,"Boros Equipment ""Arm for Battle"" Budget Upgrade Guide | The Command Zone 364 | Magic: The Gathering",364,,2889,https://www.youtube.com/watch?v=uu6Bdv_aIrs,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:33:41+00:00,1,
+XtZLq8TEmEU,552,White Partner Review - Commander Legends | The Command Zone 363 | Magic: The Gathering EDH,363,,3034,https://www.youtube.com/watch?v=XtZLq8TEmEU,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:34:43+00:00,0,
+xSovYJURG40,553,Red Partner Review - Commander Legends | The Command Zone 362 | Magic: The Gathering EDH,362,,3718,https://www.youtube.com/watch?v=xSovYJURG40,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:38:23+00:00,0,
+BhwEa-jS7AE,554,Best New Solo Commanders from CMR (Part 2) | The Command Zone 361 | Magic: The Gathering EDH,361,,5439,https://www.youtube.com/watch?v=BhwEa-jS7AE,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:42:44+00:00,1,
+hRcpRl4R6Fc,555,Commander Legends - Are These Design Mistakes? | The Command Zone 360 | Magic: The Gathering EDH,360,,1661,https://www.youtube.com/watch?v=hRcpRl4R6Fc,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:46:21+00:00,1,
+4_8Y_hxCADw,556,Best New Solo Commanders from CMR (Part 1) | The Command Zone 359 | Magic: The Gathering EDH,359,,6789,https://www.youtube.com/watch?v=4_8Y_hxCADw,retry,,2026-07-01T13:47:19+00:00,0,TimeoutError: Video scan exceeded 300 seconds while scanning frame at 42:47.
+BSAWf0rLe3s,557,Decks Everyone Should Build (At Least Once) | The Command Zone 358 | Magic: The Gathering EDH,358,,3237,https://www.youtube.com/watch?v=BSAWf0rLe3s,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:52:23+00:00,0,
+Yc_clSPaPyA,558,Commander Legends Preview Card(s) | The Command Zone 357 | Magic: The Gathering EDH,357,,3103,https://www.youtube.com/watch?v=Yc_clSPaPyA,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:55:32+00:00,1,
+-NWmnh19toU,559,Halloween Hot Takes | The Command Zone 356 | Magic: The Gathering Commander / EDH,356,,4783,https://www.youtube.com/watch?v=-NWmnh19toU,retry,,2026-07-01T13:57:28+00:00,0,TimeoutError: Video scan exceeded 300 seconds while scanning frame at 45:08.
+0Z9qaRJFuVA,560,Cards That Aren't Good Enough (Anymore) | The Command Zone 355 | Magic: The Gathering EDH Commander,355,,5245,https://www.youtube.com/watch?v=0Z9qaRJFuVA,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:02:34+00:00,0,
+9Mq4lEB3z-4,562,Walking Dead Secret Lair: EXPOSED | The Command Zone 354 | Magic: The Gathering EDH,354,,4089,https://www.youtube.com/watch?v=9Mq4lEB3z-4,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:07:34+00:00,1,
+jajh9x0_3tI,563,Game Knights Deck Talks - Akiri & Phylath | The Command Zone 353 | Magic: The Gathering EDH,353,,3614,https://www.youtube.com/watch?v=jajh9x0_3tI,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:09:04+00:00,1,
+WziX_aqdGeU,565,Are MDFC's New Commander Staples | The Command Zone 352 | Magic: The Gathering EDH,352,,5206,https://www.youtube.com/watch?v=WziX_aqdGeU,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:11:08+00:00,1,
+_R61_iFXisE,567,Zendikar Rising Set Review | The Command Zone 351 | Magic: the Gathering Commander EDH,351,,7601,https://www.youtube.com/watch?v=_R61_iFXisE,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:12:39+00:00,1,
+yP1K9p33g0w,568,The Best New Commanders from Zendikar Rising | The Command Zone 350 | Magic: The Gathering EDH,350,,6538,https://www.youtube.com/watch?v=yP1K9p33g0w,retry,,2026-07-01T14:13:53+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+rEVzq9BFAVI,570,"Rogue Tribal ""Sneak Attack"" Budget Upgrade Guide | The Command Zone 349 | Magic: The Gathering EDH",349,,2341,https://www.youtube.com/watch?v=rEVzq9BFAVI,retry,,2026-07-01T14:14:04+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+SpQ6sGkWTcA,571,"Naya Landfall ""Land's Wrath"" Budget Upgrade Guide | The Command Zone 348 | Magic The Gathering",348,,3404,https://www.youtube.com/watch?v=SpQ6sGkWTcA,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:14:13+00:00,0,
+EkE_Hyyxhoc,572,"ROGUE TRIBAL ""Sneak Attack"" ZNR Full Deck Reveal | The Command Zone 347 | Magic The Gathering",347,,3039,https://www.youtube.com/watch?v=EkE_Hyyxhoc,complete,description-bookmarks+browser+rapidocr,2026-07-01T14:18:18+00:00,0,
+DuasEh88Rxc,573,The Mulan Episode! Deck Tech + Giveaways | The Command Zone 346 | Magic: The Gathering Commander,346,,3782,https://www.youtube.com/watch?v=DuasEh88Rxc,retry,,2026-07-01T14:20:58+00:00,0,TimeoutError: Video scan exceeded 300 seconds while scanning frame at 40:41.
+bACV94alOuM,574,Stopping the Opponent from Winning | The Command Zone 345 | Magic: The Gathering Commander EDH,345,,5016,https://www.youtube.com/watch?v=bACV94alOuM,retry,,2026-07-01T14:26:06+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+HjzPu9FLVmo,575,How To Make Your Decks Unique | The Command Zone 344 | Magic: The Gathering Commander EDH,344,,4584,https://www.youtube.com/watch?v=HjzPu9FLVmo,retry,,2026-07-01T14:26:20+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+L57DvLqmxLw,579,The Complete Guide to Card Draw | The Command Zone 343 | Magic: The Gathering Commander EDH,343,,6500,https://www.youtube.com/watch?v=L57DvLqmxLw,retry,,2026-07-01T14:26:30+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+kNMs32ahSE4,580,Double Masters Preview Card(s) + Extra Turns Game Analysis  | The Command Zone 342 | Magic EDH,342,,4706,https://www.youtube.com/watch?v=kNMs32ahSE4,retry,,2026-07-01T14:26:39+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+pDT-4-mDkjo,581,The Truth About Working With WotC - Commander Convos: The Professor | The Command Zone 341 | Magic,341,,4197,https://www.youtube.com/watch?v=pDT-4-mDkjo,retry,,2026-07-01T14:26:57+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+CCwAv0yg8is,582,Jumpstart: Most Powerful Cards | The Command Zone 340 | Magic: The Gathering Commander / EDH,340,,3577,https://www.youtube.com/watch?v=CCwAv0yg8is,retry,,2026-07-01T14:27:08+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+YmQkZfi5WxI,586,The Best New Commanders from Jumpstart | The Command Zone 339 | Magic: The Gathering EDH,339,,5901,https://www.youtube.com/watch?v=YmQkZfi5WxI,retry,,2026-07-01T14:27:24+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+s--h9IItl8g,587,M21 Set Review - Part Two | The Command Zone 338 | Magic: The Gathering Commander,338,,6045,https://www.youtube.com/watch?v=s--h9IItl8g,retry,,2026-07-01T14:27:30+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+_RyEzaHThrY,588,M21 Set Review - Part One | The Command Zone 337 | Magic: The Gathering Commander,337,,5705,https://www.youtube.com/watch?v=_RyEzaHThrY,retry,,2026-07-01T14:28:36+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+T2sFaOgxNhQ,589,The Best New Commanders from M21 | The Command Zone 336 | Magic: The Gathering EDH,336,,5533,https://www.youtube.com/watch?v=T2sFaOgxNhQ,retry,,2026-07-01T14:29:22+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+Pr91Crzl7DI,591,Commander Mythbusters | The Command Zone 335 | Magic: The Gathering Commander,335,,3976,https://www.youtube.com/watch?v=Pr91Crzl7DI,retry,,2026-07-01T14:30:05+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+k70ZbiSC44w,592,Major Rules Change - Commander Dies Triggers | The Command Zone 334 | Magic: The Gathering,334,,1840,https://www.youtube.com/watch?v=k70ZbiSC44w,retry,,2026-07-01T14:31:13+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+MkukDIHnrBk,593,M21 Preview Card - Chromatic Orrery | The Command Zone 333 | Magic: The Gathering Commander,333,,1902,https://www.youtube.com/watch?v=MkukDIHnrBk,retry,,2026-07-01T14:32:40+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+5hPU1eNxWis,594,Should WotC Print Problematic Cards? | The Command Zone 332 | Magic: The Gathering Commander,332,,4254,https://www.youtube.com/watch?v=5hPU1eNxWis,retry,,2026-07-01T14:32:59+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+rtfqJjLbADA,595,Pako & Haldan - Budget Deck Tech | The Command Zone 331 | Magic: The Gathering Commander,331,,2780,https://www.youtube.com/watch?v=rtfqJjLbADA,retry,,2026-07-01T14:33:30+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+_U8YEzosz2E,596,Obosh - Deck Tech | The Command Zone 330 | Magic: The Gathering Commander / EDH,330,,3313,https://www.youtube.com/watch?v=_U8YEzosz2E,retry,,2026-07-01T14:34:45+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+51IvO2U_WKA,600,Ikoria: Lair of Behemoths - Set Review | The Command Zone 329 | Magic: The Gathering Commander,329,,8256,https://www.youtube.com/watch?v=51IvO2U_WKA,retry,,2026-07-01T14:35:16+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+EncOrEf2fxU,601,The Best New Commanders from Ikoria | The Command Zone 328 | Magic: The Gathering Commander,328,,7115,https://www.youtube.com/watch?v=EncOrEf2fxU,retry,,2026-07-01T14:35:27+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+vHNqIjxMYhQ,602,Ikoria - New Mechanics & Rules Breakdown | The Command Zone 327 | Magic: The Gathering Commander,327,,3309,https://www.youtube.com/watch?v=vHNqIjxMYhQ,retry,,2026-07-01T14:35:40+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+5aXNLpibQIs,603,C20 - New Card Analysis | The Command Zone 326 | Magic: The Gathering Commander,326,,8178,https://www.youtube.com/watch?v=5aXNLpibQIs,retry,,2026-07-01T14:35:51+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+q5nF14sk_X8,605,The Best New Commanders from C20 | The Command Zone 325 | Magic: The Gathering Commander,325,,7788,https://www.youtube.com/watch?v=q5nF14sk_X8,retry,,2026-07-01T14:35:59+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+9Y5Wms1gMaA,606,Abzan Ability Counters - Precon Upgrade Guide | C20 | The Command Zone 324 | Magic: The Gathering,324,,3608,https://www.youtube.com/watch?v=9Y5Wms1gMaA,retry,,2026-07-01T14:36:08+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+oMCG4vAIGLs,607,Sultai Mutate - Precon Upgrade Guide | C20 | The Command Zone 323 | Magic: The Gathering EDH,323,,3724,https://www.youtube.com/watch?v=oMCG4vAIGLs,retry,,2026-07-01T14:36:18+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+z_Ac-5U6VLE,608,Jeskai Cycling - Precon Upgrade Guide | C20 | The Command Zone 322 | Magic: The Gathering EDH,322,,3924,https://www.youtube.com/watch?v=z_Ac-5U6VLE,retry,,2026-07-01T14:36:27+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+owkJUTvc1tQ,609,Mardu Humans- Precon Upgrade Guide | C20 | The Command Zone 321 | Magic: The Gathering EDH,321,,3963,https://www.youtube.com/watch?v=owkJUTvc1tQ,retry,,2026-07-01T14:36:37+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+VzcVuJ4ZWtk,610,Temur Instants Matter - Precon Upgrade Guide | C20 | The Command Zone 320 | Magic: The Gathering,320,,4025,https://www.youtube.com/watch?v=VzcVuJ4ZWtk,retry,,2026-07-01T14:36:47+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+ci414DwWh9o,611,"JESKAI CYCLING ""Timeless Wisdom"" C20 Full Deck Reveal | The Command Zone 319 | Magic: The Gathering",319,,1957,https://www.youtube.com/watch?v=ci414DwWh9o,retry,,2026-07-01T14:36:57+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+UgdCRi_g5ik,612,C20 Ikoria Commander Preview Card(s) | The Command Zone 318 | Magic: The Gathering Commander / EDH,318,,2187,https://www.youtube.com/watch?v=UgdCRi_g5ik,retry,,2026-07-01T14:37:06+00:00,0,"TimeoutError: Locator.screenshot: Timeout 179953ms exceeded.
+Call log:
+  - taking element screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+  - attempting scroll into view action
+    - waiting for element to be stable
+"
+TZ9sg25tiW0,613,Ikoria Preview Card - Valiant Rescuer | The Command Zone 317 | Magic: The Gathering Commander / EDH,317,,1207,https://www.youtube.com/watch?v=TZ9sg25tiW0,retry,,2026-07-01T14:43:44+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+sA2ibLn2H1g,617,The Most Fun Commanders to Play Against | The Command Zone 316 | Magic Gathering Commander EDH,316,,2960,https://www.youtube.com/watch?v=sA2ibLn2H1g,retry,,2026-07-01T14:44:00+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+pnRVojgNVmk,618,The Worst Commanders to Play Against I The Command Zone 315 Magic: the Gathering Commander / EDH,315,,3121,https://www.youtube.com/watch?v=pnRVojgNVmk,retry,,2026-07-01T14:44:08+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+_PVlG0XcSz0,619,"Proxies, Reprints  and Politics Gone Wrong I The Command Zone 314 I Magic: the Gathering Commander",314,,3903,https://www.youtube.com/watch?v=_PVlG0XcSz0,retry,,2026-07-01T14:44:23+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+pSbtkO4Pwk8,620,The Casual vs Competitive Debate w/ Kyle Hill I The Command Zone 313 I Magic: the Gathering,313,,5630,https://www.youtube.com/watch?v=pSbtkO4Pwk8,retry,,2026-07-01T14:44:37+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+QMy1K2hQ15M,623,Learn from Our Mistakes I The Command Zone 312 I Magic: the Gathering Commander / EDH,312,,4322,https://www.youtube.com/watch?v=QMy1K2hQ15M,retry,,2026-07-01T14:44:51+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+AA6OSvt96iw,624,Our Favorite Cards | The Command Zone 311 | Magic Gathering EDH Commander,311,,3925,https://www.youtube.com/watch?v=AA6OSvt96iw,retry,,2026-07-01T14:45:08+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+1YDfbodyxr0,625,The Commander Way: Lessons from Taoism I The Command Zone 310 I Magic: the Gathering,310,,3517,https://www.youtube.com/watch?v=1YDfbodyxr0,retry,,2026-07-01T14:45:16+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+NhOYA_2LxzQ,626,How to Connect with New Playgroups | The Command Zone 309 | Magic the Gathering Commander EDH,309,,3272,https://www.youtube.com/watch?v=NhOYA_2LxzQ,retry,,2026-07-01T14:45:34+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+SX669_q8Vyc,627,Uro – Game Knights Deck Tech I The Command Zone 308 I Magic: the Gathering,308,,2614,https://www.youtube.com/watch?v=SX669_q8Vyc,retry,,2026-07-01T14:46:19+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+RgA9KyRJNhA,628,Dalakos – Game Knights Deck Tech I The Command Zone 307 I Magic: the Gathering,307,,3195,https://www.youtube.com/watch?v=RgA9KyRJNhA,retry,,2026-07-01T14:46:33+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+Bmby4KouH2o,630,Theros: Beyond Death - Set Review I The Command Zone 306 I Magic: the Gathering,306,,6445,https://www.youtube.com/watch?v=Bmby4KouH2o,retry,,2026-07-01T14:46:58+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+KuTvkkrBIcw,631,The Best New Commanders from Theros: Beyond Death I The Command Zone 305 I Magic: the Gathering,305,,6203,https://www.youtube.com/watch?v=KuTvkkrBIcw,retry,,2026-07-01T14:47:17+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+FrSbBMp45rg,632,Theros: Beyond Death Preview Card I The Command Zone 304 I Magic: the Gathering EDH,304,,2483,https://www.youtube.com/watch?v=FrSbBMp45rg,retry,,2026-07-01T14:47:27+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+73cXVWxkcwU,633,A Complete Guide to Mana Ramp I The Command Zone 303 I Magic: the Gathering Commander EDH,303,,5383,https://www.youtube.com/watch?v=73cXVWxkcwU,retry,,2026-07-01T14:47:39+00:00,0,RuntimeError: No description bookmarks at or after 1:00 were available to scan.
+RctPsvWPEpE,634,The Best of the Year - How did Magic Do in 2019? I The Command Zone 302 I Magic: the Gathering EDH,302,,4142,https://www.youtube.com/watch?v=RctPsvWPEpE,retry,,2026-07-01T14:47:50+00:00,0,RuntimeError: No timestamp bookmarks were found in the expanded YouTube description.
+nIdicl5L5IE,636,Our 300th Episode! GIVEAWAYS Galore! I The Command Zone 300 I Magic: the Gathering EDH,300,,5537,https://www.youtube.com/watch?v=nIdicl5L5IE,retry,,2026-07-01T14:48:09+00:00,0,"Error: Page.goto: net::ERR_ABORTED at https://www.youtube.com/watch?v=nIdicl5L5IE&autoplay=1
+Call log:
+  - navigating to ""https://www.youtube.com/watch?v=nIdicl5L5IE&autoplay=1"", waiting until ""domcontentloaded""
+"
+phEMmDPQ_5E,638,The Best Card In Your Deck I The Command Zone 299 I Magic: the Gathering EDH,299,,3649,https://www.youtube.com/watch?v=phEMmDPQ_5E,retry,,2026-07-01T14:48:15+00:00,0,"Error: Page.goto: net::ERR_ABORTED at https://www.youtube.com/watch?v=phEMmDPQ_5E&autoplay=1
+Call log:
+  - navigating to ""https://www.youtube.com/watch?v=phEMmDPQ_5E&autoplay=1"", waiting until ""domcontentloaded""
+"
