@@ -255,10 +255,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/ZqI_-DH7lBc-292-bookmark.jpg"><img src="screenshots/ZqI_-DH7lBc-292-bookmark.jpg" alt="Kevin O shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Tony Borth H</strong></td>
+      <td><strong>Tony Borth</strong></td>
       <td><a href="https://www.youtube.com/watch?v=0_18LXLvR9Y&amp;t=248s">#676 — Final Fantasy 10 - Commander Deck Upgrade Guide | “Counter Blitz”</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=0_18LXLvR9Y&amp;t=248s"><strong>4:08</strong></a></td>
-      <td><a href="screenshots/0_18LXLvR9Y-248-bookmark.jpg"><img src="screenshots/0_18LXLvR9Y-248-bookmark.jpg" alt="Tony Borth H shout-out" width="300"></a></td>
+      <td><a href="screenshots/0_18LXLvR9Y-248-bookmark.jpg"><img src="screenshots/0_18LXLvR9Y-248-bookmark.jpg" alt="Tony Borth shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Eric Threadgold</strong></td>
@@ -279,10 +279,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/f4Rf4EeMh1w-238-bookmark.jpg"><img src="screenshots/f4Rf4EeMh1w-238-bookmark.jpg" alt="Matthew Jecelin shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Garret Trimmer R</strong></td>
+      <td><strong>Garret Trimmer</strong></td>
       <td><a href="https://www.youtube.com/watch?v=6q0NW3lcEVI&amp;t=288s">#672 — How Bad is Braids, Anyway?</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=6q0NW3lcEVI&amp;t=288s"><strong>4:48</strong></a></td>
-      <td><a href="screenshots/6q0NW3lcEVI-288-bookmark.jpg"><img src="screenshots/6q0NW3lcEVI-288-bookmark.jpg" alt="Garret Trimmer R shout-out" width="300"></a></td>
+      <td><a href="screenshots/6q0NW3lcEVI-288-bookmark.jpg"><img src="screenshots/6q0NW3lcEVI-288-bookmark.jpg" alt="Garret Trimmer shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Larry Weddle</strong></td>
@@ -351,10 +351,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/8lchMqp1sZE-239-bookmark.jpg"><img src="screenshots/8lchMqp1sZE-239-bookmark.jpg" alt="Tyler T Ballard shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Jacob Breithaupt T</strong></td>
+      <td><strong>Jacob Breithaupt</strong></td>
       <td><a href="https://www.youtube.com/watch?v=PUrQpnQ7bi8&amp;t=326s">#659 — The Problem with Deckbuilding Templates</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=PUrQpnQ7bi8&amp;t=326s"><strong>5:26</strong></a></td>
-      <td><a href="screenshots/PUrQpnQ7bi8-326-bookmark.jpg"><img src="screenshots/PUrQpnQ7bi8-326-bookmark.jpg" alt="Jacob Breithaupt T shout-out" width="300"></a></td>
+      <td><a href="screenshots/PUrQpnQ7bi8-326-bookmark.jpg"><img src="screenshots/PUrQpnQ7bi8-326-bookmark.jpg" alt="Jacob Breithaupt shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Nathan Pond</strong></td>
@@ -447,10 +447,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/hke5GiWgMLA-220-bookmark.jpg"><img src="screenshots/hke5GiWgMLA-220-bookmark.jpg" alt="Josiah Baron shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Robert Flores Iii</strong></td>
+      <td><strong>Robert Flores III</strong></td>
       <td><a href="https://www.youtube.com/watch?v=rN4-IbjxY10&amp;t=220s">#636 — How to Play BLUE w/ Josh Lee Kwai</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=rN4-IbjxY10&amp;t=220s"><strong>3:40</strong></a></td>
-      <td><a href="screenshots/rN4-IbjxY10-220-bookmark.jpg"><img src="screenshots/rN4-IbjxY10-220-bookmark.jpg" alt="Robert Flores Iii shout-out" width="300"></a></td>
+      <td><a href="screenshots/rN4-IbjxY10-220-bookmark.jpg"><img src="screenshots/rN4-IbjxY10-220-bookmark.jpg" alt="Robert Flores III shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Ryan Freeburger</strong></td>
@@ -681,10 +681,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/fWiXZAfIH2Y-348-bookmark.jpg"><img src="screenshots/fWiXZAfIH2Y-348-bookmark.jpg" alt="Kenji Madden shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Casey Comisky Y</strong></td>
+      <td><strong>Casey Comisky</strong></td>
       <td><a href="https://www.youtube.com/watch?v=swjL6prGShE&amp;t=348s">#596 — Do This One Thing to Win More Games | How to Playtest</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=swjL6prGShE&amp;t=348s"><strong>5:48</strong></a></td>
-      <td><a href="screenshots/swjL6prGShE-348-bookmark.jpg"><img src="screenshots/swjL6prGShE-348-bookmark.jpg" alt="Casey Comisky Y shout-out" width="300"></a></td>
+      <td><a href="screenshots/swjL6prGShE-348-bookmark.jpg"><img src="screenshots/swjL6prGShE-348-bookmark.jpg" alt="Casey Comisky shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>William Segletes</strong></td>
@@ -885,10 +885,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/daqy8_hvsRA-225-bookmark.jpg"><img src="screenshots/daqy8_hvsRA-225-bookmark.jpg" alt="Gary Wilton shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Mike Claerhout T</strong></td>
+      <td><strong>Mike Claerhout</strong></td>
       <td><a href="https://www.youtube.com/watch?v=XSqsxRT4NVU&amp;t=265s">#557 — The Spiciest Wilds of Eldraine Commanders</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=XSqsxRT4NVU&amp;t=265s"><strong>4:25</strong></a></td>
-      <td><a href="screenshots/XSqsxRT4NVU-265-bookmark.jpg"><img src="screenshots/XSqsxRT4NVU-265-bookmark.jpg" alt="Mike Claerhout T shout-out" width="300"></a></td>
+      <td><a href="screenshots/XSqsxRT4NVU-265-bookmark.jpg"><img src="screenshots/XSqsxRT4NVU-265-bookmark.jpg" alt="Mike Claerhout shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Nichole Woods</strong></td>
@@ -1095,10 +1095,10 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/-1cF7-WCQeQ-225-bookmark.jpg"><img src="screenshots/-1cF7-WCQeQ-225-bookmark.jpg" alt="David Le shout-out" width="300"></a></td>
     </tr>
     <tr>
-      <td><strong>Abe Hazway Y</strong></td>
+      <td><strong>Abe Hazway</strong></td>
       <td><a href="https://www.youtube.com/watch?v=PlTuYh5hXIc&amp;t=316s">#501 — Transformers: Autobot Commanders - The Brothers War</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=PlTuYh5hXIc&amp;t=316s"><strong>5:16</strong></a></td>
-      <td><a href="screenshots/PlTuYh5hXIc-316-bookmark.jpg"><img src="screenshots/PlTuYh5hXIc-316-bookmark.jpg" alt="Abe Hazway Y shout-out" width="300"></a></td>
+      <td><a href="screenshots/PlTuYh5hXIc-316-bookmark.jpg"><img src="screenshots/PlTuYh5hXIc-316-bookmark.jpg" alt="Abe Hazway shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Keon Warren</strong></td>
