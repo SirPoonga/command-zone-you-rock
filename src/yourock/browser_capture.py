@@ -295,6 +295,19 @@ def _seek_video(page: Any, seconds: float, timeout_ms: int) -> None:
     state = _video_state(page)
     if not state:
         raise RuntimeError("YouTube video element not found")
+
+    # A pre-roll or mid-roll advertisement may replace the podcast video.
+    if bool(state.get("adShowing", False)):
+        _wait_for_video(
+            page,
+            timeout_ms,
+            required_seconds=seconds,
+        )
+        video = page.locator("video").first
+        state = _video_state(page)
+        if not state:
+            raise RuntimeError("YouTube video element not found after advertisement")
+
     duration = float(state.get("duration", 0) or 0)
     if duration <= seconds:
         raise RuntimeError(
@@ -302,53 +315,94 @@ def _seek_video(page: Any, seconds: float, timeout_ms: int) -> None:
             f"{seconds:.1f}s. A pre-roll ad may still be active."
         )
 
-    video.evaluate(
-        """async (video, seconds) => {
-            video.muted = true;
-            video.volume = 0;
-            if (typeof video.fastSeek === 'function') {
-                try { video.fastSeek(seconds); }
-                catch (_) { video.currentTime = seconds; }
-            } else {
+    def position_stationary_frame() -> None:
+        video.evaluate(
+            """(video, seconds) => {
+                video.muted = true;
+                video.volume = 0;
+                video.pause();
                 video.currentTime = seconds;
-            }
-            try { await video.play(); } catch (_) {}
-        }""",
-        seconds,
-    )
+                video.pause();
+            }""",
+            seconds,
+        )
+
+    position_stationary_frame()
 
     deadline = time.monotonic() + timeout_ms / 1000
+    next_reassert = time.monotonic() + 1.0
     last_state: dict[str, Any] | None = None
+
     while time.monotonic() < deadline:
+        reason = _video_unavailable_reason(page)
+        if reason:
+            raise VideoUnavailableError(
+                f"Video became unavailable while seeking: {reason}"
+            )
+
         state = _video_state(page)
         last_state = state
         if state:
-            current = float(state.get("currentTime", -9999) or 0)
+            if bool(state.get("adShowing", False)):
+                remaining_ms = max(
+                    1_000,
+                    int((deadline - time.monotonic()) * 1000),
+                )
+                _wait_for_video(
+                    page,
+                    remaining_ms,
+                    required_seconds=seconds,
+                )
+                video = page.locator("video").first
+                position_stationary_frame()
+                next_reassert = time.monotonic() + 1.0
+                continue
+
+            current = float(state.get("currentTime", -9999))
             ready_state = int(state.get("readyState", 0) or 0)
             seeking = bool(state.get("seeking", False))
-            ad_showing = bool(state.get("adShowing", False))
+            paused = bool(state.get("paused", False))
+
+            if not paused:
+                try:
+                    video.evaluate("video => video.pause()")
+                except Exception:
+                    pass
+
             if (
-                not ad_showing
-                and not seeking
+                not seeking
                 and abs(current - seconds) <= 0.8
                 and ready_state >= 2
             ):
-                video.evaluate("video => video.pause()")
-                return
-
-            # Some YouTube player states pause while data is being fetched. Resume
-            # muted playback so the requested frame can become available.
-            if bool(state.get("paused", False)):
                 try:
-                    video.evaluate(
-                        """async video => {
-                            video.muted = true;
-                            try { await video.play(); } catch (_) {}
-                        }"""
-                    )
+                    video.evaluate("video => video.pause()")
                 except Exception:
                     pass
-        page.wait_for_timeout(150)
+
+                page.wait_for_timeout(100)
+                verify = _video_state(page)
+                if verify:
+                    verify_current = float(verify.get("currentTime", -9999))
+                    if (
+                        not bool(verify.get("adShowing", False))
+                        and not bool(verify.get("seeking", False))
+                        and bool(verify.get("paused", False))
+                        and abs(verify_current - seconds) <= 1.0
+                        and int(verify.get("readyState", 0) or 0) >= 2
+                    ):
+                        return
+
+            # YouTube occasionally ignores a paused seek or drifts away from it.
+            # Reassert the requested timestamp without starting playback.
+            if (
+                not seeking
+                and abs(current - seconds) > 1.0
+                and time.monotonic() >= next_reassert
+            ):
+                position_stationary_frame()
+                next_reassert = time.monotonic() + 1.0
+
+        page.wait_for_timeout(100)
 
     raise RuntimeError(
         f"Timed out while seeking YouTube video to {seconds:.1f}s; "
@@ -480,6 +534,26 @@ def _close_runtime() -> None:
                 runtime.process.kill()
             except Exception:
                 pass
+
+
+def reset_browser_runtime() -> None:
+    # Discard the shared Playwright runtime so the next scan starts fresh.
+    global _RUNTIME
+
+    runtime = _RUNTIME
+    _RUNTIME = None
+    if runtime is None:
+        return
+
+    for attribute in ("page", "context", "browser"):
+        value = getattr(runtime, attribute, None)
+        close = getattr(value, "close", None)
+        if not callable(close):
+            continue
+        try:
+            close()
+        except Exception:
+            pass
 
 
 atexit.register(_close_runtime)

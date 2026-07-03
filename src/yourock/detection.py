@@ -50,7 +50,7 @@ def find_candidates(
     return candidates
 
 
-def parse_name_from_ocr(text: str) -> str:
+def _parse_name_from_ocr_without_echo_cleanup(text: str) -> str:
     """Extract the name from the OCR segment associated with YOU ROCK."""
     rock = r"Y[O0]U\s+R[O0]C[KX](?:\s*[!1I|W]*)?"
 
@@ -80,6 +80,34 @@ def parse_name_from_ocr(text: str) -> str:
     flattened = " ".join(text.replace("\n", " ").split())
     name = _name_before_rock(flattened, rock)
     return _format_ocr_name(name) if name else ""
+
+
+def _remove_matching_trailing_echo_letter(name: str | None) -> str | None:
+    """Remove an OCR echo letter such as ``Don Kim M`` -> ``Don Kim``."""
+    if not name:
+        return name
+
+    cleaned = name.strip()
+    match = re.fullmatch(
+        r"(?P<base>.+\b(?P<surname>[A-Za-z][A-Za-z'’.-]*))\s+(?P<echo>[A-Z])",
+        cleaned,
+    )
+    if not match:
+        return cleaned
+
+    surname_letters = re.findall(r"[A-Za-z]", match.group("surname"))
+    if not surname_letters:
+        return cleaned
+
+    if surname_letters[-1].upper() != match.group("echo"):
+        return cleaned
+
+    return match.group("base").rstrip()
+
+
+def parse_name_from_ocr(*args, **kwargs):
+    name = _parse_name_from_ocr_without_echo_cleanup(*args, **kwargs)
+    return _remove_matching_trailing_echo_letter(name)
 
 
 def _name_before_rock(text: str, rock: str) -> str:

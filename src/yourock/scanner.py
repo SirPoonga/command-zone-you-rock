@@ -1,4 +1,5 @@
 from __future__ import annotations
+from typing import Any
 
 from dataclasses import replace
 import hashlib
@@ -21,6 +22,46 @@ from .storage import (
 from .transcripts import fetch_transcript
 from .utils import extract_episode_number, format_timestamp
 from .youtube import PlaylistVideo, fetch_video_metadata, list_playlist
+
+
+def _scan_description_bookmarks_with_browser_recovery(
+    config: Any,
+    video_id: str,
+):
+    # Retry once with a fresh Playwright runtime after Chrome closes.
+    closed_markers = (
+        "target page, context or browser has been closed",
+        "browser has been closed",
+        "browser closed",
+        "page has been closed",
+        "context has been closed",
+        "connection closed while reading from the driver",
+        "playwright connection closed",
+    )
+
+    for attempt in range(2):
+        try:
+            return scan_description_bookmarks(config, video_id)
+        except KeyboardInterrupt:
+            raise
+        except Exception as exc:
+            message = str(exc).lower()
+            if not any(marker in message for marker in closed_markers):
+                raise
+
+            from yourock.browser_capture import reset_browser_runtime
+
+            reset_browser_runtime()
+            if attempt == 0:
+                print(
+                    "  Browser session closed; restarting Chrome and retrying "
+                    "this video once."
+                )
+                continue
+
+            raise
+
+    raise RuntimeError("Unreachable browser recovery state")
 
 
 def scan_playlist(
@@ -86,7 +127,7 @@ def scan_playlist(
         episode_number = extract_episode_number(metadata.title)
         try:
             if backend == "browser":
-                bookmarks, matches = scan_description_bookmarks(config, metadata.video_id)
+                bookmarks, matches = _scan_description_bookmarks_with_browser_recovery(config, metadata.video_id)
                 added_for_video = _store_bookmark_matches(
                     shoutouts,
                     metadata,

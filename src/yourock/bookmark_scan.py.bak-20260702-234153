@@ -1,0 +1,1111 @@
+from __future__ import annotations
+import base64
+
+from dataclasses import dataclass
+from io import BytesIO
+from pathlib import Path
+import re
+import time
+from typing import Any
+
+from PIL import Image
+
+from .browser_capture import (
+    _dismiss_consent,
+    _get_runtime,
+    _seek_video,
+    _wait_for_video,
+)
+from .capture import _ocr, _prepare_for_ocr
+from .config import ProjectConfig
+from .detection import parse_name_from_ocr
+from .utils import format_timestamp
+
+
+# The You Rock segment normally appears just before one of the first three
+# non-zero description chapters. The Patreon lower-third appears shortly
+# before the You Rock lower-third and acts as a sequence marker.
+MAX_EARLY_BOOKMARKS = 3
+PATREON_SCAN_BEFORE_SECONDS = 45
+PATREON_TO_YOU_ROCK_MAX_SECONDS = 45
+VIDEO_STARTUP_TIMEOUT_SECONDS = 60
+VIDEO_SCAN_TIMEOUT_SECONDS = 10_800
+FULL_VIDEO_SCAN_START_SECONDS = 60
+
+
+EARLY_SWEEP_START_SECONDS = 60
+EARLY_SWEEP_END_SECONDS = 480
+REFINE_RADIUS_SECONDS = 5
+
+@dataclass(frozen=True)
+class DescriptionBookmark:
+    timestamp_seconds: int
+    label: str
+
+
+@dataclass(frozen=True)
+class BookmarkMatch:
+    timestamp_seconds: int
+    bookmark_seconds: int
+    bookmark_label: str
+    name: str
+    confidence: float
+    ocr_text: str
+    screenshot: Path
+
+
+@dataclass(frozen=True)
+class _FrameAnalysis:
+    timestamp_seconds: int
+    bookmark: DescriptionBookmark
+    name: str
+    confidence: float
+    ocr_text: str
+    crop: Image.Image
+    has_patreon_url: bool
+    has_you_rock: bool
+
+
+
+def _remaining_video_timeout_ms(
+    deadline: float,
+    *,
+    stage: str,
+) -> int:
+    remaining_ms = int((deadline - time.monotonic()) * 1000)
+    if remaining_ms <= 0:
+        raise TimeoutError(
+            f"Video scan exceeded {VIDEO_SCAN_TIMEOUT_SECONDS} seconds "
+            f"while {stage}."
+        )
+    return max(1, remaining_ms)
+
+
+def _full_video_scan_seconds(
+    duration: float,
+    sample_every_seconds: int,
+) -> list[int]:
+    """Return sample times from one minute through the end of the video."""
+    last_second = max(0, int(duration) - 1)
+    if last_second < FULL_VIDEO_SCAN_START_SECONDS:
+        return []
+
+    step = max(1, sample_every_seconds)
+    return list(
+        range(
+            FULL_VIDEO_SCAN_START_SECONDS,
+            last_second + 1,
+            step,
+        )
+    )
+
+
+def scan_description_bookmarks(
+    config: ProjectConfig,
+    video_id: str,
+) -> tuple[list[DescriptionBookmark], list[BookmarkMatch]]:
+    """Scan the video every configured interval until YOU ROCK is found."""
+    deadline = time.monotonic() + VIDEO_SCAN_TIMEOUT_SECONDS
+    runtime = _get_runtime(config)
+    page = runtime.page
+    timeout_ms = max(30, config.browser_timeout_seconds) * 1000
+    page.set_default_timeout(timeout_ms)
+
+    page.goto(
+        f"https://www.youtube.com/watch?v={video_id}&autoplay=1",
+        wait_until="domcontentloaded",
+        timeout=min(
+            timeout_ms,
+            _remaining_video_timeout_ms(
+                deadline,
+                stage="opening the video",
+            ),
+        ),
+    )
+    _dismiss_consent(page)
+    _wait_for_video(
+        page,
+        min(
+            timeout_ms,
+            VIDEO_STARTUP_TIMEOUT_SECONDS * 1000,
+            _remaining_video_timeout_ms(
+                deadline,
+                stage="waiting for the main podcast video",
+            ),
+        ),
+        required_seconds=60,
+    )
+    page.wait_for_timeout(750)
+
+    duration = _video_duration(page)
+    sample_every_seconds = max(
+        1,
+        config.bookmark_sample_every_seconds,
+    )
+    scan_seconds = _full_video_scan_seconds(
+        duration,
+        sample_every_seconds,
+    )
+
+    if not scan_seconds:
+        print("  Video is too short for a full-video scan.")
+        return [], []
+
+    scan_marker = DescriptionBookmark(
+        timestamp_seconds=0,
+        label="Full-video sweep",
+    )
+    entries = [
+        (second, scan_marker)
+        for second in scan_seconds
+    ]
+
+    print(
+        "  Full-video sweep: "
+        f"{format_timestamp(scan_seconds[0])} through "
+        f"{format_timestamp(scan_seconds[-1])}; "
+        f"every {sample_every_seconds} second(s); "
+        f"{len(entries)} frame(s)"
+    )
+
+    video = page.locator("video").first
+    hit = _scan_entries_for_match(
+        config,
+        page,
+        video,
+        entries,
+        deadline=deadline,
+        timeout_ms=timeout_ms,
+        duration=duration,
+        scan_label="full-video sweep",
+        coarse_mode="banner",
+    )
+
+    if hit is None:
+        return [], []
+
+    print(
+        "  YOU ROCK found during full-video sweep; "
+        "moving to next video"
+    )
+    return [], _save_match(
+        config,
+        video_id,
+        hit,
+    )
+
+
+def select_early_bookmarks(
+    bookmarks: list[DescriptionBookmark],
+    maximum: int = MAX_EARLY_BOOKMARKS,
+) -> list[DescriptionBookmark]:
+    """Return the first non-zero description chapters in chronological order."""
+    return [
+        bookmark
+        for bookmark in sorted(bookmarks, key=lambda value: value.timestamp_seconds)
+        if bookmark.timestamp_seconds > 0
+    ][: max(1, maximum)]
+
+
+def most_recent_prior_marker(
+    marker_seconds: list[int],
+    target_second: int,
+    *,
+    max_gap_seconds: int,
+) -> int | None:
+    eligible = [
+        second
+        for second in marker_seconds
+        if 0 <= target_second - second <= max(1, max_gap_seconds)
+    ]
+    return max(eligible) if eligible else None
+
+
+def parse_description_bookmarks(text: str) -> list[DescriptionBookmark]:
+    bookmarks: list[DescriptionBookmark] = []
+    for raw_line in text.splitlines():
+        line = " ".join(raw_line.split()).strip()
+        if not line:
+            continue
+        match = re.search(r"(?<!\d)(?:(\d{1,2}):)?(\d{1,2}):(\d{2})(?!\d)", line)
+        if not match:
+            continue
+        hours = int(match.group(1) or 0)
+        minutes = int(match.group(2))
+        seconds = int(match.group(3))
+        if seconds >= 60 or (hours > 0 and minutes >= 60):
+            continue
+        total = hours * 3600 + minutes * 60 + seconds
+        label = (line[: match.start()] + " " + line[match.end() :]).strip(" -–—:|")
+        bookmarks.append(DescriptionBookmark(total, label))
+    return _dedupe_bookmarks(bookmarks)
+
+
+def merge_description_bookmarks(
+    *groups: list[DescriptionBookmark],
+) -> list[DescriptionBookmark]:
+    merged: list[DescriptionBookmark] = []
+    for group in groups:
+        merged.extend(group)
+    return _dedupe_bookmarks(merged)
+
+
+def _read_description(page: Any) -> tuple[str, list[dict[str, str]]]:
+    for selector in (
+        "#description-inline-expander #expand",
+        "#description #expand",
+        "ytd-text-inline-expander #expand",
+        "#expand",
+    ):
+        try:
+            expand = page.locator(selector).first
+            if expand.count() and expand.is_visible():
+                expand.click(timeout=2500)
+                page.wait_for_timeout(500)
+                break
+        except Exception:
+            continue
+
+    return page.evaluate(
+        r'''() => {
+            const roots = [
+                document.querySelector('ytd-watch-metadata #description'),
+                document.querySelector('#description-inline-expander'),
+                document.querySelector('ytd-video-description-infocards-section-renderer')
+            ].filter(Boolean);
+            const root = roots[0] || document.body;
+            const anchors = Array.from(root.querySelectorAll('a[href]')).map(anchor => ({
+                href: anchor.href || '',
+                text: (anchor.textContent || '').trim(),
+                line: (anchor.parentElement?.textContent || '').trim()
+            }));
+            return [root.innerText || root.textContent || '', anchors];
+        }'''
+    )
+
+
+def _bookmarks_from_anchor_rows(rows: list[dict[str, str]]) -> list[DescriptionBookmark]:
+    bookmarks: list[DescriptionBookmark] = []
+    for row in rows or []:
+        href = str(row.get("href") or "")
+        text = str(row.get("text") or "")
+        line = " ".join(str(row.get("line") or "").split())
+        seconds = _timestamp_text_to_seconds(text)
+        if seconds is None and ("youtube.com/watch" in href or "youtu.be/" in href):
+            seconds = _seconds_from_href(href)
+        if seconds is None:
+            continue
+        label = line.replace(text, "", 1).strip(" -–—:|") or text
+        label = " ".join(label.split())[:160]
+        bookmarks.append(DescriptionBookmark(seconds, label))
+    return _dedupe_bookmarks(bookmarks)
+
+
+def _seconds_from_href(href: str) -> int | None:
+    match = re.search(r"[?&](?:t|start)=([^&#]+)", href)
+    if not match:
+        return None
+    value = match.group(1)
+    if value.isdigit():
+        return int(value)
+    total = 0
+    found = False
+    for number, unit in re.findall(r"(\d+)([hms])", value.lower()):
+        found = True
+        multiplier = {"h": 3600, "m": 60, "s": 1}[unit]
+        total += int(number) * multiplier
+    return total if found else None
+
+
+def _timestamp_text_to_seconds(value: str) -> int | None:
+    match = re.fullmatch(r"\s*(?:(\d{1,2}):)?(\d{1,2}):(\d{2})\s*", value)
+    if not match:
+        return None
+    hours = int(match.group(1) or 0)
+    minutes = int(match.group(2))
+    seconds = int(match.group(3))
+    if seconds >= 60 or (hours > 0 and minutes >= 60):
+        return None
+    return hours * 3600 + minutes * 60 + seconds
+
+
+def _dedupe_bookmarks(
+    bookmarks: list[DescriptionBookmark],
+) -> list[DescriptionBookmark]:
+    by_second: dict[int, DescriptionBookmark] = {}
+    for bookmark in bookmarks:
+        current = by_second.get(bookmark.timestamp_seconds)
+        if current is None or (not current.label and bookmark.label):
+            by_second[bookmark.timestamp_seconds] = bookmark
+    return [by_second[second] for second in sorted(by_second)]
+
+
+def _seconds_to_scan(
+    bookmarks: list[DescriptionBookmark],
+    *,
+    before_seconds: int,
+    sample_every_seconds: int,
+) -> dict[int, DescriptionBookmark]:
+    result: dict[int, DescriptionBookmark] = {}
+    step = max(1, sample_every_seconds)
+    before = max(1, before_seconds)
+    for bookmark in bookmarks:
+        # Never sample 0:00. With a five-second interval, the earliest
+        # possible frame is 0:05; later chapters still begin at their
+        # normal chapter-minus-window time.
+        start = max(step, bookmark.timestamp_seconds - before)
+        for second in range(start, bookmark.timestamp_seconds + 1, step):
+            # If windows overlap, associate the second with the earliest upcoming bookmark.
+            result.setdefault(second, bookmark)
+    return dict(sorted(result.items()))
+
+
+def _video_duration(page: Any) -> float:
+    value = page.locator("video").first.evaluate(
+        "video => Number.isFinite(video.duration) ? video.duration : 0"
+    )
+    return float(value or 0)
+
+
+@dataclass
+@dataclass
+class _RawHit:
+    timestamp_seconds: int
+    bookmark: DescriptionBookmark
+    name: str
+    confidence: float
+    ocr_text: str
+    crop: Image.Image
+
+    @property
+    def score(self) -> float:
+        return self.confidence + (0.25 if self.name else 0.0)
+
+
+def _early_sweep_seconds(
+    duration: float,
+    sample_every_seconds: int,
+) -> list[int]:
+    """Return coarse early-show sample times from 1:00 through 8:00."""
+    last_second = min(
+        EARLY_SWEEP_END_SECONDS,
+        max(0, int(duration) - 1),
+    )
+    if last_second < EARLY_SWEEP_START_SECONDS:
+        return []
+
+    step = max(1, sample_every_seconds)
+    return list(
+        range(
+            EARLY_SWEEP_START_SECONDS,
+            last_second + 1,
+            step,
+        )
+    )
+
+
+def _capture_video_frame(page: Any, video: Any) -> bytes:
+    """Capture the current paused frame without Locator.screenshot()."""
+    canvas_error: Exception | None = None
+
+    try:
+        data_url = video.evaluate(
+            """video => {
+                video.pause();
+                const width = video.videoWidth || video.clientWidth;
+                const height = video.videoHeight || video.clientHeight;
+                if (!width || !height) {
+                    throw new Error("Video frame dimensions are unavailable");
+                }
+
+                const canvas = document.createElement("canvas");
+                canvas.width = width;
+                canvas.height = height;
+                const context = canvas.getContext("2d", {alpha: false});
+                if (!context) {
+                    throw new Error("Could not create a 2D canvas context");
+                }
+
+                context.drawImage(video, 0, 0, width, height);
+                return canvas.toDataURL("image/jpeg", 0.88);
+            }"""
+        )
+        if not isinstance(data_url, str) or "," not in data_url:
+            raise RuntimeError("Canvas capture did not return a JPEG data URL")
+
+        image_bytes = base64.b64decode(data_url.split(",", 1)[1])
+        if len(image_bytes) < 1_000:
+            raise RuntimeError(
+                f"Canvas capture returned only {len(image_bytes)} bytes"
+            )
+        return image_bytes
+    except Exception as exc:
+        canvas_error = exc
+
+    # The fallback captures the video's rectangle through Page.screenshot().
+    # Unlike Locator.screenshot(), it does not wait for the video element to
+    # become visually stable.
+    try:
+        video.evaluate("video => video.pause()")
+    except Exception:
+        pass
+
+    try:
+        box = video.bounding_box()
+        if not box:
+            raise RuntimeError("The video element has no visible bounding box")
+
+        return page.screenshot(
+            type="jpeg",
+            quality=88,
+            clip=box,
+            animations="disabled",
+            caret="hide",
+        )
+    except Exception as screenshot_error:
+        raise RuntimeError(
+            "Could not capture the stationary YouTube frame. "
+            f"Canvas error: {canvas_error}; "
+            f"clipped screenshot error: {screenshot_error}"
+        ) from screenshot_error
+
+
+def _analysis_contains_scan_trigger(analysis: Any) -> bool:
+    """Detect intro/sponsor markers that switch the sweep to two seconds."""
+    strings: list[str] = []
+    seen: set[int] = set()
+
+    def collect(value: Any, depth: int = 0) -> None:
+        if depth > 3 or value is None:
+            return
+        if isinstance(value, str):
+            strings.append(value)
+            return
+        if isinstance(value, (bytes, bytearray, memoryview, int, float, bool)):
+            return
+
+        value_id = id(value)
+        if value_id in seen:
+            return
+        seen.add(value_id)
+
+        if isinstance(value, dict):
+            for key, item in value.items():
+                collect(key, depth + 1)
+                collect(item, depth + 1)
+            return
+
+        if isinstance(value, (list, tuple, set, frozenset)):
+            for item in value:
+                collect(item, depth + 1)
+            return
+
+        try:
+            attributes = vars(value)
+        except TypeError:
+            return
+
+        for item in attributes.values():
+            collect(item, depth + 1)
+
+    collect(analysis)
+    compact = re.sub(r"[^a-z0-9]", "", " ".join(strings).lower())
+
+    return (
+        "commandzonecom" in compact
+        or "ultrapro" in compact
+        or "patreoncom" in compact
+        or "patreon" in compact
+    )
+
+
+POST_PATREON_NAME_WINDOW_SECONDS = 20
+NAME_ONLY_CONFIRM_GAP_SECONDS = 4
+
+
+def _clean_name_only_candidate(value: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9'’.- ]+", " ", value)
+    cleaned = re.sub(r"\\s+", " ", cleaned).strip(" .-|")
+    words = cleaned.split()
+
+    if len(words) >= 3 and re.fullmatch(r"[A-Z]", words[-1]):
+        surname_letters = re.findall(r"[A-Za-z]", words[-2])
+        if surname_letters and surname_letters[-1].upper() == words[-1]:
+            words.pop()
+
+    result = []
+    for word in words:
+        if re.fullmatch(r"(?:II|III|IV|V|VI|VII|VIII|IX|X)", word.upper()):
+            result.append(word.upper())
+        elif len(word) == 1:
+            result.append(word.upper())
+        else:
+            result.append(word.capitalize())
+    return " ".join(result)
+
+
+def _parse_name_only_banner(text: str) -> str:
+    lines = [
+        " ".join(line.split()).strip(" .-|")
+        for line in text.replace("\\r", "\\n").splitlines()
+        if line.strip()
+    ]
+    candidates = list(lines)
+    if lines:
+        candidates.append(" ".join(lines))
+
+    rejected = {
+        "COMMAND", "ZONE", "COMMANDZONE", "PATREON", "ULTRA", "PRO",
+        "YOUTUBE", "HTTP", "HTTPS", "WWW", "COM", "VISIT", "SUPPORT",
+        "SPONSOR", "SPONSORED", "THE", "YOU", "ROCK",
+    }
+
+    best = ""
+    best_letters = -1
+    for candidate in candidates:
+        compact = re.sub(r"[^A-Z0-9]", "", candidate.upper())
+        if any(value in compact for value in (
+            "PATREON", "COMMANDZONE", "ULTRAPRO", "YOUTUBE"
+        )):
+            continue
+        if not re.fullmatch(r"[A-Za-z0-9'’.- ]+", candidate):
+            continue
+
+        words = candidate.split()
+        if not 2 <= len(words) <= 5:
+            continue
+
+        normalized_words = {
+            re.sub(r"[^A-Z0-9]", "", word.upper())
+            for word in words
+        }
+        if normalized_words & rejected:
+            continue
+
+        letters = [character for character in candidate if character.isalpha()]
+        if len(letters) < 5:
+            continue
+        if sum(character.isupper() for character in letters) / len(letters) < 0.70:
+            continue
+
+        cleaned = _clean_name_only_candidate(candidate)
+        if not 2 <= len(cleaned.split()) <= 5:
+            continue
+
+        letter_count = sum(character.isalpha() for character in cleaned)
+        if letter_count > best_letters:
+            best = cleaned
+            best_letters = letter_count
+
+    return best
+
+
+def _name_only_key(name: str) -> str:
+    return re.sub(r"[^A-Z0-9]", "", name.upper())
+
+
+def _scan_entries_for_match(
+    config: ProjectConfig,
+    page: Any,
+    video: Any,
+    entries: list[tuple[int, DescriptionBookmark]],
+    *,
+    deadline: float,
+    timeout_ms: int,
+    duration: float,
+    scan_label: str,
+    coarse_mode: str,
+) -> _FrameAnalysis | None:
+    """Find a YOU ROCK banner or a post-Patreon name-only scroll."""
+    adaptive = scan_label in {"full-video sweep", "early-show sweep"}
+    fine_scan = not adaptive
+    anchor = entries[0][0] if entries else 0
+
+    patreon_second: int | None = None
+    patreon_window_end: int | None = None
+    pending_key = ""
+    pending_second: int | None = None
+    pending_analysis: _FrameAnalysis | None = None
+    scanned = 0
+
+    for second, bookmark in entries:
+        if adaptive and not fine_scan and (second - anchor) % 10 != 0:
+            continue
+
+        if patreon_window_end is not None and second > patreon_window_end:
+            print(
+                "  No shout-out appeared within "
+                f"{POST_PATREON_NAME_WINDOW_SECONDS} seconds after Patreon; "
+                "moving to the next video."
+            )
+            return None
+
+        remaining_ms = _remaining_video_timeout_ms(
+            deadline,
+            stage=f"{scan_label} at {format_timestamp(second)}",
+        )
+
+        image_bytes: bytes | None = None
+        last_error: Exception | None = None
+        for attempt in range(2):
+            try:
+                _seek_video(
+                    page,
+                    float(second),
+                    timeout_ms=min(timeout_ms, 180_000, remaining_ms),
+                )
+                page.wait_for_timeout(125)
+                image_bytes = _capture_video_frame(page, video)
+                break
+            except Exception as exc:
+                if exc.__class__.__name__ == "VideoUnavailableError":
+                    raise
+                message = str(exc).lower()
+                if any(marker in message for marker in (
+                    "target page, context or browser has been closed",
+                    "browser has been closed",
+                    "page has been closed",
+                    "context has been closed",
+                )):
+                    raise
+                last_error = exc
+                if attempt == 0:
+                    print(
+                        "  Retrying frame "
+                        f"{format_timestamp(second)} after error: {exc}"
+                    )
+                    page.wait_for_timeout(500)
+
+        if image_bytes is None:
+            print(
+                "  Skipping frame "
+                f"{format_timestamp(second)} after two failures: {last_error}"
+            )
+            continue
+
+        analysis = _analyze_frame(
+            config,
+            image_bytes,
+            second,
+            bookmark,
+            mode=coarse_mode,
+        )
+        scanned += 1
+
+        if analysis.has_you_rock:
+            refined = _refine_or_use_coarse(
+                config,
+                page,
+                video,
+                analysis,
+                deadline=deadline,
+                timeout_ms=timeout_ms,
+                duration=duration,
+            )
+            print(
+                "  YOU ROCK candidate at "
+                f"{format_timestamp(refined.timestamp_seconds)}: "
+                f"{refined.name or '(name not detected)'} "
+                f"({refined.confidence:.3f})"
+            )
+            return refined
+
+        if adaptive and not fine_scan and _analysis_contains_scan_trigger(analysis):
+            fine_scan = True
+            print(
+                "  Intro/sponsor marker found at "
+                f"{format_timestamp(second)}; switching to 2-second scanning."
+            )
+
+        if analysis.has_patreon_url:
+            fine_scan = True
+            patreon_second = second
+            patreon_window_end = min(
+                max(1, int(duration) - 1),
+                second + POST_PATREON_NAME_WINDOW_SECONDS,
+            )
+            pending_key = ""
+            pending_second = None
+            pending_analysis = None
+            print(
+                "  Patreon URL found at "
+                f"{format_timestamp(second)}; checking the next "
+                f"{POST_PATREON_NAME_WINDOW_SECONDS} seconds."
+            )
+
+        in_window = (
+            patreon_second is not None
+            and patreon_window_end is not None
+            and patreon_second < second <= patreon_window_end
+        )
+        if in_window:
+            name = _parse_name_only_banner(analysis.ocr_text)
+            if name:
+                key = _name_only_key(name)
+                named = _FrameAnalysis(
+                    timestamp_seconds=analysis.timestamp_seconds,
+                    bookmark=analysis.bookmark,
+                    name=name,
+                    confidence=analysis.confidence,
+                    ocr_text=analysis.ocr_text,
+                    crop=analysis.crop,
+                    has_patreon_url=analysis.has_patreon_url,
+                    has_you_rock=False,
+                )
+
+                if (
+                    pending_analysis is not None
+                    and pending_second is not None
+                    and key == pending_key
+                    and second - pending_second <= NAME_ONLY_CONFIRM_GAP_SECONDS
+                ):
+                    confirmed = max(
+                        (pending_analysis, named),
+                        key=_analysis_score,
+                    )
+                    print(
+                        "  Name-only shout-out confirmed at "
+                        f"{format_timestamp(confirmed.timestamp_seconds)}: "
+                        f"{confirmed.name} ({confirmed.confidence:.3f})"
+                    )
+                    return confirmed
+
+                pending_key = key
+                pending_second = second
+                pending_analysis = named
+                print(
+                    "  Possible name-only shout-out at "
+                    f"{format_timestamp(second)}: {name}; "
+                    "waiting for a second frame."
+                )
+            elif (
+                pending_second is not None
+                and second - pending_second > NAME_ONLY_CONFIRM_GAP_SECONDS
+            ):
+                pending_key = ""
+                pending_second = None
+                pending_analysis = None
+
+        if scanned % 60 == 0:
+            print(f"  Scanned {scanned} {scan_label} frame(s)...")
+
+    return None
+
+
+def _refine_or_use_coarse(
+    config: ProjectConfig,
+    page: Any,
+    video: Any,
+    coarse: _FrameAnalysis,
+    *,
+    deadline: float,
+    timeout_ms: int,
+    duration: float,
+) -> _FrameAnalysis:
+    """Refine a hit when time remains, otherwise preserve the coarse hit."""
+    try:
+        return _refine_you_rock_candidate(
+            config,
+            page,
+            video,
+            coarse,
+            deadline=deadline,
+            timeout_ms=timeout_ms,
+            duration=duration,
+        )
+    except TimeoutError:
+        print(
+            "  Refinement timed out; saving the detected "
+            f"{format_timestamp(coarse.timestamp_seconds)} frame."
+        )
+        return coarse
+
+
+def _refine_you_rock_candidate(
+    config: ProjectConfig,
+    page: Any,
+    video: Any,
+    coarse: _FrameAnalysis,
+    *,
+    deadline: float,
+    timeout_ms: int,
+    duration: float,
+) -> _FrameAnalysis:
+    """Search plus or minus five seconds and keep the clearest OCR frame."""
+    candidates = [coarse]
+    start = max(
+        1,
+        coarse.timestamp_seconds - REFINE_RADIUS_SECONDS,
+    )
+    end = min(
+        max(1, int(duration) - 1),
+        coarse.timestamp_seconds + REFINE_RADIUS_SECONDS,
+    )
+
+    for second in range(start, end + 1):
+        if second == coarse.timestamp_seconds:
+            continue
+
+        remaining_ms = _remaining_video_timeout_ms(
+            deadline,
+            stage=(
+                "refining YOU ROCK near "
+                f"{format_timestamp(coarse.timestamp_seconds)}"
+            ),
+        )
+        _seek_video(
+            page,
+            float(second),
+            timeout_ms=min(timeout_ms, 30_000, remaining_ms),
+        )
+        page.wait_for_timeout(125)
+        image_bytes = _capture_video_frame(page, video)
+        analysis = _analyze_frame(
+            config,
+            image_bytes,
+            second,
+            coarse.bookmark,
+            mode="multi",
+        )
+        if analysis.has_you_rock:
+            candidates.append(analysis)
+
+    return max(candidates, key=_analysis_score)
+
+
+def _analysis_score(analysis: _FrameAnalysis) -> float:
+    return (
+        analysis.confidence
+        + (0.75 if analysis.name else 0.0)
+        + min(len(analysis.ocr_text), 120) / 1000
+    )
+
+
+def _save_match(
+    config: ProjectConfig,
+    video_id: str,
+    hit: _FrameAnalysis,
+) -> list[BookmarkMatch]:
+    config.screenshots_dir.mkdir(parents=True, exist_ok=True)
+    output_path = (
+        config.screenshots_dir
+        / f"{video_id}-{hit.timestamp_seconds}-bookmark.jpg"
+    )
+    hit.crop.save(output_path, format="JPEG", quality=92)
+
+    print(
+        "  Confirmed shout-out at "
+        f"{format_timestamp(hit.timestamp_seconds)}"
+    )
+    return [
+        BookmarkMatch(
+            timestamp_seconds=hit.timestamp_seconds,
+            bookmark_seconds=hit.bookmark.timestamp_seconds,
+            bookmark_label=hit.bookmark.label,
+            name=hit.name,
+            confidence=hit.confidence,
+            ocr_text=hit.ocr_text,
+            screenshot=output_path,
+        )
+    ]
+
+
+def _region_crops(
+    image: Image.Image,
+    config: ProjectConfig,
+    mode: str,
+) -> list[tuple[str, Image.Image]]:
+    """Return OCR regions focused on the lower-third shout-out banner."""
+    width = image.width
+    height = image.height
+    configured_top = max(
+        0,
+        min(height - 1, int(height * config.crop_top_fraction)),
+    )
+    banner_top = int(height * 0.62)
+    side_top = int(height * 0.50)
+
+    configured = image.crop(
+        (0, configured_top, width, height)
+    )
+    banner = image.crop(
+        (0, banner_top, width, height)
+    )
+    lower_left = image.crop(
+        (0, side_top, int(width * 0.72), height)
+    )
+    lower_right = image.crop(
+        (int(width * 0.28), side_top, width, height)
+    )
+
+    if mode in {"full", "banner"}:
+        return [("banner", banner)]
+    if mode == "multi":
+        return [
+            ("banner", banner),
+            ("configured", configured),
+            ("lower-left", lower_left),
+            ("lower-right", lower_right),
+        ]
+    return [
+        ("configured", configured),
+        ("banner", banner),
+    ]
+
+
+def _analyze_frame(
+    config: ProjectConfig,
+    image_bytes: bytes,
+    timestamp_seconds: int,
+    bookmark: DescriptionBookmark,
+    *,
+    mode: str = "standard",
+) -> _FrameAnalysis:
+    """OCR one or more regions and keep the best YOU ROCK reading."""
+    with Image.open(BytesIO(image_bytes)) as image:
+        image = image.convert("RGB")
+        best: _FrameAnalysis | None = None
+        best_hit: _FrameAnalysis | None = None
+
+        for _, crop in _region_crops(image, config, mode):
+            processed = _prepare_for_ocr(crop)
+            ocr_text, confidence = _ocr(processed)
+            has_you_rock = _contains_you_rock(ocr_text)
+            analysis = _FrameAnalysis(
+                timestamp_seconds=timestamp_seconds,
+                bookmark=bookmark,
+                name=(
+                    parse_name_from_ocr(ocr_text)
+                    if has_you_rock
+                    else ""
+                ),
+                confidence=confidence,
+                ocr_text=ocr_text,
+                crop=crop.copy(),
+                has_patreon_url=_contains_patreon_url(ocr_text),
+                has_you_rock=has_you_rock,
+            )
+
+            if best is None or analysis.confidence > best.confidence:
+                best = analysis
+
+            if has_you_rock:
+                if (
+                    best_hit is None
+                    or _analysis_score(analysis)
+                    > _analysis_score(best_hit)
+                ):
+                    best_hit = analysis
+                if analysis.name:
+                    break
+
+        if best_hit is not None:
+            return best_hit
+        if best is not None:
+            return best
+
+    raise RuntimeError("No OCR regions were produced for the frame.")
+
+
+def _contains_you_rock(text: str) -> bool:
+    """Detect both dashed and stacked YOU ROCK lower-third layouts.
+
+    Newer banners commonly use ``NAME - YOU ROCK``. Older banners may place
+    the name and ``YOU ROCK`` on separate lines without a visible separator.
+    Known Patreon-benefit prose is rejected explicitly.
+    """
+    rock = r"Y[O0]U\s+R[O0]C[KX](?:\s*[!1I|W]*)?"
+    lines = [
+        " ".join(raw_line.split())
+        for raw_line in text.replace("\r", "\n").splitlines()
+        if raw_line.strip()
+    ]
+    normalized = " ".join(lines)
+
+    if not re.search(rock, normalized, flags=re.IGNORECASE):
+        return False
+
+    prose_patterns = (
+        r"\bSHOW\s+THE\s+WORLD\b",
+        r"\bJUST\s+HOW\s+MUCH\b",
+        r"\bSHOW\s+EVERYONE\b",
+    )
+    if any(
+        re.search(pattern, normalized, flags=re.IGNORECASE)
+        for pattern in prose_patterns
+    ):
+        return False
+
+    separated = (
+        r"[A-Z0-9][A-Z0-9'’&+./ _-]{0,80}"
+        r"\s*[-–—:|]\s*"
+        + rock
+    )
+    if re.search(separated, normalized, flags=re.IGNORECASE):
+        return True
+
+    def plausible_name(candidate: str) -> bool:
+        candidate = re.sub(r"[^A-Z0-9'’ .-]", " ", candidate.upper())
+        candidate = re.sub(r"\s+", " ", candidate).strip(" .-|")
+        words = candidate.split()
+        if not 2 <= len(words) <= 6:
+            return False
+
+        prose_words = {
+            "SHOW",
+            "WORLD",
+            "JUST",
+            "HOW",
+            "MUCH",
+            "EVERYONE",
+        }
+        return not prose_words.intersection(words)
+
+    for index, line in enumerate(lines):
+        rock_match = re.search(rock, line, flags=re.IGNORECASE)
+        if not rock_match:
+            continue
+
+        before = line[: rock_match.start()].strip(" -–—:|")
+        if plausible_name(before):
+            return True
+
+        if index > 0 and plausible_name(lines[index - 1]):
+            return True
+
+    flattened = re.search(
+        rf"([A-Z0-9][A-Z0-9'’ .-]{{1,79}}?)\s+{rock}",
+        normalized,
+        flags=re.IGNORECASE,
+    )
+    if not flattened:
+        return False
+
+    words = flattened.group(1).split()
+    return plausible_name(" ".join(words[-6:]))
+
+
+def _contains_patreon_url(text: str) -> bool:
+    """Tolerate punctuation and common OCR spacing in the Patreon URL."""
+    normalized = text.upper().replace("0", "O")
+    compact = re.sub(r"[^A-Z0-9]+", "", normalized)
+    if "PATREON" not in compact:
+        return False
+    return (
+        "PATREONCOM" in compact
+        or "COMMANDZONE" in compact
+        or ("COMMAND" in compact and "ZONE" in compact)
+    )
+
+
+def _dedupe_hits(hits: list[_RawHit], tolerance_seconds: int) -> list[_RawHit]:
+    if not hits:
+        return []
+    ordered = sorted(hits, key=lambda hit: hit.timestamp_seconds)
+    groups: list[list[_RawHit]] = [[ordered[0]]]
+    for hit in ordered[1:]:
+        if hit.timestamp_seconds - groups[-1][-1].timestamp_seconds <= max(1, tolerance_seconds):
+            groups[-1].append(hit)
+        else:
+            groups.append([hit])
+    return [max(group, key=lambda hit: hit.score) for group in groups]

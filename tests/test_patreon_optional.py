@@ -17,4 +17,4 @@ def test_you_rock_still_moves_to_next_video_after_match():
 
     assert "moving to next video" in source
     assert "_save_match(" in source
-    assert "return bookmarks" in source
+    assert "return [], _save_match(" in source

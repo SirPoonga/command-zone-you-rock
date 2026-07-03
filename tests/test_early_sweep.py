@@ -1,48 +1,34 @@
 import inspect
-from types import SimpleNamespace
-
-from PIL import Image
 
 from yourock.bookmark_scan import (
-    _early_sweep_seconds,
-    _region_crops,
+    _full_video_scan_seconds,
     scan_description_bookmarks,
 )
 
 
-def test_early_sweep_covers_linked_example_time():
-    seconds = _early_sweep_seconds(900, 5)
+def test_full_video_scan_includes_phil_wong_timestamp_neighborhood():
+    seconds = _full_video_scan_seconds(900, 5)
+
+    assert 525 in seconds
+    assert 530 in seconds
+
+
+def test_full_video_scan_starts_at_one_minute():
+    seconds = _full_video_scan_seconds(205, 5)
 
     assert seconds[0] == 60
-    assert seconds[-1] == 480
-    assert 200 in seconds
-
-
-def test_short_video_early_sweep_stops_before_duration():
-    seconds = _early_sweep_seconds(203, 5)
-
     assert seconds[-1] == 200
-    assert all(second < 203 for second in seconds)
+    assert all(second < 205 for second in seconds)
+    assert all(second % 5 == 0 for second in seconds)
 
 
-def test_multi_region_mode_includes_old_and_modern_layouts():
-    image = Image.new("RGB", (1000, 600))
-    config = SimpleNamespace(crop_top_fraction=0.50)
-
-    regions = _region_crops(image, config, "multi")
-
-    assert [name for name, _ in regions] == [
-        "banner",
-        "configured",
-        "lower-left",
-        "lower-right",
-    ]
-
-
-def test_scan_runs_early_sweep_then_all_chapters():
+def test_scan_uses_full_video_sweep_and_stops_on_match():
     source = inspect.getsource(scan_description_bookmarks)
 
-    assert "_early_sweep_seconds" in source
-    assert "checking all" in source
-    assert "select_early_bookmarks" not in source
+    assert "_full_video_scan_seconds" in source
+    assert "full-video sweep" in source
+    assert 'coarse_mode="banner"' in source
+    assert "_save_match(" in source
     assert "moving to next video" in source
+    assert "_early_sweep_seconds" not in source
+    assert "_seconds_to_scan" not in source
