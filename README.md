@@ -201,3 +201,7 @@ YouTube may rate-limit or block requests from shared cloud-runner IP addresses. 
 ## Content note
 
 This repository stores indexes, timestamps, metadata, and optional short evidence crops. It does not archive full podcast episodes. Review YouTube’s terms and the rights holder’s policies before redistributing media or captions.
+
+## Character Resources
+
+- [Microsoft keyboard shortcuts for adding language accent marks in Word and Outlook](https://support.microsoft.com/en-us/word/keyboard-shortcuts-to-add-language-accent-marks-in-word-and-outlook) — Useful for entering accented and other non-U.S. characters.

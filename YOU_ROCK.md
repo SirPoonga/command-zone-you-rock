@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**367 verified shout-outs** across **367 episodes**.
+**395 verified shout-outs** across **395 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -2209,6 +2209,174 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=20Uuo2Q9MIs&amp;t=190s">#234 — Guilds of Ravnica Set Review l The Command Zone 234 l Magic: the Gathering Commander EDH</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=20Uuo2Q9MIs&amp;t=190s"><strong>3:10</strong></a></td>
       <td><a href="screenshots/20Uuo2Q9MIs-190-bookmark.jpg"><img src="screenshots/20Uuo2Q9MIs-190-bookmark.jpg" alt="Corey Todalen shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Samuel Fowler</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=uKiJyu3oWkE&amp;t=390s">#233 — Guilds of Ravnica Preview - Etrata, the Silencer l The Command Zone 233 l Magic the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=uKiJyu3oWkE&amp;t=390s"><strong>6:30</strong></a></td>
+      <td><a href="screenshots/uKiJyu3oWkE-390-bookmark.jpg"><img src="screenshots/uKiJyu3oWkE-390-bookmark.jpg" alt="Samuel Fowler shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Holly Reid</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=7a7U28Oh4EQ&amp;t=288s">#232 — Jimmy’s Surprise Visit l Commander Q &amp; A l The Command Zone 232 l Magic the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=7a7U28Oh4EQ&amp;t=288s"><strong>4:48</strong></a></td>
+      <td><a href="screenshots/7a7U28Oh4EQ-288-bookmark.jpg"><img src="screenshots/7a7U28Oh4EQ-288-bookmark.jpg" alt="Holly Reid shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Clint Miller</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=WVtqB-894lI&amp;t=402s">#231 — Selvala, Heart of the Wilds Deck Tech</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=WVtqB-894lI&amp;t=402s"><strong>6:42</strong></a></td>
+      <td><a href="screenshots/WVtqB-894lI-402-bookmark.jpg"><img src="screenshots/WVtqB-894lI-402-bookmark.jpg" alt="Clint Miller shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Damien Savorgino</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=6OC4L9mNCWU&amp;t=177s">#230 — Commander Format Wish List l The Command Zone 230 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=6OC4L9mNCWU&amp;t=177s"><strong>2:57</strong></a></td>
+      <td><a href="screenshots/6OC4L9mNCWU-177-bookmark.jpg"><img src="screenshots/6OC4L9mNCWU-177-bookmark.jpg" alt="Damien Savorgino shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mustafa Subroto</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=jKTSj8v7w1M&amp;t=213s">#229 — Is C18 a Failure? l The Command Zone 229 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=jKTSj8v7w1M&amp;t=213s"><strong>3:33</strong></a></td>
+      <td><a href="screenshots/jKTSj8v7w1M-213-bookmark.jpg"><img src="screenshots/jKTSj8v7w1M-213-bookmark.jpg" alt="Mustafa Subroto shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Aidan Bork</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=iKPi_-XQsW4&amp;t=279s">#228 — Varina, Lich Queen – C18 Deck Tech l The Command Zone 228 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=iKPi_-XQsW4&amp;t=279s"><strong>4:39</strong></a></td>
+      <td><a href="screenshots/iKPi_-XQsW4-279-bookmark.jpg"><img src="screenshots/iKPi_-XQsW4-279-bookmark.jpg" alt="Aidan Bork shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kevin Kubina</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=byJ3B-GOU3M&amp;t=226s">#227 — Xantcha, Sleeper Agent – C18 Deck Tech l The Command Zone 227 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=byJ3B-GOU3M&amp;t=226s"><strong>3:46</strong></a></td>
+      <td><a href="screenshots/byJ3B-GOU3M-226-bookmark.jpg"><img src="screenshots/byJ3B-GOU3M-226-bookmark.jpg" alt="Kevin Kubina shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Felipe Hirata</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=TVyZdOst3Wk&amp;t=267s">#226 — Brewing Brudiclad – C18 Deck Tech l The Command Zone 226 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=TVyZdOst3Wk&amp;t=267s"><strong>4:27</strong></a></td>
+      <td><a href="screenshots/TVyZdOst3Wk-267-bookmark.jpg"><img src="screenshots/TVyZdOst3Wk-267-bookmark.jpg" alt="Felipe Hirata shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Juan Ochoa</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=gfrT2uNVq7Y&amp;t=173s">#224 — Aminatou Esper - Commander 2018 - Subjective Reality</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=gfrT2uNVq7Y&amp;t=173s"><strong>2:53</strong></a></td>
+      <td><a href="screenshots/gfrT2uNVq7Y-173-bookmark.jpg"><img src="screenshots/gfrT2uNVq7Y-173-bookmark.jpg" alt="Juan Ochoa shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Gustavo Gandia</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ooJruaL8xIc&amp;t=237s">#223 — Adaptive Enchantments - Commander 2018 - Estrid Review l The Command Zone 223 l Magic the Gathering</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ooJruaL8xIc&amp;t=237s"><strong>3:57</strong></a></td>
+      <td><a href="screenshots/ooJruaL8xIc-237-bookmark.jpg"><img src="screenshots/ooJruaL8xIc-237-bookmark.jpg" alt="Gustavo Gandia shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ted Lander</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=K5tEx8hRZaM&amp;t=249s">#222 — Lands Matter- Commander 2018- Nature&#x27;s Vengeance</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=K5tEx8hRZaM&amp;t=249s"><strong>4:09</strong></a></td>
+      <td><a href="screenshots/K5tEx8hRZaM-249-bookmark.jpg"><img src="screenshots/K5tEx8hRZaM-249-bookmark.jpg" alt="Ted Lander shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mason Stalcup</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=-jsbFDRoqm0&amp;t=226s">#221 — Saheeli Artifacts- Commander 2018- Exquisite Invention</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=-jsbFDRoqm0&amp;t=226s"><strong>3:46</strong></a></td>
+      <td><a href="screenshots/-jsbFDRoqm0-226-bookmark.jpg"><img src="screenshots/-jsbFDRoqm0-226-bookmark.jpg" alt="Mason Stalcup shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Charles Willibey</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=_69OKoIdNb4&amp;t=127s">#220 — Commander 2018 Preview Card - Gyrus, Waker of Corpses</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=_69OKoIdNb4&amp;t=127s"><strong>2:07</strong></a></td>
+      <td><a href="screenshots/_69OKoIdNb4-127-bookmark.jpg"><img src="screenshots/_69OKoIdNb4-127-bookmark.jpg" alt="Charles Willibey shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>George Lennon</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ZdTXA1oxSSA&amp;t=220s">#219 — Chromium and the Voltron Debate</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ZdTXA1oxSSA&amp;t=220s"><strong>3:40</strong></a></td>
+      <td><a href="screenshots/ZdTXA1oxSSA-220-bookmark.jpg"><img src="screenshots/ZdTXA1oxSSA-220-bookmark.jpg" alt="George Lennon shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Duncan Saunders</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=DuB8Y8Y_0qQ&amp;t=214s">#218 — Underrated Favorites in Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=DuB8Y8Y_0qQ&amp;t=214s"><strong>3:34</strong></a></td>
+      <td><a href="screenshots/DuB8Y8Y_0qQ-214-bookmark.jpg"><img src="screenshots/DuB8Y8Y_0qQ-214-bookmark.jpg" alt="Duncan Saunders shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Lynne Laboone</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=dDVrAb_GfxU&amp;t=244s">#217 — How to Power-up Your Decks</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=dDVrAb_GfxU&amp;t=244s"><strong>4:04</strong></a></td>
+      <td><a href="screenshots/dDVrAb_GfxU-244-bookmark.jpg"><img src="screenshots/dDVrAb_GfxU-244-bookmark.jpg" alt="Lynne Laboone shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ryan Swaney</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=aswCyuYhFOg&amp;t=218s">#216 — M19 Set Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=aswCyuYhFOg&amp;t=218s"><strong>3:38</strong></a></td>
+      <td><a href="screenshots/aswCyuYhFOg-218-bookmark.jpg"><img src="screenshots/aswCyuYhFOg-218-bookmark.jpg" alt="Ryan Swaney shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ben Bingham</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=XeQlMLi6gZI&amp;t=1162s">#215 — MTG Arena +M19 Preview Card w/ Ashlen Rose</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=XeQlMLi6gZI&amp;t=1162s"><strong>19:22</strong></a></td>
+      <td><a href="screenshots/XeQlMLi6gZI-1162-bookmark.jpg"><img src="screenshots/XeQlMLi6gZI-1162-bookmark.jpg" alt="Ben Bingham shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Skyden Camfield</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=xeD35RKuRy0&amp;t=302s">#214 — Should ALL Planeswalkers Be Legal As Commanders?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=xeD35RKuRy0&amp;t=302s"><strong>5:02</strong></a></td>
+      <td><a href="screenshots/xeD35RKuRy0-302-bookmark.jpg"><img src="screenshots/xeD35RKuRy0-302-bookmark.jpg" alt="Skyden Camfield shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brian G Broderick</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=XZniK9v1Xg0&amp;t=151s">#213 — The Best Partner Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=XZniK9v1Xg0&amp;t=151s"><strong>2:31</strong></a></td>
+      <td><a href="screenshots/XZniK9v1Xg0-151-bookmark.jpg"><img src="screenshots/XZniK9v1Xg0-151-bookmark.jpg" alt="Brian G Broderick shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Lucas Neff</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=zRxGewAY-nE&amp;t=172s">#212 — Battlebond Set Review l The Command Zone 212 l Magic: the Gathering Commander/EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=zRxGewAY-nE&amp;t=172s"><strong>2:52</strong></a></td>
+      <td><a href="screenshots/zRxGewAY-nE-172-bookmark.jpg"><img src="screenshots/zRxGewAY-nE-172-bookmark.jpg" alt="Lucas Neff shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Teddy Ho</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=jotRWbaMwns&amp;t=115s">#210 — What is the Right Way to Concede in Commander?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=jotRWbaMwns&amp;t=115s"><strong>1:55</strong></a></td>
+      <td><a href="screenshots/jotRWbaMwns-115-bookmark.jpg"><img src="screenshots/jotRWbaMwns-115-bookmark.jpg" alt="Teddy Ho shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kevin Kamarchevakul</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Kmv4rkumcHg&amp;t=180s">#209 — Commander Politics: Deals &amp; Alliances</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Kmv4rkumcHg&amp;t=180s"><strong>3:00</strong></a></td>
+      <td><a href="screenshots/Kmv4rkumcHg-180-bookmark.jpg"><img src="screenshots/Kmv4rkumcHg-180-bookmark.jpg" alt="Kevin Kamarchevakul shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jonathan Welch</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=FO5MBBodrfc&amp;t=278s">#208 — Jodah Brawl Deck Tech</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=FO5MBBodrfc&amp;t=278s"><strong>4:38</strong></a></td>
+      <td><a href="screenshots/FO5MBBodrfc-278-bookmark.jpg"><img src="screenshots/FO5MBBodrfc-278-bookmark.jpg" alt="Jonathan Welch shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Eliana Ford</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=sURhDr-DTd0&amp;t=349s">#207 — Muldrotha Brawl Deck Tech l The Command Zone 207 l Magic: the Gathering Commander / EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=sURhDr-DTd0&amp;t=349s"><strong>5:49</strong></a></td>
+      <td><a href="screenshots/sURhDr-DTd0-349-bookmark.jpg"><img src="screenshots/sURhDr-DTd0-349-bookmark.jpg" alt="Eliana Ford shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kristjan Olafur</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=CZv6DkDap-M&amp;t=216s">#206 — Dominaria Set Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=CZv6DkDap-M&amp;t=216s"><strong>3:36</strong></a></td>
+      <td><a href="screenshots/CZv6DkDap-M-216-bookmark.jpg"><img src="screenshots/CZv6DkDap-M-216-bookmark.jpg" alt="Kristjan Olafur shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Daniel Grumieaux</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=IhlB1I2VLU8&amp;t=143s">#205 — How to Play Control with Jumbo Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=IhlB1I2VLU8&amp;t=143s"><strong>2:23</strong></a></td>
+      <td><a href="screenshots/IhlB1I2VLU8-143-bookmark.jpg"><img src="screenshots/IhlB1I2VLU8-143-bookmark.jpg" alt="Daniel Grumieaux shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Morten Bürger</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=_ZiWkRiM-b0&amp;t=214s">#204 — Is the Brawl Format Good? +Dominaria Preview</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=_ZiWkRiM-b0&amp;t=214s"><strong>3:34</strong></a></td>
+      <td><a href="screenshots/_ZiWkRiM-b0-214-bookmark.jpg"><img src="screenshots/_ZiWkRiM-b0-214-bookmark.jpg" alt="Morten Bürger shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Samuel Stokes</strong></td>
