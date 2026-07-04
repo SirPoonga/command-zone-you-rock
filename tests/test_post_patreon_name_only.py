@@ -16,10 +16,16 @@ def test_matching_echo_letter_removed() -> None:
     assert _parse_name_only_banner("DON KIM M") == "Don Kim"
 
 
+def test_project_planeswalker_is_valid() -> None:
+    assert _parse_name_only_banner("PROJECT PLANESWALKER") == "Project Planeswalker"
+
+
 def test_nonmatching_echo_letter_preserved() -> None:
     assert _clean_name_only_candidate("DON KIM X") == "Don Kim X"
 
 
-def test_sponsor_text_rejected() -> None:
+def test_sponsor_and_ui_text_rejected() -> None:
     assert _parse_name_only_banner("PATREON.COM/COMMANDZONE") == ""
     assert _parse_name_only_banner("ULTRA PRO") == ""
+    assert _parse_name_only_banner("READ MORE") == ""
+    assert _parse_name_only_banner("SHOW LESS") == ""

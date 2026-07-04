@@ -525,7 +525,7 @@ NAME_ONLY_CONFIRM_GAP_SECONDS = 4
 
 def _clean_name_only_candidate(value: str) -> str:
     """Normalize a name-only banner and remove a duplicated final OCR letter."""
-    cleaned = re.sub(r"[^A-Za-z0-9'’. \-]+", " ", value)
+    cleaned = re.sub(r"[^A-Za-z0-9'’. -]+", " ", value)
     cleaned = re.sub(r"\s+", " ", cleaned).strip(" .-|")
     words = cleaned.split()
 
@@ -558,14 +558,25 @@ def _parse_name_only_banner(text: str) -> str:
     if lines:
         candidates.append(" ".join(lines))
 
-    rejected_words = {
-        "BACK", "COMMAND", "COMMANDZONE", "COM", "HTTP", "HTTPS", "LESS",
-        "MORE", "PATREON", "PRO", "READ", "ROCK", "SHOW", "SPONSOR",
-        "SPONSORED", "SUPPORT", "THE", "ULTRA", "VISIT", "WWW",
-        "YOUTUBE", "YOU", "ZONE",
-    }
-    rejected_phrases = {
-        "READMORE", "SHOWLESS", "LEARNMORE", "SEELESS", "SEEMORE",
+    rejected = {
+        "COMMAND",
+        "ZONE",
+        "COMMANDZONE",
+        "PATREON",
+        "ULTRA",
+        "PRO",
+        "YOUTUBE",
+        "HTTP",
+        "HTTPS",
+        "WWW",
+        "COM",
+        "VISIT",
+        "SUPPORT",
+        "SPONSOR",
+        "SPONSORED",
+        "THE",
+        "YOU",
+        "ROCK",
     }
 
     best = ""
@@ -573,17 +584,13 @@ def _parse_name_only_banner(text: str) -> str:
 
     for candidate in candidates:
         compact = re.sub(r"[^A-Z0-9]", "", candidate.upper())
-        if not compact:
-            continue
-        if compact in rejected_phrases:
-            continue
         if any(
             value in compact
             for value in ("PATREON", "COMMANDZONE", "ULTRAPRO", "YOUTUBE")
         ):
             continue
 
-        if not re.fullmatch(r"[A-Za-z0-9'’. \-]+", candidate):
+        if not re.fullmatch(r"[A-Za-z0-9'’. -]+", candidate):
             continue
 
         words = candidate.split()
@@ -594,15 +601,20 @@ def _parse_name_only_banner(text: str) -> str:
             re.sub(r"[^A-Z0-9]", "", word.upper())
             for word in words
         }
-        if normalized_words & rejected_words:
+        if normalized_words & rejected:
             continue
 
-        letters = [character for character in candidate if character.isalpha()]
+        letters = [
+            character
+            for character in candidate
+            if character.isalpha()
+        ]
         if len(letters) < 5:
             continue
 
         uppercase_ratio = (
-            sum(character.isupper() for character in letters) / len(letters)
+            sum(character.isupper() for character in letters)
+            / len(letters)
         )
         if uppercase_ratio < 0.70:
             continue
@@ -611,14 +623,10 @@ def _parse_name_only_banner(text: str) -> str:
         if not 2 <= len(cleaned.split()) <= 5:
             continue
 
-        cleaned_words = {
-            re.sub(r"[^A-Z0-9]", "", word.upper())
-            for word in cleaned.split()
-        }
-        if cleaned_words & rejected_words:
-            continue
-
-        letter_count = sum(character.isalpha() for character in cleaned)
+        letter_count = sum(
+            character.isalpha()
+            for character in cleaned
+        )
         if letter_count > best_letters:
             best = cleaned
             best_letters = letter_count

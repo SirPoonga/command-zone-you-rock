@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**395 verified shout-outs** across **395 episodes**.
+**432 verified shout-outs** across **432 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -2377,6 +2377,228 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=_ZiWkRiM-b0&amp;t=214s">#204 — Is the Brawl Format Good? +Dominaria Preview</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=_ZiWkRiM-b0&amp;t=214s"><strong>3:34</strong></a></td>
       <td><a href="screenshots/_ZiWkRiM-b0-214-bookmark.jpg"><img src="screenshots/_ZiWkRiM-b0-214-bookmark.jpg" alt="Morten Bürger shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jeremy Grybas</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=CT1btaotMpk&amp;t=153s">#203 — Grenzo, Dungeon Warden Deck Tech</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=CT1btaotMpk&amp;t=153s"><strong>2:33</strong></a></td>
+      <td><a href="screenshots/CT1btaotMpk-153-bookmark.jpg"><img src="screenshots/CT1btaotMpk-153-bookmark.jpg" alt="Jeremy Grybas shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kyoji Takenouchi</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=VRmp665LMIU&amp;t=224s">#202 — Animar Morph Deck Tech with Vinny l The Command Zone 202</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=VRmp665LMIU&amp;t=224s"><strong>3:44</strong></a></td>
+      <td><a href="screenshots/VRmp665LMIU-224-bookmark.jpg"><img src="screenshots/VRmp665LMIU-224-bookmark.jpg" alt="Kyoji Takenouchi shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Chris Fitzgerald</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=k7FsUBnhJ4I&amp;t=199s">#201 — What is the State of the Commander Format? Commander Summit 2018 l The Command Zone 201</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=k7FsUBnhJ4I&amp;t=199s"><strong>3:19</strong></a></td>
+      <td><a href="screenshots/k7FsUBnhJ4I-199-bookmark.jpg"><img src="screenshots/k7FsUBnhJ4I-199-bookmark.jpg" alt="Chris Fitzgerald shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Drew Bradshaw</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=41AhC8VDpn0&amp;t=316s">#200 — Episode 200 Extravaganza with Over 30 Special Guests</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=41AhC8VDpn0&amp;t=316s"><strong>5:16</strong></a></td>
+      <td><a href="screenshots/41AhC8VDpn0-316-bookmark.jpg"><img src="screenshots/41AhC8VDpn0-316-bookmark.jpg" alt="Drew Bradshaw shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Tom Relf</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=0fgxmEfMWrY&amp;t=188s">#199 — Must-Have Commander Cards + Masters 25 Previews</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=0fgxmEfMWrY&amp;t=188s"><strong>3:08</strong></a></td>
+      <td><a href="screenshots/0fgxmEfMWrY-188-bookmark.jpg"><img src="screenshots/0fgxmEfMWrY-188-bookmark.jpg" alt="Tom Relf shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Wil Yausie</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=lianKU4GftE&amp;t=277s">#198 — Most Underrated Cards in Commander l The Command Zone 198</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=lianKU4GftE&amp;t=277s"><strong>4:37</strong></a></td>
+      <td><a href="screenshots/lianKU4GftE-277-bookmark.jpg"><img src="screenshots/lianKU4GftE-277-bookmark.jpg" alt="Wil Yausie shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Felicia Rolletschke</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=iGm7lgKVa1E&amp;t=211s">#197 — How Useful is the Banlist?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=iGm7lgKVa1E&amp;t=211s"><strong>3:31</strong></a></td>
+      <td><a href="screenshots/iGm7lgKVa1E-211-bookmark.jpg"><img src="screenshots/iGm7lgKVa1E-211-bookmark.jpg" alt="Felicia Rolletschke shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Nathan Ritterson</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ZNx4F2mQJUk&amp;t=157s">#196 — Top 10 Biggest Mistakes Commander Players Make</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ZNx4F2mQJUk&amp;t=157s"><strong>2:37</strong></a></td>
+      <td><a href="screenshots/ZNx4F2mQJUk-157-bookmark.jpg"><img src="screenshots/ZNx4F2mQJUk-157-bookmark.jpg" alt="Nathan Ritterson shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Caleb Tucker</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=vfMn1ASQPBs&amp;t=240s">#195 — Kumena - Best Merfolk Commander Ever?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=vfMn1ASQPBs&amp;t=240s"><strong>4:00</strong></a></td>
+      <td><a href="screenshots/vfMn1ASQPBs-240-bookmark.jpg"><img src="screenshots/vfMn1ASQPBs-240-bookmark.jpg" alt="Caleb Tucker shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Aj Alvarado</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=bzjfB6iauL0&amp;t=220s">#194 — Elenda, the Dusk Rose - Deck Tech l The Command Zone 194 l Magic the Gathering Commander EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=bzjfB6iauL0&amp;t=220s"><strong>3:40</strong></a></td>
+      <td><a href="screenshots/bzjfB6iauL0-220-bookmark.jpg"><img src="screenshots/bzjfB6iauL0-220-bookmark.jpg" alt="Aj Alvarado shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ernest De Leon</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=oxC6rfyFkMk&amp;t=161s">#193 — Rivals of Ixalan Set Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=oxC6rfyFkMk&amp;t=161s"><strong>2:41</strong></a></td>
+      <td><a href="screenshots/oxC6rfyFkMk-161-bookmark.jpg"><img src="screenshots/oxC6rfyFkMk-161-bookmark.jpg" alt="Ernest De Leon shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jacob Funderburk</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=qqpW8D9Hhoc&amp;t=202s">#192 — Rivals of Ixalan Preview &amp; Deck Tech - Zacama</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=qqpW8D9Hhoc&amp;t=202s"><strong>3:22</strong></a></td>
+      <td><a href="screenshots/qqpW8D9Hhoc-202-bookmark.jpg"><img src="screenshots/qqpW8D9Hhoc-202-bookmark.jpg" alt="Jacob Funderburk shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Daniel Moriarty</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=uA8zsRagXX4&amp;t=189s">#191 — Best of 2017 - Year in Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=uA8zsRagXX4&amp;t=189s"><strong>3:09</strong></a></td>
+      <td><a href="screenshots/uA8zsRagXX4-189-bookmark.jpg"><img src="screenshots/uA8zsRagXX4-189-bookmark.jpg" alt="Daniel Moriarty shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Matthew Miglautch</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=44jPKGC9348&amp;t=309s">#190 — Lessons from The Great War</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=44jPKGC9348&amp;t=309s"><strong>5:09</strong></a></td>
+      <td><a href="screenshots/44jPKGC9348-309-bookmark.jpg"><img src="screenshots/44jPKGC9348-309-bookmark.jpg" alt="Matthew Miglautch shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Scott Paris</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=wxaMk3LYitw&amp;t=299s">#189 — Building Around Unstable Legends</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=wxaMk3LYitw&amp;t=299s"><strong>4:59</strong></a></td>
+      <td><a href="screenshots/wxaMk3LYitw-299-bookmark.jpg"><img src="screenshots/wxaMk3LYitw-299-bookmark.jpg" alt="Scott Paris shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Garrett Burchell</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=OwR6dgeGoxg&amp;t=605s">#188 — Unstable Cards in Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=OwR6dgeGoxg&amp;t=605s"><strong>10:05</strong></a></td>
+      <td><a href="screenshots/OwR6dgeGoxg-605-bookmark.jpg"><img src="screenshots/OwR6dgeGoxg-605-bookmark.jpg" alt="Garrett Burchell shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ryan Hu</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ErdYxH6N_6I&amp;t=232s">#187 — The Most Powerful Commander Decks</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ErdYxH6N_6I&amp;t=232s"><strong>3:52</strong></a></td>
+      <td><a href="screenshots/ErdYxH6N_6I-232-bookmark.jpg"><img src="screenshots/ErdYxH6N_6I-232-bookmark.jpg" alt="Ryan Hu shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Victoria Chom</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=WtLBBe-xaZ0&amp;t=277s">#186 — Words of Wizdom</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=WtLBBe-xaZ0&amp;t=277s"><strong>4:37</strong></a></td>
+      <td><a href="screenshots/WtLBBe-xaZ0-277-bookmark.jpg"><img src="screenshots/WtLBBe-xaZ0-277-bookmark.jpg" alt="Victoria Chom shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Nicholas Booth</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=GgqLu3JewvI&amp;t=156s">#185 — My Playgroup Always Targets Me First</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=GgqLu3JewvI&amp;t=156s"><strong>2:36</strong></a></td>
+      <td><a href="screenshots/GgqLu3JewvI-156-bookmark.jpg"><img src="screenshots/GgqLu3JewvI-156-bookmark.jpg" alt="Nicholas Booth shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Dan Bucci</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=qLhGE66i-vw&amp;t=143s">#184 — Inside the Mind of Magic Artist Jesper Ejsing</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=qLhGE66i-vw&amp;t=143s"><strong>2:23</strong></a></td>
+      <td><a href="screenshots/qLhGE66i-vw-143-bookmark.jpg"><img src="screenshots/qLhGE66i-vw-143-bookmark.jpg" alt="Dan Bucci shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Israel Solis</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=82X0dB-gdb4&amp;t=197s">#183 — Threat Assessment Case Studies</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=82X0dB-gdb4&amp;t=197s"><strong>3:17</strong></a></td>
+      <td><a href="screenshots/82X0dB-gdb4-197-bookmark.jpg"><img src="screenshots/82X0dB-gdb4-197-bookmark.jpg" alt="Israel Solis shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Peter Milford</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=z9DoLwP3OhQ&amp;t=172s">#182 — Politics with The Professor!</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=z9DoLwP3OhQ&amp;t=172s"><strong>2:52</strong></a></td>
+      <td><a href="screenshots/z9DoLwP3OhQ-172-bookmark.jpg"><img src="screenshots/z9DoLwP3OhQ-172-bookmark.jpg" alt="Peter Milford shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Alec Surrett</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=M4N-dL_CeqE&amp;t=313s">#181 — The Right Way to NETDECK</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=M4N-dL_CeqE&amp;t=313s"><strong>5:13</strong></a></td>
+      <td><a href="screenshots/M4N-dL_CeqE-313-bookmark.jpg"><img src="screenshots/M4N-dL_CeqE-313-bookmark.jpg" alt="Alec Surrett shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Charles Gray</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=lkWJcUyUHX4&amp;t=186s">#180 — Most Annoying Cards in EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=lkWJcUyUHX4&amp;t=186s"><strong>3:06</strong></a></td>
+      <td><a href="screenshots/lkWJcUyUHX4-186-bookmark.jpg"><img src="screenshots/lkWJcUyUHX4-186-bookmark.jpg" alt="Charles Gray shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jesus Barajas</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=8BT0LMsvoag&amp;t=206s">#179 — Ixalan SET REVIEW for Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=8BT0LMsvoag&amp;t=206s"><strong>3:26</strong></a></td>
+      <td><a href="screenshots/8BT0LMsvoag-206-bookmark.jpg"><img src="screenshots/8BT0LMsvoag-206-bookmark.jpg" alt="Jesus Barajas shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Zac Schueler</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=obwekjqpYMQ&amp;t=263s">#178 — Ramos, Dragon Engine Deck Tech &amp; IXALAN PREVIEW</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=obwekjqpYMQ&amp;t=263s"><strong>4:23</strong></a></td>
+      <td><a href="screenshots/obwekjqpYMQ-263-bookmark.jpg"><img src="screenshots/obwekjqpYMQ-263-bookmark.jpg" alt="Zac Schueler shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Travis Drake</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=dER3XEMDt58&amp;t=385s">#176 — Is Kess, Dissident Mage the Best Commander from C17?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=dER3XEMDt58&amp;t=385s"><strong>6:25</strong></a></td>
+      <td><a href="screenshots/dER3XEMDt58-385-bookmark.jpg"><img src="screenshots/dER3XEMDt58-385-bookmark.jpg" alt="Travis Drake shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kenji Madden</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=wnqZb1WUlic&amp;t=273s">#175 — How Would A Spike Build EDGAR MARKOV?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=wnqZb1WUlic&amp;t=273s"><strong>4:33</strong></a></td>
+      <td><a href="screenshots/wnqZb1WUlic-273-bookmark.jpg"><img src="screenshots/wnqZb1WUlic-273-bookmark.jpg" alt="Kenji Madden shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Uriah Beaird</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=QN68B_bEMEw&amp;t=236s">#174 — The Best 5 Color Dragon EVER? CMDR 2017 Dragon Deck Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=QN68B_bEMEw&amp;t=236s"><strong>3:56</strong></a></td>
+      <td><a href="screenshots/QN68B_bEMEw-236-bookmark.jpg"><img src="screenshots/QN68B_bEMEw-236-bookmark.jpg" alt="Uriah Beaird shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Henry Ayala</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=n_xlEgAJMYU&amp;t=219s">#173 — Can Cat Tribal be Competitive? CMDR 2017 Cat Deck Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=n_xlEgAJMYU&amp;t=219s"><strong>3:39</strong></a></td>
+      <td><a href="screenshots/n_xlEgAJMYU-219-bookmark.jpg"><img src="screenshots/n_xlEgAJMYU-219-bookmark.jpg" alt="Henry Ayala shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Felix Thomas</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=1G4IaB0iHgw&amp;t=285s">#171 — Which Commander 2017 Deck Is the BEST?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=1G4IaB0iHgw&amp;t=285s"><strong>4:45</strong></a></td>
+      <td><a href="screenshots/1G4IaB0iHgw-285-bookmark.jpg"><img src="screenshots/1G4IaB0iHgw-285-bookmark.jpg" alt="Felix Thomas shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Audie Garver</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=sEsl4K2C-p8&amp;t=123s">#170 — COMMANDER 2017 - Boneyard Scourge &amp; Fortunate Few</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=sEsl4K2C-p8&amp;t=123s"><strong>2:03</strong></a></td>
+      <td><a href="screenshots/sEsl4K2C-p8-123-bookmark.jpg"><img src="screenshots/sEsl4K2C-p8-123-bookmark.jpg" alt="Audie Garver shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>KC Garcia</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Zqbg1R5riVk&amp;t=249s">#169 — How Many Infinite Combos Is TOO Many?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Zqbg1R5riVk&amp;t=249s"><strong>4:09</strong></a></td>
+      <td><a href="screenshots/Zqbg1R5riVk-249-bookmark.jpg"><img src="screenshots/Zqbg1R5riVk-249-bookmark.jpg" alt="KC Garcia shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Patrick Lee</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=56O8fuSaFNA&amp;t=242s">#168 — Evaluating New Mechanics: Amonkhet / Hour of Devastation</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=56O8fuSaFNA&amp;t=242s"><strong>4:02</strong></a></td>
+      <td><a href="screenshots/56O8fuSaFNA-242-bookmark.jpg"><img src="screenshots/56O8fuSaFNA-242-bookmark.jpg" alt="Patrick Lee shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Alissa Mcgill</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=NsgXHtoS-OQ&amp;t=321s">#167 — Brewing with the New Gods (Locust, Scarab, Scorpion)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=NsgXHtoS-OQ&amp;t=321s"><strong>5:21</strong></a></td>
+      <td><a href="screenshots/NsgXHtoS-OQ-321-bookmark.jpg"><img src="screenshots/NsgXHtoS-OQ-321-bookmark.jpg" alt="Alissa Mcgill shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Grant Wu</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=tV60k69sUWU&amp;t=242s">#166 — Adjusting to New Metas, LIVE at GP Vegas</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=tV60k69sUWU&amp;t=242s"><strong>4:02</strong></a></td>
+      <td><a href="screenshots/tV60k69sUWU-242-bookmark.jpg"><img src="screenshots/tV60k69sUWU-242-bookmark.jpg" alt="Grant Wu shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Joshua Candava</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=eBM_Vgw91NA&amp;t=154s">#165 — Hour of Devastation Commander SET REVIEW</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=eBM_Vgw91NA&amp;t=154s"><strong>2:34</strong></a></td>
+      <td><a href="screenshots/eBM_Vgw91NA-154-bookmark.jpg"><img src="screenshots/eBM_Vgw91NA-154-bookmark.jpg" alt="Joshua Candava shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Samuel Stokes</strong></td>
