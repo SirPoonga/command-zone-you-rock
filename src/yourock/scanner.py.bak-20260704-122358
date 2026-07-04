@@ -64,27 +64,6 @@ def _scan_description_bookmarks_with_browser_recovery(
     raise RuntimeError("Unreachable browser recovery state")
 
 
-MIN_COMMAND_ZONE_EPISODE_NUMBER = 170
-
-
-def _episode_number_int(title: str) -> int | None:
-    """Return the Command Zone episode number from a title, when present."""
-    episode_text = extract_episode_number(title)
-    if not episode_text:
-        return None
-
-    try:
-        return int(episode_text)
-    except ValueError:
-        return None
-
-
-def _should_scan_playlist_item(item: PlaylistVideo) -> bool:
-    """Only include Command Zone episodes greater than show #170."""
-    episode_number = _episode_number_int(item.title)
-    return episode_number is None or episode_number > MIN_COMMAND_ZONE_EPISODE_NUMBER
-
-
 def scan_playlist(
     config: ProjectConfig,
     *,
@@ -114,8 +93,6 @@ def scan_playlist(
 
     selected: list[PlaylistVideo] = []
     for item in playlist:
-        if not _should_scan_playlist_item(item):
-            continue
         existing = video_by_id.get(item.video_id)
         if existing is None:
             selected.append(item)
