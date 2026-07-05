@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**432 verified shout-outs** across **432 episodes**.
+**535 verified shout-outs** across **535 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -19,6 +19,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s">#750 — “Fantastic Four” Precon Upgrade Guide | Marvel Super Heroes</a><br><sub>Jun 26, 2026</sub></td>
       <td><a href="https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s"><strong>17:21</strong></a></td>
       <td><a href="screenshots/hcdAy7ne04U-1041-12981e7f.jpg"><img src="screenshots/hcdAy7ne04U-1041-12981e7f.jpg" alt="Duncan Robb shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Wordpuncher</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s">#749 — “Wakanda Forever” Precon Upgrade Guide | Marvel Super Heroes</a><br><sub>Jun 23, 2026</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s"><strong>13:40</strong></a></td>
+      <td><a href="screenshots/hqCE1M41Ro0-820-bookmark.jpg"><img src="screenshots/hqCE1M41Ro0-820-bookmark.jpg" alt="Wordpuncher shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Davy Perez</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s">#748 — Marvel Super Heroes Most Powerful New Commanders</a><br><sub>Jun 18, 2026</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s"><strong>17:20</strong></a></td>
+      <td><a href="screenshots/Z0iX5xQ0_HA-1040-bookmark.jpg"><img src="screenshots/Z0iX5xQ0_HA-1040-bookmark.jpg" alt="Davy Perez shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Campbell Walters</strong></td>
@@ -45,6 +57,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/4aGmNlEqb7o-1180-2518bc2c.jpg"><img src="screenshots/4aGmNlEqb7o-1180-2518bc2c.jpg" alt="Wes Stone shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Sideshot</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=e3qGnuupp8U&amp;t=849s">#743 — Stop Building Like Everyone Else</a><br><sub>May 19, 2026</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=e3qGnuupp8U&amp;t=849s"><strong>14:09</strong></a></td>
+      <td><a href="screenshots/e3qGnuupp8U-849-bookmark.jpg"><img src="screenshots/e3qGnuupp8U-849-bookmark.jpg" alt="Sideshot shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Brian Kendall</strong></td>
       <td><a href="https://www.youtube.com/watch?v=Ncj_HZkRXlc&amp;t=691s">#742 — We Roast Each Other&#x27;s Decks w/ Tomer (MTGGoldfish)</a><br><sub>May 13, 2026</sub></td>
       <td><a href="https://www.youtube.com/watch?v=Ncj_HZkRXlc&amp;t=691s"><strong>11:31</strong></a></td>
@@ -57,10 +75,22 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/c3F0h4um8sY-472-baac982f.jpg"><img src="screenshots/c3F0h4um8sY-472-baac982f.jpg" alt="Austin Gatzemeyer shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Jay Ewing</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Xf7p7GcDON8&amp;t=782s">#740 — Your Commander May Be The Problem</a><br><sub>May 5, 2026</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Xf7p7GcDON8&amp;t=782s"><strong>13:02</strong></a></td>
+      <td><a href="screenshots/Xf7p7GcDON8-782-bookmark.jpg"><img src="screenshots/Xf7p7GcDON8-782-bookmark.jpg" alt="Jay Ewing shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Princessariel</strong></td>
       <td><a href="https://www.youtube.com/watch?v=2OOHw-ytDy0&amp;t=940s">#739 — Secrets of Strixhaven’s Best New Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=2OOHw-ytDy0&amp;t=940s"><strong>15:40</strong></a></td>
       <td><a href="screenshots/2OOHw-ytDy0-940-bookmark.jpg"><img src="screenshots/2OOHw-ytDy0-940-bookmark.jpg" alt="Princessariel shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Tennojack</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=W1-msyO9yQQ&amp;t=574s">#738 — “Silverquill Influence” Precon Upgrade | Secrets of Strixhaven</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=W1-msyO9yQQ&amp;t=574s"><strong>9:34</strong></a></td>
+      <td><a href="screenshots/W1-msyO9yQQ-574-bookmark.jpg"><img src="screenshots/W1-msyO9yQQ-574-bookmark.jpg" alt="Tennojack shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Tony Borth</strong></td>
@@ -111,10 +141,22 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/6oS1E5BGi0U-559-bookmark.jpg"><img src="screenshots/6oS1E5BGi0U-559-bookmark.jpg" alt="Brian Praamsma shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Jared Davenport</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=8LfhhUD3lVc&amp;t=899s">#729 — The Best Commander Card from EVERY Magic Set Ever</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=8LfhhUD3lVc&amp;t=899s"><strong>14:59</strong></a></td>
+      <td><a href="screenshots/8LfhhUD3lVc-899-bookmark.jpg"><img src="screenshots/8LfhhUD3lVc-899-bookmark.jpg" alt="Jared Davenport shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>David Hurse</strong></td>
       <td><a href="https://www.youtube.com/watch?v=DbcbZmQbTm0&amp;t=984s">#728 — The TMNT Cards You Need to Know</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=DbcbZmQbTm0&amp;t=984s"><strong>16:24</strong></a></td>
       <td><a href="screenshots/DbcbZmQbTm0-984-bookmark.jpg"><img src="screenshots/DbcbZmQbTm0-984-bookmark.jpg" alt="David Hurse shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Juan Ochoa</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=lq102tK_CV8&amp;t=940s">#727 — “Turtle Power!” Full Deck Reveal + Upgrade | Teenage Mutant Ninja Turtles</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=lq102tK_CV8&amp;t=940s"><strong>15:40</strong></a></td>
+      <td><a href="screenshots/lq102tK_CV8-940-bookmark.jpg"><img src="screenshots/lq102tK_CV8-940-bookmark.jpg" alt="Juan Ochoa shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Kathleen Kennedy</strong></td>
@@ -129,6 +171,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/IBxHD3M87e8-533-bookmark.jpg"><img src="screenshots/IBxHD3M87e8-533-bookmark.jpg" alt="32bit shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Justkyle</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=fta32vuFOok&amp;t=822s">#723 — Lorwyn Eclipsed’s Best New Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=fta32vuFOok&amp;t=822s"><strong>13:42</strong></a></td>
+      <td><a href="screenshots/fta32vuFOok-822-bookmark.jpg"><img src="screenshots/fta32vuFOok-822-bookmark.jpg" alt="Justkyle shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Eddieroaddogg</strong></td>
       <td><a href="https://www.youtube.com/watch?v=DlUqF9W8E7M&amp;t=499s">#722 — “Blight Curse” Precon Upgrade | Lorwyn Eclipsed</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=DlUqF9W8E7M&amp;t=499s"><strong>8:19</strong></a></td>
@@ -139,6 +187,30 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=iqjLbIJOMlw&amp;t=1780s">#721 — Lorwyn Eclipsed’s Most Powerful New Commanders</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=iqjLbIJOMlw&amp;t=1780s"><strong>29:40</strong></a></td>
       <td><a href="screenshots/iqjLbIJOMlw-1780-bookmark.jpg"><img src="screenshots/iqjLbIJOMlw-1780-bookmark.jpg" alt="Caleb John shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Paul D Halbert</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=QjYvM7f8bIY&amp;t=657s">#720 — Don’t Ignore These Commander Red Flags</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=QjYvM7f8bIY&amp;t=657s"><strong>10:57</strong></a></td>
+      <td><a href="screenshots/QjYvM7f8bIY-657-bookmark.jpg"><img src="screenshots/QjYvM7f8bIY-657-bookmark.jpg" alt="Paul D Halbert shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Felipe Spinelli</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=pOVmxbpkp9c&amp;t=1236s">#719 — MTG in 2025 - Year in Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=pOVmxbpkp9c&amp;t=1236s"><strong>20:36</strong></a></td>
+      <td><a href="screenshots/pOVmxbpkp9c-1236-bookmark.jpg"><img src="screenshots/pOVmxbpkp9c-1236-bookmark.jpg" alt="Felipe Spinelli shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jagethemage</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=zZi5dyiStNw&amp;t=833s">#718 — This Will Change How You Play Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=zZi5dyiStNw&amp;t=833s"><strong>13:53</strong></a></td>
+      <td><a href="screenshots/zZi5dyiStNw-833-bookmark.jpg"><img src="screenshots/zZi5dyiStNw-833-bookmark.jpg" alt="Jagethemage shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jarrad Hayes-Pyne</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=QG5KDhlmFRI&amp;t=1070s">#717 — The Best Cards of 2025</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=QG5KDhlmFRI&amp;t=1070s"><strong>17:50</strong></a></td>
+      <td><a href="screenshots/QG5KDhlmFRI-1070-bookmark.jpg"><img src="screenshots/QG5KDhlmFRI-1070-bookmark.jpg" alt="Jarrad Hayes-Pyne shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Travis Morin</strong></td>
@@ -159,6 +231,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/kdsXbCeaQDU-1843-bookmark.jpg"><img src="screenshots/kdsXbCeaQDU-1843-bookmark.jpg" alt="Ryan Greene shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Daniel Hempen</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=nP3rO_7bqGI&amp;t=436s">#713 — We Rank Every Precon from 2025</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=nP3rO_7bqGI&amp;t=436s"><strong>7:16</strong></a></td>
+      <td><a href="screenshots/nP3rO_7bqGI-436-bookmark.jpg"><img src="screenshots/nP3rO_7bqGI-436-bookmark.jpg" alt="Daniel Hempen shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Brady White</strong></td>
       <td><a href="https://www.youtube.com/watch?v=JnITPj7bsmA&amp;t=841s">#712 — The Best Budget Cards in Every Color Pair</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=JnITPj7bsmA&amp;t=841s"><strong>14:01</strong></a></td>
@@ -171,10 +249,22 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/0dBH8QxdpAE-969-bookmark.jpg"><img src="screenshots/0dBH8QxdpAE-969-bookmark.jpg" alt="Kevin Bennett shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Matt Gardner</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=4SBoXXN1VCA&amp;t=883s">#710 — Avatar’s Best New Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=4SBoXXN1VCA&amp;t=883s"><strong>14:43</strong></a></td>
+      <td><a href="screenshots/4SBoXXN1VCA-883-bookmark.jpg"><img src="screenshots/4SBoXXN1VCA-883-bookmark.jpg" alt="Matt Gardner shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Caleb John</strong></td>
       <td><a href="https://www.youtube.com/watch?v=f9320Lqo4eI&amp;t=969s">#709 — Avatar’s Most Powerful New Commanders</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=f9320Lqo4eI&amp;t=969s"><strong>16:09</strong></a></td>
       <td><a href="screenshots/f9320Lqo4eI-969-bookmark.jpg"><img src="screenshots/f9320Lqo4eI-969-bookmark.jpg" alt="Caleb John shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Steven Rosenberg</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=MnS91-08rO0&amp;t=852s">#708 — We Like The Hybrid Change, Actually</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=MnS91-08rO0&amp;t=852s"><strong>14:12</strong></a></td>
+      <td><a href="screenshots/MnS91-08rO0-852-bookmark.jpg"><img src="screenshots/MnS91-08rO0-852-bookmark.jpg" alt="Steven Rosenberg shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Lissa Metzler</strong></td>
@@ -183,10 +273,34 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/DxIomU_20bc-435-bookmark.jpg"><img src="screenshots/DxIomU_20bc-435-bookmark.jpg" alt="Lissa Metzler shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Elaine And Darrell</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=5kDU67RVIhY&amp;t=881s">#706 — Pro Level Commander Advice from Actual Pros</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=5kDU67RVIhY&amp;t=881s"><strong>14:41</strong></a></td>
+      <td><a href="screenshots/5kDU67RVIhY-881-bookmark.jpg"><img src="screenshots/5kDU67RVIhY-881-bookmark.jpg" alt="Elaine And Darrell shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Michael Flesh</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Q6gZ3OHqTcc&amp;t=336s">#703 — We Draft the Best Game Changers</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Q6gZ3OHqTcc&amp;t=336s"><strong>5:36</strong></a></td>
+      <td><a href="screenshots/Q6gZ3OHqTcc-336-bookmark.jpg"><img src="screenshots/Q6gZ3OHqTcc-336-bookmark.jpg" alt="Michael Flesh shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Torrence Pfatenhauer</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=hHrjnIpiU74&amp;t=844s">#702 — What are we even doing?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=hHrjnIpiU74&amp;t=844s"><strong>14:04</strong></a></td>
+      <td><a href="screenshots/hHrjnIpiU74-844-bookmark.jpg"><img src="screenshots/hHrjnIpiU74-844-bookmark.jpg" alt="Torrence Pfatenhauer shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Jordan Travers</strong></td>
       <td><a href="https://www.youtube.com/watch?v=Nu8bL0cCLkA&amp;t=1631s">#701 — Our Favorite NEW Decks</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=Nu8bL0cCLkA&amp;t=1631s"><strong>27:11</strong></a></td>
       <td><a href="screenshots/Nu8bL0cCLkA-1631-bookmark.jpg"><img src="screenshots/Nu8bL0cCLkA-1631-bookmark.jpg" alt="Jordan Travers shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Noah Boes</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ZTw7phD0_Mc&amp;t=842s">#700 — The Complete Guide to Mass Disruption</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ZTw7phD0_Mc&amp;t=842s"><strong>14:02</strong></a></td>
+      <td><a href="screenshots/ZTw7phD0_Mc-842-bookmark.jpg"><img src="screenshots/ZTw7phD0_Mc-842-bookmark.jpg" alt="Noah Boes shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Brian Miller</strong></td>
@@ -195,16 +309,58 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/agL2LV596Kc-1048-bookmark.jpg"><img src="screenshots/agL2LV596Kc-1048-bookmark.jpg" alt="Brian Miller shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Ty Schalter</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=KMYOoWD3UN4&amp;t=1244s">#698 — Spider-Man’s Best Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=KMYOoWD3UN4&amp;t=1244s"><strong>20:44</strong></a></td>
+      <td><a href="screenshots/KMYOoWD3UN4-1244-bookmark.jpg"><img src="screenshots/KMYOoWD3UN4-1244-bookmark.jpg" alt="Ty Schalter shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Fenris Wolf</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=TXHP1X6mN9k&amp;t=1570s">#697 — Spider-Man’s Most Powerful Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=TXHP1X6mN9k&amp;t=1570s"><strong>26:10</strong></a></td>
+      <td><a href="screenshots/TXHP1X6mN9k-1570-bookmark.jpg"><img src="screenshots/TXHP1X6mN9k-1570-bookmark.jpg" alt="Fenris Wolf shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Rick Price</strong></td>
       <td><a href="https://www.youtube.com/watch?v=aLNJ9JEWFaw&amp;t=587s">#696 — BROKEN NEWS: New Spider-Man Villain ALWAYS has Blue Mana Open</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=aLNJ9JEWFaw&amp;t=587s"><strong>9:47</strong></a></td>
       <td><a href="screenshots/aLNJ9JEWFaw-587-bookmark.jpg"><img src="screenshots/aLNJ9JEWFaw-587-bookmark.jpg" alt="Rick Price shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Greg Wilson</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ARaFN9tFTGA&amp;t=1024s">#695 — JLK’s Personal Commander Decks</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ARaFN9tFTGA&amp;t=1024s"><strong>17:04</strong></a></td>
+      <td><a href="screenshots/ARaFN9tFTGA-1024-bookmark.jpg"><img src="screenshots/ARaFN9tFTGA-1024-bookmark.jpg" alt="Greg Wilson shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Marc Ross</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=mfZ58jxjqds&amp;t=907s">#694 — The Best Commander in All 32 Color Combos</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=mfZ58jxjqds&amp;t=907s"><strong>15:07</strong></a></td>
+      <td><a href="screenshots/mfZ58jxjqds-907-bookmark.jpg"><img src="screenshots/mfZ58jxjqds-907-bookmark.jpg" alt="Marc Ross shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Danielle Citron</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=hue9ZWRMaYo&amp;t=747s">#692 — How to BEAT Green Decks w/ Brian Kibler</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=hue9ZWRMaYo&amp;t=747s"><strong>12:27</strong></a></td>
+      <td><a href="screenshots/hue9ZWRMaYo-747-bookmark.jpg"><img src="screenshots/hue9ZWRMaYo-747-bookmark.jpg" alt="Danielle Citron shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Jade Eyes</strong></td>
       <td><a href="https://www.youtube.com/watch?v=I6kd3ggg81w&amp;t=542s">#690 — When Your Deck is Too Good (But Also Too Bad)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=I6kd3ggg81w&amp;t=542s"><strong>9:02</strong></a></td>
       <td><a href="screenshots/I6kd3ggg81w-542-bookmark.jpg"><img src="screenshots/I6kd3ggg81w-542-bookmark.jpg" alt="Jade Eyes shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ethan Mollick</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=0M_l2efjTys&amp;t=594s">#689 — 10 Disruption Spells You Should Buy for $10</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=0M_l2efjTys&amp;t=594s"><strong>9:54</strong></a></td>
+      <td><a href="screenshots/0M_l2efjTys-594-bookmark.jpg"><img src="screenshots/0M_l2efjTys-594-bookmark.jpg" alt="Ethan Mollick shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Derek Blodgett</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=eMmY2at6oL8&amp;t=1105s">#688 — Edge of Eternities’s Best Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=eMmY2at6oL8&amp;t=1105s"><strong>18:25</strong></a></td>
+      <td><a href="screenshots/eMmY2at6oL8-1105-bookmark.jpg"><img src="screenshots/eMmY2at6oL8-1105-bookmark.jpg" alt="Derek Blodgett shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Clem Healy</strong></td>
@@ -217,6 +373,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=0xOXEYmbDnk&amp;t=476s">#686 — “Counter Intelligence” Precon Upgrade | Edge of Eternities</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=0xOXEYmbDnk&amp;t=476s"><strong>7:56</strong></a></td>
       <td><a href="screenshots/0xOXEYmbDnk-476-bookmark.jpg"><img src="screenshots/0xOXEYmbDnk-476-bookmark.jpg" alt="Drago Duncan shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Leon Foret IV</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=HxXLWC_JRdM&amp;t=543s">#685 — “World Shaper” Full Deck Reveal &amp; Upgrade | Edge of Eternities</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=HxXLWC_JRdM&amp;t=543s"><strong>9:03</strong></a></td>
+      <td><a href="screenshots/HxXLWC_JRdM-543-bookmark.jpg"><img src="screenshots/HxXLWC_JRdM-543-bookmark.jpg" alt="Leon Foret IV shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>John Libid</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=3qeyIICCcqQ&amp;t=821s">#684 — You&#x27;re Doing Commander Politics Wrong</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=3qeyIICCcqQ&amp;t=821s"><strong>13:41</strong></a></td>
+      <td><a href="screenshots/3qeyIICCcqQ-821-bookmark.jpg"><img src="screenshots/3qeyIICCcqQ-821-bookmark.jpg" alt="John Libid shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Jonathan Stier</strong></td>
@@ -241,6 +409,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=v3qeDhgVakw&amp;t=790s">#680 — Final Fantasy’s Most Iconic Commanders</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=v3qeDhgVakw&amp;t=790s"><strong>13:10</strong></a></td>
       <td><a href="screenshots/v3qeDhgVakw-790-bookmark.jpg"><img src="screenshots/v3qeDhgVakw-790-bookmark.jpg" alt="Timothy Maher shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Rachelle Kanippayoor</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=tLncdhJj5jw&amp;t=821s">#679 — The Best Final Fantasy Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=tLncdhJj5jw&amp;t=821s"><strong>13:41</strong></a></td>
+      <td><a href="screenshots/tLncdhJj5jw-821-bookmark.jpg"><img src="screenshots/tLncdhJj5jw-821-bookmark.jpg" alt="Rachelle Kanippayoor shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Stuart Hodge</strong></td>
@@ -333,6 +507,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/L1d7uUR02kg-288-bookmark.jpg"><img src="screenshots/L1d7uUR02kg-288-bookmark.jpg" alt="Mooniwallace shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Spoticus</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=e-P3IO_aAhI&amp;t=283s">#663 — “Jeskai Striker” Full Deck Reveal &amp; Upgrade | Tarkir: Dragonstorm</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=e-P3IO_aAhI&amp;t=283s"><strong>4:43</strong></a></td>
+      <td><a href="screenshots/e-P3IO_aAhI-283-bookmark.jpg"><img src="screenshots/e-P3IO_aAhI-283-bookmark.jpg" alt="Spoticus shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Jake Therault</strong></td>
       <td><a href="https://www.youtube.com/watch?v=0mB6NqCZSnc&amp;t=278s">#662 — The Complete Guide to Cutting Cards</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=0mB6NqCZSnc&amp;t=278s"><strong>4:38</strong></a></td>
@@ -357,10 +537,40 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/PUrQpnQ7bi8-326-bookmark.jpg"><img src="screenshots/PUrQpnQ7bi8-326-bookmark.jpg" alt="Jacob Breithaupt shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Corrina Poole</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=OSNV6224cHg&amp;t=304s">#658 — Commander Deckbuilding Template for the New Era</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=OSNV6224cHg&amp;t=304s"><strong>5:04</strong></a></td>
+      <td><a href="screenshots/OSNV6224cHg-304-bookmark.jpg"><img src="screenshots/OSNV6224cHg-304-bookmark.jpg" alt="Corrina Poole shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Nathan Pond</strong></td>
       <td><a href="https://www.youtube.com/watch?v=P1GFbX_7Iok&amp;t=309s">#657 — Will [Brackets] Solve The Power Level Problem?</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=P1GFbX_7Iok&amp;t=309s"><strong>5:09</strong></a></td>
       <td><a href="screenshots/P1GFbX_7Iok-309-bookmark.jpg"><img src="screenshots/P1GFbX_7Iok-309-bookmark.jpg" alt="Nathan Pond shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kael Brown</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Yh0MkQcaPS0&amp;t=277s">#656 — Aetherdrift’s Best Cards (In the 99)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Yh0MkQcaPS0&amp;t=277s"><strong>4:37</strong></a></td>
+      <td><a href="screenshots/Yh0MkQcaPS0-277-bookmark.jpg"><img src="screenshots/Yh0MkQcaPS0-277-bookmark.jpg" alt="Kael Brown shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Wes Mangum</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=KLn9enP4owU&amp;t=264s">#655 — The Most Powerful Commanders in Aetherdrift</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=KLn9enP4owU&amp;t=264s"><strong>4:24</strong></a></td>
+      <td><a href="screenshots/KLn9enP4owU-264-bookmark.jpg"><img src="screenshots/KLn9enP4owU-264-bookmark.jpg" alt="Wes Mangum shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Andrew Smeragliuolo</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=8J9lOe-NhZg&amp;t=304s">#654 — “Eternal Might” Precon Upgrade | Aetherdrift</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=8J9lOe-NhZg&amp;t=304s"><strong>5:04</strong></a></td>
+      <td><a href="screenshots/8J9lOe-NhZg-304-bookmark.jpg"><img src="screenshots/8J9lOe-NhZg-304-bookmark.jpg" alt="Andrew Smeragliuolo shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Nova Cat</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=km1f1W0Tl6k&amp;t=306s">#653 — “Living Energy” Full Deck Reveal &amp; Upgrade | Aetherdrift</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=km1f1W0Tl6k&amp;t=306s"><strong>5:06</strong></a></td>
+      <td><a href="screenshots/km1f1W0Tl6k-306-bookmark.jpg"><img src="screenshots/km1f1W0Tl6k-306-bookmark.jpg" alt="Nova Cat shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Max Tannenbaum</strong></td>
@@ -1131,6 +1341,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/AgsbvCiFnvg-229-bookmark.jpg"><img src="screenshots/AgsbvCiFnvg-229-bookmark.jpg" alt="Alec Mcphillips shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Travis Walters</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ztAt03EG140&amp;t=202s">#522 — “Divine Convocation” Precon Reveal - March of the Machine</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ztAt03EG140&amp;t=202s"><strong>3:22</strong></a></td>
+      <td><a href="screenshots/ztAt03EG140-202-bookmark.jpg"><img src="screenshots/ztAt03EG140-202-bookmark.jpg" alt="Travis Walters shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Samantha Burbank</strong></td>
       <td><a href="https://www.youtube.com/watch?v=ShTFssyDRio&amp;t=278s">#521 — Rules Magic Players Keep Getting Wrong</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=ShTFssyDRio&amp;t=278s"><strong>4:38</strong></a></td>
@@ -1153,6 +1369,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=BTsMQiKb8jA&amp;t=249s">#518 — Commander Staples That Aren’t Worth the Price</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=BTsMQiKb8jA&amp;t=249s"><strong>4:09</strong></a></td>
       <td><a href="screenshots/BTsMQiKb8jA-249-bookmark.jpg"><img src="screenshots/BTsMQiKb8jA-249-bookmark.jpg" alt="Adam Shepherd shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Aaron Kozub</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=iSfD_dI9SQc&amp;t=269s">#517 — Bad Magic Cards (We Play Them Anyway)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=iSfD_dI9SQc&amp;t=269s"><strong>4:29</strong></a></td>
+      <td><a href="screenshots/iSfD_dI9SQc-269-bookmark.jpg"><img src="screenshots/iSfD_dI9SQc-269-bookmark.jpg" alt="Aaron Kozub shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Kayla Nordstrom</strong></td>
@@ -1189,6 +1411,36 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=21ExoXSsFvU&amp;t=215s">#511 — “Corrupting Influence” Budget Upgrade Guide - Phyrexia: All Will Be One</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=21ExoXSsFvU&amp;t=215s"><strong>3:35</strong></a></td>
       <td><a href="screenshots/21ExoXSsFvU-215-bookmark.jpg"><img src="screenshots/21ExoXSsFvU-215-bookmark.jpg" alt="Stuart King shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Stephen Wagner</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=NFR6GxUuKqI&amp;t=277s">#510 — “Rebellion Rising” Budget Upgrade Guide - Phyrexia: All Will Be One</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=NFR6GxUuKqI&amp;t=277s"><strong>4:37</strong></a></td>
+      <td><a href="screenshots/NFR6GxUuKqI-277-bookmark.jpg"><img src="screenshots/NFR6GxUuKqI-277-bookmark.jpg" alt="Stephen Wagner shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Kody Blatt</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=YreZouGlA4I&amp;t=193s">#509 — “Corrupting Influence” Full Deck Reveal - All Will Be One</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=YreZouGlA4I&amp;t=193s"><strong>3:13</strong></a></td>
+      <td><a href="screenshots/YreZouGlA4I-193-bookmark.jpg"><img src="screenshots/YreZouGlA4I-193-bookmark.jpg" alt="Kody Blatt shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mitch Walker</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=kM3nZS_hd4o&amp;t=287s">#508 — Good Cards We Don’t Play</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=kM3nZS_hd4o&amp;t=287s"><strong>4:47</strong></a></td>
+      <td><a href="screenshots/kM3nZS_hd4o-287-bookmark.jpg"><img src="screenshots/kM3nZS_hd4o-287-bookmark.jpg" alt="Mitch Walker shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Eric Hanna</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=20Csgb67ylE&amp;t=201s">#507 — Commander Bad Habits You Need to Quit</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=20Csgb67ylE&amp;t=201s"><strong>3:21</strong></a></td>
+      <td><a href="screenshots/20Csgb67ylE-201-bookmark.jpg"><img src="screenshots/20Csgb67ylE-201-bookmark.jpg" alt="Eric Hanna shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Tyler Owens</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=u0AqnI-arFM&amp;t=236s">#506 — MTG in 2022 - Year In Review</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=u0AqnI-arFM&amp;t=236s"><strong>3:56</strong></a></td>
+      <td><a href="screenshots/u0AqnI-arFM-236-bookmark.jpg"><img src="screenshots/u0AqnI-arFM-236-bookmark.jpg" alt="Tyler Owens shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Alvaro Gutierrez</strong></td>
@@ -1233,10 +1485,46 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/DTRoxd-RS-8-191-bookmark.jpg"><img src="screenshots/DTRoxd-RS-8-191-bookmark.jpg" alt="David Petracca shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Andrew Calhoun</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=6rSkge558Ts&amp;t=283s">#498 — “Mishra’s Burnished Banner” Budget Upgrade Guide - Brothers War</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=6rSkge558Ts&amp;t=283s"><strong>4:43</strong></a></td>
+      <td><a href="screenshots/6rSkge558Ts-283-bookmark.jpg"><img src="screenshots/6rSkge558Ts-283-bookmark.jpg" alt="Andrew Calhoun shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>David Petracca</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=NICPkDlAXio&amp;t=141s">#497 — “Urza’s Iron Alliance” Budget Upgrade Guide - Brothers War</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=NICPkDlAXio&amp;t=141s"><strong>2:21</strong></a></td>
+      <td><a href="screenshots/NICPkDlAXio-141-bookmark.jpg"><img src="screenshots/NICPkDlAXio-141-bookmark.jpg" alt="David Petracca shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Robby Sarson</strong></td>
       <td><a href="https://www.youtube.com/watch?v=1zoGTCrQmuk&amp;t=246s">#496 — Our Favorite Unfinity Cards</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=1zoGTCrQmuk&amp;t=246s"><strong>4:06</strong></a></td>
       <td><a href="screenshots/1zoGTCrQmuk-246-bookmark.jpg"><img src="screenshots/1zoGTCrQmuk-246-bookmark.jpg" alt="Robby Sarson shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Robbie Stricklin</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=PHm-egAUuwo&amp;t=261s">#495 — The Best Cards from Warhammer 40K</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=PHm-egAUuwo&amp;t=261s"><strong>4:21</strong></a></td>
+      <td><a href="screenshots/PHm-egAUuwo-261-bookmark.jpg"><img src="screenshots/PHm-egAUuwo-261-bookmark.jpg" alt="Robbie Stricklin shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ricardo Pila</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=EqPqp8TyHnA&amp;t=352s">#494 — “Tyranid Swarm” Budget Upgrade Guide - Warhammer 40K</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=EqPqp8TyHnA&amp;t=352s"><strong>5:52</strong></a></td>
+      <td><a href="screenshots/EqPqp8TyHnA-352-bookmark.jpg"><img src="screenshots/EqPqp8TyHnA-352-bookmark.jpg" alt="Ricardo Pila shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Joel Quinn</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=oWlnFBs0p7k&amp;t=179s">#492 — “The Ruinous Powers” Budget Upgrade Guide - Warhammer 40K</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=oWlnFBs0p7k&amp;t=179s"><strong>2:59</strong></a></td>
+      <td><a href="screenshots/oWlnFBs0p7k-179-bookmark.jpg"><img src="screenshots/oWlnFBs0p7k-179-bookmark.jpg" alt="Joel Quinn shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Nich Grayson</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=KZaENTo8viA&amp;t=216s">#491 — “Necron Dynasties” Budget Upgrade Guide - Warhammer 40K</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=KZaENTo8viA&amp;t=216s"><strong>3:36</strong></a></td>
+      <td><a href="screenshots/KZaENTo8viA-216-bookmark.jpg"><img src="screenshots/KZaENTo8viA-216-bookmark.jpg" alt="Nich Grayson shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Keon Warren</strong></td>
@@ -1245,10 +1533,52 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/l-W7AvbhufQ-179-bookmark.jpg"><img src="screenshots/l-W7AvbhufQ-179-bookmark.jpg" alt="Keon Warren shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Wes Seigler</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=XXIY8pH-NyE&amp;t=251s">#489 — Cards That Matter - Dominaria United - In the 99 Analysis</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=XXIY8pH-NyE&amp;t=251s"><strong>4:11</strong></a></td>
+      <td><a href="screenshots/XXIY8pH-NyE-251-bookmark.jpg"><img src="screenshots/XXIY8pH-NyE-251-bookmark.jpg" alt="Wes Seigler shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Shane Swope</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=3TCgV7c2si0&amp;t=141s">#488 — Box Topper Lost Legends Review (Part 2) Dominaria United</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=3TCgV7c2si0&amp;t=141s"><strong>2:21</strong></a></td>
+      <td><a href="screenshots/3TCgV7c2si0-141-bookmark.jpg"><img src="screenshots/3TCgV7c2si0-141-bookmark.jpg" alt="Shane Swope shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Noah Pickens</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=g2UWu8lKU5k&amp;t=311s">#487 — “Necron Dynasties” Full Deck Reveal - Warhammer 40K</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=g2UWu8lKU5k&amp;t=311s"><strong>5:11</strong></a></td>
+      <td><a href="screenshots/g2UWu8lKU5k-311-bookmark.jpg"><img src="screenshots/g2UWu8lKU5k-311-bookmark.jpg" alt="Noah Pickens shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Scott Mandarano</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=JD6znIigKJ4&amp;t=236s">#486 — Box Topper Lost Legends Review (Part 1) Dominaria United</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=JD6znIigKJ4&amp;t=236s"><strong>3:56</strong></a></td>
+      <td><a href="screenshots/JD6znIigKJ4-236-bookmark.jpg"><img src="screenshots/JD6znIigKJ4-236-bookmark.jpg" alt="Scott Mandarano shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Marc Ross</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=JR8tsyLRPoo&amp;t=271s">#485 — “Painbow” Budget Precon Upgrade Guide - Dominaria United</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=JR8tsyLRPoo&amp;t=271s"><strong>4:31</strong></a></td>
+      <td><a href="screenshots/JR8tsyLRPoo-271-bookmark.jpg"><img src="screenshots/JR8tsyLRPoo-271-bookmark.jpg" alt="Marc Ross shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Grant Mason</strong></td>
       <td><a href="https://www.youtube.com/watch?v=GVezVQMYDi4&amp;t=262s">#484 — Dominaria United - Best Multi-colored Commanders (Part 2)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=GVezVQMYDi4&amp;t=262s"><strong>4:22</strong></a></td>
       <td><a href="screenshots/GVezVQMYDi4-262-bookmark.jpg"><img src="screenshots/GVezVQMYDi4-262-bookmark.jpg" alt="Grant Mason shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jonathan Ebert</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=u7AnyFlDSPo&amp;t=373s">#483 — Dominaria United - Best Multicolored Commanders (Part 1)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=u7AnyFlDSPo&amp;t=373s"><strong>6:13</strong></a></td>
+      <td><a href="screenshots/u7AnyFlDSPo-373-bookmark.jpg"><img src="screenshots/u7AnyFlDSPo-373-bookmark.jpg" alt="Jonathan Ebert shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Sean Brown</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=30DePFcGU9g&amp;t=277s">#482 — “Legends’ Legacy” Budget Precon Upgrade Guide - Dominaria United</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=30DePFcGU9g&amp;t=277s"><strong>4:37</strong></a></td>
+      <td><a href="screenshots/30DePFcGU9g-277-bookmark.jpg"><img src="screenshots/30DePFcGU9g-277-bookmark.jpg" alt="Sean Brown shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Kyle Deyette</strong></td>
@@ -1263,10 +1593,34 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/y6vfTRAs63o-148-bookmark.jpg"><img src="screenshots/y6vfTRAs63o-148-bookmark.jpg" alt="Karac Rooney II shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Kristen North</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=z5XQcnQf2ks&amp;t=179s">#479 — Good Cards That Make Us Salty</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=z5XQcnQf2ks&amp;t=179s"><strong>2:59</strong></a></td>
+      <td><a href="screenshots/z5XQcnQf2ks-179-bookmark.jpg"><img src="screenshots/z5XQcnQf2ks-179-bookmark.jpg" alt="Kristen North shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Devin Tuck</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=-nDOElrvgR8&amp;t=317s">#478 — &quot;Must Have&quot; Cards For Your Commander Collection</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=-nDOElrvgR8&amp;t=317s"><strong>5:17</strong></a></td>
+      <td><a href="screenshots/-nDOElrvgR8-317-bookmark.jpg"><img src="screenshots/-nDOElrvgR8-317-bookmark.jpg" alt="Devin Tuck shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mark Michaud</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=TYmHbqObgo8&amp;t=281s">#477 — The Best 1-Drops in Commander (besides Sol Ring)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=TYmHbqObgo8&amp;t=281s"><strong>4:41</strong></a></td>
+      <td><a href="screenshots/TYmHbqObgo8-281-bookmark.jpg"><img src="screenshots/TYmHbqObgo8-281-bookmark.jpg" alt="Mark Michaud shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Christopher Walker</strong></td>
       <td><a href="https://www.youtube.com/watch?v=WmBnjwW_mtU&amp;t=286s">#476 — Is 2X2 the Highest Value Reprint Set Ever?!?!</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=WmBnjwW_mtU&amp;t=286s"><strong>4:46</strong></a></td>
       <td><a href="screenshots/WmBnjwW_mtU-286-bookmark.jpg"><img src="screenshots/WmBnjwW_mtU-286-bookmark.jpg" alt="Christopher Walker shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ricardo Cruz</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=SjNaPdvbPQE&amp;t=307s">#475 — The Most Obscure &amp; Underrated Cards</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=SjNaPdvbPQE&amp;t=307s"><strong>5:07</strong></a></td>
+      <td><a href="screenshots/SjNaPdvbPQE-307-bookmark.jpg"><img src="screenshots/SjNaPdvbPQE-307-bookmark.jpg" alt="Ricardo Cruz shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Alex Rouse</strong></td>
@@ -1275,16 +1629,46 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/czSzF8FBzlg-148-bookmark.jpg"><img src="screenshots/czSzF8FBzlg-148-bookmark.jpg" alt="Alex Rouse shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Christopher T Shepard</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=dwoKpq1hMtU&amp;t=176s">#473 — In the 99 Analysis - Baldur’s Gate</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=dwoKpq1hMtU&amp;t=176s"><strong>2:56</strong></a></td>
+      <td><a href="screenshots/dwoKpq1hMtU-176-bookmark.jpg"><img src="screenshots/dwoKpq1hMtU-176-bookmark.jpg" alt="Christopher T Shepard shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Alex Shaw</strong></td>
       <td><a href="https://www.youtube.com/watch?v=advSNUKAVbM&amp;t=188s">#471 — “Mind Flayarrrrs” Budget Upgrade Guide - Baldur’s Gate</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=advSNUKAVbM&amp;t=188s"><strong>3:08</strong></a></td>
       <td><a href="screenshots/advSNUKAVbM-188-bookmark.jpg"><img src="screenshots/advSNUKAVbM-188-bookmark.jpg" alt="Alex Shaw shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Scott Chilson</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=J1DnIDv5Gts&amp;t=167s">#469 — &quot;Exit From Exile Budget&quot; Budget Upgrade Guide - Baldur’s Gate</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=J1DnIDv5Gts&amp;t=167s"><strong>2:47</strong></a></td>
+      <td><a href="screenshots/J1DnIDv5Gts-167-bookmark.jpg"><img src="screenshots/J1DnIDv5Gts-167-bookmark.jpg" alt="Scott Chilson shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Chris Tabberer</strong></td>
       <td><a href="https://www.youtube.com/watch?v=8UkleX_mZMM&amp;t=208s">#468 — Baldur&#x27;s Gate - Best Multicolored Commanders (Pt2)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=8UkleX_mZMM&amp;t=208s"><strong>3:28</strong></a></td>
       <td><a href="screenshots/8UkleX_mZMM-208-bookmark.jpg"><img src="screenshots/8UkleX_mZMM-208-bookmark.jpg" alt="Chris Tabberer shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Heather Lipsius</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=pgvR_RlGmNQ&amp;t=237s">#467 — “Party Time” Full Deck Reveal - Baldur&#x27;s Gate</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=pgvR_RlGmNQ&amp;t=237s"><strong>3:57</strong></a></td>
+      <td><a href="screenshots/pgvR_RlGmNQ-237-bookmark.jpg"><img src="screenshots/pgvR_RlGmNQ-237-bookmark.jpg" alt="Heather Lipsius shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Wreck Deck</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=9xaOajblmsc&amp;t=165s">#466 — Baldur&#x27;s Gate - Best Multicolored Commanders (Pt1)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=9xaOajblmsc&amp;t=165s"><strong>2:45</strong></a></td>
+      <td><a href="screenshots/9xaOajblmsc-165-bookmark.jpg"><img src="screenshots/9xaOajblmsc-165-bookmark.jpg" alt="Wreck Deck shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Noah Pickens</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=B6CTZTywzbo&amp;t=230s">#465 — How to Organize Your Magic Card Collection</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=B6CTZTywzbo&amp;t=230s"><strong>3:50</strong></a></td>
+      <td><a href="screenshots/B6CTZTywzbo-230-bookmark.jpg"><img src="screenshots/B6CTZTywzbo-230-bookmark.jpg" alt="Noah Pickens shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Bobby Bickford</strong></td>
@@ -1299,6 +1683,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/Ogh52RYCUm0-179-bookmark.jpg"><img src="screenshots/Ogh52RYCUm0-179-bookmark.jpg" alt="Tyler Wigley shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Bryant Whitney</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=HNceyx4L0Lc&amp;t=243s">#461 — In the 99 Analysis - New Capenna</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=HNceyx4L0Lc&amp;t=243s"><strong>4:03</strong></a></td>
+      <td><a href="screenshots/HNceyx4L0Lc-243-bookmark.jpg"><img src="screenshots/HNceyx4L0Lc-243-bookmark.jpg" alt="Bryant Whitney shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Lauri Lannetta</strong></td>
       <td><a href="https://www.youtube.com/watch?v=ga2JC8uFl7o&amp;t=153s">#460 — “Bedecked Brokers” Budget Upgrade Guide - New Capenna</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=ga2JC8uFl7o&amp;t=153s"><strong>2:33</strong></a></td>
@@ -1311,16 +1701,58 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/yWqmMTiTAi8-305-bookmark.jpg"><img src="screenshots/yWqmMTiTAi8-305-bookmark.jpg" alt="Jeremy Dennis shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Zac Derenne</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=mCPn7j15oUY&amp;t=256s">#456 — “Maestros Massacre” Budget Upgrade Guide - New Capenna</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=mCPn7j15oUY&amp;t=256s"><strong>4:16</strong></a></td>
+      <td><a href="screenshots/mCPn7j15oUY-256-bookmark.jpg"><img src="screenshots/mCPn7j15oUY-256-bookmark.jpg" alt="Zac Derenne shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Greg Taylor</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Hg7nFiDNeHs&amp;t=266s">#455 — The Ultimate Guide to Lands</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Hg7nFiDNeHs&amp;t=266s"><strong>4:26</strong></a></td>
+      <td><a href="screenshots/Hg7nFiDNeHs-266-bookmark.jpg"><img src="screenshots/Hg7nFiDNeHs-266-bookmark.jpg" alt="Greg Taylor shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Christopher Lamb</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=RGdYUoQXnn8&amp;t=194s">#454 — Cards We Keep Trying To Crack</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=RGdYUoQXnn8&amp;t=194s"><strong>3:14</strong></a></td>
+      <td><a href="screenshots/RGdYUoQXnn8-194-bookmark.jpg"><img src="screenshots/RGdYUoQXnn8-194-bookmark.jpg" alt="Christopher Lamb shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Broderick Hanson</strong></td>
       <td><a href="https://www.youtube.com/watch?v=LB6HotI0ntI&amp;t=391s">#453 — Advanced Deckbuilding: Mastering Your Mana Curve</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=LB6HotI0ntI&amp;t=391s"><strong>6:31</strong></a></td>
       <td><a href="screenshots/LB6HotI0ntI-391-bookmark.jpg"><img src="screenshots/LB6HotI0ntI-391-bookmark.jpg" alt="Broderick Hanson shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>David Urias</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=GoFgsybYKdc&amp;t=323s">#452 — How To Get Into Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=GoFgsybYKdc&amp;t=323s"><strong>5:23</strong></a></td>
+      <td><a href="screenshots/GoFgsybYKdc-323-bookmark.jpg"><img src="screenshots/GoFgsybYKdc-323-bookmark.jpg" alt="David Urias shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Barry Ohnmeiss</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=DykU-eK7bz8&amp;t=295s">#451 — Our Biggest Commander Level-Up Moments</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=DykU-eK7bz8&amp;t=295s"><strong>4:55</strong></a></td>
+      <td><a href="screenshots/DykU-eK7bz8-295-bookmark.jpg"><img src="screenshots/DykU-eK7bz8-295-bookmark.jpg" alt="Barry Ohnmeiss shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>AJ Adams</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=5mCh6QKH6-Y&amp;t=192s">#430 — &quot;Vampiric Bloodline&quot; Full Deck Reveal - Crimson Vow</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=5mCh6QKH6-Y&amp;t=192s"><strong>3:12</strong></a></td>
+      <td><a href="screenshots/5mCh6QKH6-Y-192-bookmark.jpg"><img src="screenshots/5mCh6QKH6-Y-192-bookmark.jpg" alt="AJ Adams shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Joseph Slade</strong></td>
       <td><a href="https://www.youtube.com/watch?v=AvmMur5Lni8&amp;t=274s">#428 — Commander Politics: Dealing with Dealers</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=AvmMur5Lni8&amp;t=274s"><strong>4:34</strong></a></td>
       <td><a href="screenshots/AvmMur5Lni8-274-bookmark.jpg"><img src="screenshots/AvmMur5Lni8-274-bookmark.jpg" alt="Joseph Slade shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>David Axford</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=6BpqARm8zZI&amp;t=314s">#426 — Decks We Built...But Hated</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=6BpqARm8zZI&amp;t=314s"><strong>5:14</strong></a></td>
+      <td><a href="screenshots/6BpqARm8zZI-314-bookmark.jpg"><img src="screenshots/6BpqARm8zZI-314-bookmark.jpg" alt="David Axford shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Elias Schenk</strong></td>
@@ -1341,6 +1773,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/AhOQeftJ0_g-246-bookmark.jpg"><img src="screenshots/AhOQeftJ0_g-246-bookmark.jpg" alt="Jacob Smith shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Kelvin Avery</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Da3cUsqxvks&amp;t=110s">#419 — The Most Cutthroat Cards in Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Da3cUsqxvks&amp;t=110s"><strong>1:50</strong></a></td>
+      <td><a href="screenshots/Da3cUsqxvks-110-bookmark.jpg"><img src="screenshots/Da3cUsqxvks-110-bookmark.jpg" alt="Kelvin Avery shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Sebastien Bond</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=oDpjyGdxsJA&amp;t=123s">#418 — How to Have More FUN in Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=oDpjyGdxsJA&amp;t=123s"><strong>2:03</strong></a></td>
+      <td><a href="screenshots/oDpjyGdxsJA-123-bookmark.jpg"><img src="screenshots/oDpjyGdxsJA-123-bookmark.jpg" alt="Sebastien Bond shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Max Lunden</strong></td>
       <td><a href="https://www.youtube.com/watch?v=HEKZOcV3bKU&amp;t=145s">#417 — Upgrade Your Interaction</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=HEKZOcV3bKU&amp;t=145s"><strong>2:25</strong></a></td>
@@ -1359,6 +1803,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/hyZmrhgjIlc-109-bookmark.jpg"><img src="screenshots/hyZmrhgjIlc-109-bookmark.jpg" alt="Jacob Heckman shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Curt Mcclure</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=blqiTJG2Img&amp;t=134s">#414 — Bant Equipment - Budget Precon Upgrade Guide - AFC</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=blqiTJG2Img&amp;t=134s"><strong>2:14</strong></a></td>
+      <td><a href="screenshots/blqiTJG2Img-134-bookmark.jpg"><img src="screenshots/blqiTJG2Img-134-bookmark.jpg" alt="Curt Mcclure shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Danny Montgomery</strong></td>
       <td><a href="https://www.youtube.com/watch?v=vL7-jRXICFE&amp;t=206s">#413 — AFR - Green, Multicolored &amp; Colorless Review</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=vL7-jRXICFE&amp;t=206s"><strong>3:26</strong></a></td>
@@ -1375,6 +1825,48 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=LSuPBKZoVAQ&amp;t=194s">#411 — AFR - Red &amp; Blue Review - Forgotten Realms</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=LSuPBKZoVAQ&amp;t=194s"><strong>3:14</strong></a></td>
       <td><a href="screenshots/LSuPBKZoVAQ-194-bookmark.jpg"><img src="screenshots/LSuPBKZoVAQ-194-bookmark.jpg" alt="Jonathan Steinman shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Jonathan Phousirith</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=C1BWlypcPa4&amp;t=337s">#410 — Rakdos Treasures - Budget Precon Upgrade Guide - AFC</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=C1BWlypcPa4&amp;t=337s"><strong>5:37</strong></a></td>
+      <td><a href="screenshots/C1BWlypcPa4-337-bookmark.jpg"><img src="screenshots/C1BWlypcPa4-337-bookmark.jpg" alt="Jonathan Phousirith shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Roxanne Rasco</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=xOW7tUftC4o&amp;t=272s">#409 — Forgotten Realms - Best New Mono Colored Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=xOW7tUftC4o&amp;t=272s"><strong>4:32</strong></a></td>
+      <td><a href="screenshots/xOW7tUftC4o-272-bookmark.jpg"><img src="screenshots/xOW7tUftC4o-272-bookmark.jpg" alt="Roxanne Rasco shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Sam Otterbourg</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=qZR83W0ruFI&amp;t=253s">#408 — Gruul Dragons Budget Precon Upgrade Guide - AFC</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=qZR83W0ruFI&amp;t=253s"><strong>4:13</strong></a></td>
+      <td><a href="screenshots/qZR83W0ruFI-253-bookmark.jpg"><img src="screenshots/qZR83W0ruFI-253-bookmark.jpg" alt="Sam Otterbourg shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Luis Magana</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Rxngk4FZcI8&amp;t=211s">#407 — Esper Dungeons Precon Budget Upgrade Guide - AFC</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Rxngk4FZcI8&amp;t=211s"><strong>3:31</strong></a></td>
+      <td><a href="screenshots/Rxngk4FZcI8-211-bookmark.jpg"><img src="screenshots/Rxngk4FZcI8-211-bookmark.jpg" alt="Luis Magana shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mike Lopez</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=qLRkVvg2a-Y&amp;t=195s">#406 — Bant Equipment Full Deck Reveal - Forgotten Realms</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=qLRkVvg2a-Y&amp;t=195s"><strong>3:15</strong></a></td>
+      <td><a href="screenshots/qLRkVvg2a-Y-195-bookmark.jpg"><img src="screenshots/qLRkVvg2a-Y-195-bookmark.jpg" alt="Mike Lopez shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Andreas Máni</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=oX3VTbifVic&amp;t=257s">#405 — Forgotten Realms - Best New Multicolored Commanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=oX3VTbifVic&amp;t=257s"><strong>4:17</strong></a></td>
+      <td><a href="screenshots/oX3VTbifVic-257-bookmark.jpg"><img src="screenshots/oX3VTbifVic-257-bookmark.jpg" alt="Andreas Máni shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Dhruv Seth</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=w7aC6TQSE8E&amp;t=117s">#404 — The Best Game Enders in Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=w7aC6TQSE8E&amp;t=117s"><strong>1:57</strong></a></td>
+      <td><a href="screenshots/w7aC6TQSE8E-117-bookmark.jpg"><img src="screenshots/w7aC6TQSE8E-117-bookmark.jpg" alt="Dhruv Seth shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Tristan Sprowls</strong></td>
@@ -1407,6 +1899,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/KwrSB085FSw-278-bookmark.jpg"><img src="screenshots/KwrSB085FSw-278-bookmark.jpg" alt="Paul Tracey shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Oskar Modig</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=FT4IROaDnGk&amp;t=263s">#397 — C21 New Commander Deep Dive (Part One)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=FT4IROaDnGk&amp;t=263s"><strong>4:23</strong></a></td>
+      <td><a href="screenshots/FT4IROaDnGk-263-bookmark.jpg"><img src="screenshots/FT4IROaDnGk-263-bookmark.jpg" alt="Oskar Modig shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Kelsea Smothers</strong></td>
       <td><a href="https://www.youtube.com/watch?v=P1O9h5vsLmY&amp;t=136s">#396 — C21 New Card Analysis (Part Two)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=P1O9h5vsLmY&amp;t=136s"><strong>2:16</strong></a></td>
@@ -1423,6 +1921,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=2TF9wQvOzCI&amp;t=169s">#394 — Witherbloom Precon - Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=2TF9wQvOzCI&amp;t=169s"><strong>2:49</strong></a></td>
       <td><a href="screenshots/2TF9wQvOzCI-169-bookmark.jpg"><img src="screenshots/2TF9wQvOzCI-169-bookmark.jpg" alt="Erick Martinez shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Ervine Gates</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=q0chC-yoQ4E&amp;t=135s">#393 — Strixhaven Set Review (Part Two)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=q0chC-yoQ4E&amp;t=135s"><strong>2:15</strong></a></td>
+      <td><a href="screenshots/q0chC-yoQ4E-135-bookmark.jpg"><img src="screenshots/q0chC-yoQ4E-135-bookmark.jpg" alt="Ervine Gates shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Tyler Cadden</strong></td>
@@ -1449,6 +1953,24 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/rWaKrL5pSqA-287-bookmark.jpg"><img src="screenshots/rWaKrL5pSqA-287-bookmark.jpg" alt="Luis Magana shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Kody Blatt</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=rv7O1xMNCvs&amp;t=157s">#387 — Strixhaven MDFCommanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=rv7O1xMNCvs&amp;t=157s"><strong>2:37</strong></a></td>
+      <td><a href="screenshots/rv7O1xMNCvs-157-bookmark.jpg"><img src="screenshots/rv7O1xMNCvs-157-bookmark.jpg" alt="Kody Blatt shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Andrew Whalon</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=hdyRJsTQfTk&amp;t=177s">#386 — Prismari Precon - Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=hdyRJsTQfTk&amp;t=177s"><strong>2:57</strong></a></td>
+      <td><a href="screenshots/hdyRJsTQfTk-177-bookmark.jpg"><img src="screenshots/hdyRJsTQfTk-177-bookmark.jpg" alt="Andrew Whalon shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brandon Swiss</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ipS8qV-qiCU&amp;t=148s">#385 — Lorehold Precon Full Deck Reveal Strixhaven</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ipS8qV-qiCU&amp;t=148s"><strong>2:28</strong></a></td>
+      <td><a href="screenshots/ipS8qV-qiCU-148-bookmark.jpg"><img src="screenshots/ipS8qV-qiCU-148-bookmark.jpg" alt="Brandon Swiss shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Kristen North</strong></td>
       <td><a href="https://www.youtube.com/watch?v=TvNxaEtpxF4&amp;t=170s">#384 — Strixhaven Preview Card - Tempted by the Oriq</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=TvNxaEtpxF4&amp;t=170s"><strong>2:50</strong></a></td>
@@ -1459,6 +1981,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=BN3-OJgW_mc&amp;t=247s">#383 — The Most Powerful Synergies in Commander</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=BN3-OJgW_mc&amp;t=247s"><strong>4:07</strong></a></td>
       <td><a href="screenshots/BN3-OJgW_mc-247-bookmark.jpg"><img src="screenshots/BN3-OJgW_mc-247-bookmark.jpg" alt="Kevin Smith shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brandon Swiss</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=ZrYvJqAuM-k&amp;t=330s">#382 — The Art of the Board Wipe</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=ZrYvJqAuM-k&amp;t=330s"><strong>5:30</strong></a></td>
+      <td><a href="screenshots/ZrYvJqAuM-k-330-bookmark.jpg"><img src="screenshots/ZrYvJqAuM-k-330-bookmark.jpg" alt="Brandon Swiss shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Mick Bergeron</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=3K9PEeLG_6M&amp;t=118s">#379 — The NEW Commander Deck Building Template</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=3K9PEeLG_6M&amp;t=118s"><strong>1:58</strong></a></td>
+      <td><a href="screenshots/3K9PEeLG_6M-118-bookmark.jpg"><img src="screenshots/3K9PEeLG_6M-118-bookmark.jpg" alt="Mick Bergeron shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Tim Langermann</strong></td>
@@ -1485,10 +2019,34 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/cv4bMZd6e2w-211-bookmark.jpg"><img src="screenshots/cv4bMZd6e2w-211-bookmark.jpg" alt="Josh Garza shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Jeff Mobley</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=VCr6GstBLpk&amp;t=291s">#374 — Kaldheim MDFCommanders</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=VCr6GstBLpk&amp;t=291s"><strong>4:51</strong></a></td>
+      <td><a href="screenshots/VCr6GstBLpk-291-bookmark.jpg"><img src="screenshots/VCr6GstBLpk-291-bookmark.jpg" alt="Jeff Mobley shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Nick Genovese</strong></td>
       <td><a href="https://www.youtube.com/watch?v=iqV6Ytnzn4c&amp;t=264s">#373 — Life Lessons Learned from Commander</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=iqV6Ytnzn4c&amp;t=264s"><strong>4:24</strong></a></td>
       <td><a href="screenshots/iqV6Ytnzn4c-264-bookmark.jpg"><img src="screenshots/iqV6Ytnzn4c-264-bookmark.jpg" alt="Nick Genovese shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brendon Nguyen</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=_W4a25ty1Ao&amp;t=252s">#372 — Introduction to Commander Deck Building</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=_W4a25ty1Ao&amp;t=252s"><strong>4:12</strong></a></td>
+      <td><a href="screenshots/_W4a25ty1Ao-252-bookmark.jpg"><img src="screenshots/_W4a25ty1Ao-252-bookmark.jpg" alt="Brendon Nguyen shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Hayden Steele</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=VGWVgEfEpSQ&amp;t=235s">#371 — Was the &quot;Year of Commander&quot; a Success?</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=VGWVgEfEpSQ&amp;t=235s"><strong>3:55</strong></a></td>
+      <td><a href="screenshots/VGWVgEfEpSQ-235-bookmark.jpg"><img src="screenshots/VGWVgEfEpSQ-235-bookmark.jpg" alt="Hayden Steele shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Seth Hellenbrand</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=OmZPZOB4-_U&amp;t=241s">#370 — Commander Legends - New Card Analysis (Part 2)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=OmZPZOB4-_U&amp;t=241s"><strong>4:01</strong></a></td>
+      <td><a href="screenshots/OmZPZOB4-_U-241-bookmark.jpg"><img src="screenshots/OmZPZOB4-_U-241-bookmark.jpg" alt="Seth Hellenbrand shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Paul Dyson</strong></td>
@@ -1509,6 +2067,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/cYRom4Yex6w-216-bookmark.jpg"><img src="screenshots/cYRom4Yex6w-216-bookmark.jpg" alt="Nick Campbell shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Elijah McGill</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Q2XZ369bRkk&amp;t=220s">#366 — Green Partner Review - Commander Legends</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Q2XZ369bRkk&amp;t=220s"><strong>3:40</strong></a></td>
+      <td><a href="screenshots/Q2XZ369bRkk-220-bookmark.jpg"><img src="screenshots/Q2XZ369bRkk-220-bookmark.jpg" alt="Elijah McGill shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Spencer Cubberly</strong></td>
       <td><a href="https://www.youtube.com/watch?v=ndBshxnDIC4&amp;t=156s">#365 — Simic Landfall &quot;Reap the Tides&quot; Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=ndBshxnDIC4&amp;t=156s"><strong>2:36</strong></a></td>
@@ -1519,6 +2083,18 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=uu6Bdv_aIrs&amp;t=231s">#364 — Boros Equipment &quot;Arm for Battle&quot; Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=uu6Bdv_aIrs&amp;t=231s"><strong>3:51</strong></a></td>
       <td><a href="screenshots/uu6Bdv_aIrs-231-bookmark.jpg"><img src="screenshots/uu6Bdv_aIrs-231-bookmark.jpg" alt="Taisha Garcia shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Logan Hamm</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=XtZLq8TEmEU&amp;t=192s">#363 — White Partner Review - Commander Legends</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=XtZLq8TEmEU&amp;t=192s"><strong>3:12</strong></a></td>
+      <td><a href="screenshots/XtZLq8TEmEU-192-bookmark.jpg"><img src="screenshots/XtZLq8TEmEU-192-bookmark.jpg" alt="Logan Hamm shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Isaiah Kahler</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=xSovYJURG40&amp;t=241s">#362 — Red Partner Review - Commander Legends</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=xSovYJURG40&amp;t=241s"><strong>4:01</strong></a></td>
+      <td><a href="screenshots/xSovYJURG40-241-bookmark.jpg"><img src="screenshots/xSovYJURG40-241-bookmark.jpg" alt="Isaiah Kahler shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Robert Negrete</strong></td>
@@ -1539,6 +2115,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/4_8Y_hxCADw-269-bookmark.jpg"><img src="screenshots/4_8Y_hxCADw-269-bookmark.jpg" alt="Verita Raizel shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Dakota Collins</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=BSAWf0rLe3s&amp;t=289s">#358 — Decks Everyone Should Build (At Least Once)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=BSAWf0rLe3s&amp;t=289s"><strong>4:49</strong></a></td>
+      <td><a href="screenshots/BSAWf0rLe3s-289-bookmark.jpg"><img src="screenshots/BSAWf0rLe3s-289-bookmark.jpg" alt="Dakota Collins shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Brett Merkes</strong></td>
       <td><a href="https://www.youtube.com/watch?v=Yc_clSPaPyA&amp;t=228s">#357 — Commander Legends Preview Card(s)</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=Yc_clSPaPyA&amp;t=228s"><strong>3:48</strong></a></td>
@@ -1549,6 +2131,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=-NWmnh19toU&amp;t=175s">#356 — Halloween Hot Takes</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=-NWmnh19toU&amp;t=175s"><strong>2:55</strong></a></td>
       <td><a href="screenshots/-NWmnh19toU-175-bookmark.jpg"><img src="screenshots/-NWmnh19toU-175-bookmark.jpg" alt="Daniel Jarabah shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Joe Greenwood</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=0Z9qaRJFuVA&amp;t=244s">#355 — Cards That Aren&#x27;t Good Enough (Anymore)</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=0Z9qaRJFuVA&amp;t=244s"><strong>4:04</strong></a></td>
+      <td><a href="screenshots/0Z9qaRJFuVA-244-bookmark.jpg"><img src="screenshots/0Z9qaRJFuVA-244-bookmark.jpg" alt="Joe Greenwood shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>August Undin</strong></td>
@@ -1585,6 +2173,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=rEVzq9BFAVI&amp;t=261s">#349 — Rogue Tribal &quot;Sneak Attack&quot; Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=rEVzq9BFAVI&amp;t=261s"><strong>4:21</strong></a></td>
       <td><a href="screenshots/rEVzq9BFAVI-261-bookmark.jpg"><img src="screenshots/rEVzq9BFAVI-261-bookmark.jpg" alt="Jonas Turner shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Simon Wellsted</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=SpQ6sGkWTcA&amp;t=289s">#348 — Naya Landfall &quot;Land&#x27;s Wrath&quot; Budget Upgrade Guide</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=SpQ6sGkWTcA&amp;t=289s"><strong>4:49</strong></a></td>
+      <td><a href="screenshots/SpQ6sGkWTcA-289-bookmark.jpg"><img src="screenshots/SpQ6sGkWTcA-289-bookmark.jpg" alt="Simon Wellsted shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Andreas Máni</strong></td>
@@ -1759,6 +2353,24 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=TZ9sg25tiW0&amp;t=180s">#317 — Ikoria Preview Card - Valiant Rescuer</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=TZ9sg25tiW0&amp;t=180s"><strong>3:00</strong></a></td>
       <td><a href="screenshots/TZ9sg25tiW0-180-bookmark.jpg"><img src="screenshots/TZ9sg25tiW0-180-bookmark.jpg" alt="Sean Gao shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Lewis Haller</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=sA2ibLn2H1g&amp;t=189s">#316 — The Most Fun Commanders to Play Against</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=sA2ibLn2H1g&amp;t=189s"><strong>3:09</strong></a></td>
+      <td><a href="screenshots/sA2ibLn2H1g-189-bookmark.jpg"><img src="screenshots/sA2ibLn2H1g-189-bookmark.jpg" alt="Lewis Haller shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Gwen Wolf</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=pnRVojgNVmk&amp;t=198s">#315 — The Worst Commanders to Play Against I The Command Zone 315 Magic: the Gathering Commander / EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=pnRVojgNVmk&amp;t=198s"><strong>3:18</strong></a></td>
+      <td><a href="screenshots/pnRVojgNVmk-198-bookmark.jpg"><img src="screenshots/pnRVojgNVmk-198-bookmark.jpg" alt="Gwen Wolf shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Tyler Stankiewicz</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=_PVlG0XcSz0&amp;t=197s">#314 — Proxies, Reprints  and Politics Gone Wrong I The Command Zone 314 I Magic: the Gathering Commander</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=_PVlG0XcSz0&amp;t=197s"><strong>3:17</strong></a></td>
+      <td><a href="screenshots/_PVlG0XcSz0-197-bookmark.jpg"><img src="screenshots/_PVlG0XcSz0-197-bookmark.jpg" alt="Tyler Stankiewicz shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Peter Vays</strong></td>
@@ -2041,6 +2653,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=KD7odddh-ik&amp;t=248s">#266 — Commander Variants with LoadingReadyRun l The Command Zone 266 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
       <td><a href="https://www.youtube.com/watch?v=KD7odddh-ik&amp;t=248s"><strong>4:08</strong></a></td>
       <td><a href="screenshots/KD7odddh-ik-248-bookmark.jpg"><img src="screenshots/KD7odddh-ik-248-bookmark.jpg" alt="Gabbi Thompson shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Darin Leslie</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=6lODt4BP3Qo&amp;t=201s">#265 — Ultimate Guide to Planeswalkers in Commander l The Command Zone 265 l Magic: the Gathering EDH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=6lODt4BP3Qo&amp;t=201s"><strong>3:21</strong></a></td>
+      <td><a href="screenshots/6lODt4BP3Qo-201-bookmark.jpg"><img src="screenshots/6lODt4BP3Qo-201-bookmark.jpg" alt="Darin Leslie shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Shea Ridgeway</strong></td>

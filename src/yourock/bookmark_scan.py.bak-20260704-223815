@@ -642,12 +642,7 @@ def _scan_entries_for_match(
     scan_label: str,
     coarse_mode: str,
 ) -> _FrameAnalysis | None:
-    """Find a YOU ROCK banner or a post-Patreon name-only scroll.
-
-    Coarse mode scans every 10 seconds and only looks for YOU ROCK or a
-    Patreon URL. Once Patreon is found, the scan switches to the configured
-    fine interval, usually 2 seconds, and checks the short shout-out window.
-    """
+    """Find a YOU ROCK banner or a post-Patreon name-only scroll."""
     adaptive = scan_label in {"full-video sweep", "early-show sweep"}
     fine_scan = not adaptive
     anchor = entries[0][0] if entries else 0
@@ -721,7 +716,6 @@ def _scan_entries_for_match(
             bookmark,
             mode=coarse_mode,
         )
-        image_bytes = None
         scanned += 1
 
         if analysis.has_you_rock:
@@ -742,8 +736,14 @@ def _scan_entries_for_match(
             )
             return refined
 
+        if adaptive and not fine_scan and _analysis_contains_scan_trigger(analysis):
+            fine_scan = True
+            print(
+                "  Intro/sponsor marker found at "
+                f"{format_timestamp(second)}; switching to 2-second scanning."
+            )
+
         if analysis.has_patreon_url:
-            first_patreon_frame = patreon_second is None
             fine_scan = True
             patreon_second = second
             patreon_window_end = min(
@@ -753,19 +753,18 @@ def _scan_entries_for_match(
             pending_key = ""
             pending_second = None
             pending_analysis = None
+            print(
+                "  Patreon URL found at "
+                f"{format_timestamp(second)}; checking the next "
+                f"{POST_PATREON_NAME_WINDOW_SECONDS} seconds."
+            )
 
-            if first_patreon_frame:
-                print(
-                    "  Patreon URL found at "
-                    f"{format_timestamp(second)}; switching to 2-second scanning "
-                    "and checking the shout-out window."
-                )
-
-        if (
+        in_window = (
             patreon_second is not None
             and patreon_window_end is not None
             and patreon_second < second <= patreon_window_end
-        ):
+        )
+        if in_window:
             name = _parse_name_only_banner(analysis.ocr_text)
             if name:
                 key = _name_only_key(name)
@@ -814,13 +813,7 @@ def _scan_entries_for_match(
                 pending_analysis = None
 
         if scanned % 60 == 0:
-            if fine_scan:
-                print(f"  Scanned {scanned} {scan_label} frame(s)...")
-            else:
-                print(
-                    f"  Scanned {scanned} coarse {scan_label} frame(s) "
-                    "(10-second cadence)..."
-                )
+            print(f"  Scanned {scanned} {scan_label} frame(s)...")
 
     return None
 
