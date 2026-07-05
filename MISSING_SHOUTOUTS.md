@@ -1,6 +1,6 @@
 # Missing Shout-Outs
 
-Generated: 2026-07-05 13:19:29
+Generated: 2026-07-05 16:52:49
 
 This file lists Command Zone videos that do not currently have a non-rejected row in `data/shoutouts.csv`.
 
@@ -17,7 +17,7 @@ This file lists Command Zone videos that do not currently have a non-rejected ro
 - Active research queue, episode 165+: 20
 - Unknown episode rows: 1
 - Permanent skip, episode <=164: 123
-- Newly marked permanent skip: 123
+- Newly marked permanent skip: 0
 
 ## Active Research Queue: Episode 165+
 
