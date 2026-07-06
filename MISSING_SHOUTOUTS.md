@@ -1,6 +1,6 @@
 # Missing Shout-Outs
 
-Generated: 2026-07-05 16:52:49
+Generated: 2026-07-05 18:50:56
 
 This file lists Command Zone videos that do not currently have a non-rejected row in `data/shoutouts.csv`.
 
@@ -13,38 +13,36 @@ This file lists Command Zone videos that do not currently have a non-rejected ro
 ## Summary
 
 - Videos tracked: 680
-- Videos with non-rejected shoutouts: 535
-- Active research queue, episode 165+: 20
+- Videos with non-rejected shoutouts: 537
+- Active research queue, episode 165+: 18
 - Unknown episode rows: 1
 - Permanent skip, episode <=164: 123
 - Newly marked permanent skip: 0
 
 ## Active Research Queue: Episode 165+
 
-Count: **20**
+Count: **18**
 
 | Episode | Status | Video | Title |
 |---:|---|---|---|
-| 725 | complete | [IKCpeIyvQg8](https://youtu.be/IKCpeIyvQg8) | Teenage Mutant Ninja Turtles is Here Already?! \| The Command Zone 725 \| MTG EDH Magic Gathering |
-| 705 | complete | [l-fyZMOHJsU](https://youtu.be/l-fyZMOHJsU) | The New, NEW Commander Brackets \| The Command Zone 705 \| MTG EDH Magic Gathering |
-| 704 | complete | [OkkOanLxLNA](https://youtu.be/OkkOanLxLNA) | The 10 Best Colorless Cards for just $10 \| The Command Zone 704 \| MTG EDH Magic Gathering |
-| 693 | complete | [Xm3e_f6XzV8](https://youtu.be/Xm3e_f6XzV8) | 10 Utility Lands You Should Buy for $10 \| The Command Zone 693 \| MTG EDH Magic Gathering |
-| 691 | complete | [qtML-Alod6A](https://youtu.be/qtML-Alod6A) | Why Commander SUCKS Sometimes \| The Command Zone 691 \| MTG EDH Magic Gathering |
-| 642 | complete | [QtWyOJHUiFU](https://youtu.be/QtWyOJHUiFU) | Magic has changed A LOT since 1994 \| The Command Zone 642 \| MTG EDH Magic Gathering |
-| 470 | complete | [SM53VYUivkY](https://youtu.be/SM53VYUivkY) | Background Breakdown - Baldur’s Gate \| The Command Zone 470 \| Magic EDH |
-| 458 | complete | [UN-5T_RiS70](https://youtu.be/UN-5T_RiS70) | New Capenna - Best New Multicolored Commanders  \| The Command Zone 458 \| Magic: The Gathering EDH |
-| 429 | complete | [jH-0XjETyMM](https://youtu.be/jH-0XjETyMM) | Crimson Vow - Best Multi-Colored Commanders \| The Command Zone 429 \| Magic: The Gathering EDH |
-| 427 | complete | [fF3g-CKtGkI](https://youtu.be/fF3g-CKtGkI) | Stranger Things - New Commander Breakdown \| The Command Zone 427 \| Magic: The Gathering Commander |
-| 400 | complete | [eaNjXcAqCAY](https://youtu.be/eaNjXcAqCAY) | How to Play Commander \| The Command Zone 400 \| Magic: The Gathering EDH |
-| 381 | complete | [GXxCMvhnVcg](https://youtu.be/GXxCMvhnVcg) | How Did We Get Here? \| Our Origin Stories \| The Command Zone 381 \| Magic Gathering Commander EDH |
-| 380 | complete | [sm6ySaTpBJc](https://youtu.be/sm6ySaTpBJc) | Time Spiral Remastered Preview Cards \| The Command Zone 380 \| Magic: The Gathering Commander |
-| 347 | complete | [EkE_Hyyxhoc](https://youtu.be/EkE_Hyyxhoc) | ROGUE TRIBAL "Sneak Attack" ZNR Full Deck Reveal \| The Command Zone 347 \| Magic The Gathering |
-| 334 | complete | [k70ZbiSC44w](https://youtu.be/k70ZbiSC44w) | Major Rules Change - Commander Dies Triggers \| The Command Zone 334 \| Magic: The Gathering |
-| 260 | complete | [UVaNLeXjraw](https://youtu.be/UVaNLeXjraw) | How to Reach Mythic in Arena l The Command Zone 260 l Magic: the Gathering EDH |
-| 257 | complete | [7ccfmSeCpR8](https://youtu.be/7ccfmSeCpR8) | Biggest Gameplay Mistakes (That Cost You Wins) l The Command Zone 257 l Magic: the Gathering EDH |
-| 225 | complete | [LOoUZdMptZg](https://youtu.be/LOoUZdMptZg) | C18: Best New Cards \| The Command Zone 225 \| Magic: the Gathering Commander/EDH Podcast |
-| 211 | complete | [kib6r2olta4](https://youtu.be/kib6r2olta4) | Shadowborn Apostle Deck Tech +Battlebond Previews \| The Command Zone 211 \| Magic the Gathering |
-| 177 | complete | [z6S9-VFFBt4](https://youtu.be/z6S9-VFFBt4) | Mairsil, The Pretender DECK TECH \| The Command Zone 177 \| Magic Commander EDH Podcast |
+| 725 | retry | [IKCpeIyvQg8](https://youtu.be/IKCpeIyvQg8) | Teenage Mutant Ninja Turtles is Here Already?! \| The Command Zone 725 \| MTG EDH Magic Gathering |
+| 705 | retry | [l-fyZMOHJsU](https://youtu.be/l-fyZMOHJsU) | The New, NEW Commander Brackets \| The Command Zone 705 \| MTG EDH Magic Gathering |
+| 704 | retry | [OkkOanLxLNA](https://youtu.be/OkkOanLxLNA) | The 10 Best Colorless Cards for just $10 \| The Command Zone 704 \| MTG EDH Magic Gathering |
+| 642 | retry | [QtWyOJHUiFU](https://youtu.be/QtWyOJHUiFU) | Magic has changed A LOT since 1994 \| The Command Zone 642 \| MTG EDH Magic Gathering |
+| 470 | retry | [SM53VYUivkY](https://youtu.be/SM53VYUivkY) | Background Breakdown - Baldur’s Gate \| The Command Zone 470 \| Magic EDH |
+| 458 | retry | [UN-5T_RiS70](https://youtu.be/UN-5T_RiS70) | New Capenna - Best New Multicolored Commanders  \| The Command Zone 458 \| Magic: The Gathering EDH |
+| 429 | retry | [jH-0XjETyMM](https://youtu.be/jH-0XjETyMM) | Crimson Vow - Best Multi-Colored Commanders \| The Command Zone 429 \| Magic: The Gathering EDH |
+| 427 | retry | [fF3g-CKtGkI](https://youtu.be/fF3g-CKtGkI) | Stranger Things - New Commander Breakdown \| The Command Zone 427 \| Magic: The Gathering Commander |
+| 400 | retry | [eaNjXcAqCAY](https://youtu.be/eaNjXcAqCAY) | How to Play Commander \| The Command Zone 400 \| Magic: The Gathering EDH |
+| 381 | retry | [GXxCMvhnVcg](https://youtu.be/GXxCMvhnVcg) | How Did We Get Here? \| Our Origin Stories \| The Command Zone 381 \| Magic Gathering Commander EDH |
+| 380 | retry | [sm6ySaTpBJc](https://youtu.be/sm6ySaTpBJc) | Time Spiral Remastered Preview Cards \| The Command Zone 380 \| Magic: The Gathering Commander |
+| 347 | retry | [EkE_Hyyxhoc](https://youtu.be/EkE_Hyyxhoc) | ROGUE TRIBAL "Sneak Attack" ZNR Full Deck Reveal \| The Command Zone 347 \| Magic The Gathering |
+| 334 | retry | [k70ZbiSC44w](https://youtu.be/k70ZbiSC44w) | Major Rules Change - Commander Dies Triggers \| The Command Zone 334 \| Magic: The Gathering |
+| 260 | retry | [UVaNLeXjraw](https://youtu.be/UVaNLeXjraw) | How to Reach Mythic in Arena l The Command Zone 260 l Magic: the Gathering EDH |
+| 257 | retry | [7ccfmSeCpR8](https://youtu.be/7ccfmSeCpR8) | Biggest Gameplay Mistakes (That Cost You Wins) l The Command Zone 257 l Magic: the Gathering EDH |
+| 225 | retry | [LOoUZdMptZg](https://youtu.be/LOoUZdMptZg) | C18: Best New Cards \| The Command Zone 225 \| Magic: the Gathering Commander/EDH Podcast |
+| 211 | retry | [kib6r2olta4](https://youtu.be/kib6r2olta4) | Shadowborn Apostle Deck Tech +Battlebond Previews \| The Command Zone 211 \| Magic the Gathering |
+| 177 | retry | [z6S9-VFFBt4](https://youtu.be/z6S9-VFFBt4) | Mairsil, The Pretender DECK TECH \| The Command Zone 177 \| Magic Commander EDH Podcast |
 
 ## Unknown Episode Rows
 

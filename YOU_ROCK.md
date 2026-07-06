@@ -1,6 +1,6 @@
 # The Command Zone ‘You Rock’ Shout-Outs
 
-**535 verified shout-outs** across **535 episodes**.
+**538 verified shout-outs** across **538 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
@@ -339,10 +339,22 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="screenshots/mfZ58jxjqds-907-bookmark.jpg"><img src="screenshots/mfZ58jxjqds-907-bookmark.jpg" alt="Marc Ross shout-out" width="300"></a></td>
     </tr>
     <tr>
+      <td><strong>Jackpk7s</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=Xm3e_f6XzV8&amp;t=758s">#693 — 10 Utility Lands You Should Buy for $10</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=Xm3e_f6XzV8&amp;t=758s"><strong>12:38</strong></a></td>
+      <td><a href="screenshots/Xm3e_f6XzV8-758-bookmark.jpg"><img src="screenshots/Xm3e_f6XzV8-758-bookmark.jpg" alt="Jackpk7s shout-out" width="300"></a></td>
+    </tr>
+    <tr>
       <td><strong>Danielle Citron</strong></td>
       <td><a href="https://www.youtube.com/watch?v=hue9ZWRMaYo&amp;t=747s">#692 — How to BEAT Green Decks w/ Brian Kibler</a><br><sub>Aug 12, 2025</sub></td>
       <td><a href="https://www.youtube.com/watch?v=hue9ZWRMaYo&amp;t=747s"><strong>12:27</strong></a></td>
       <td><a href="screenshots/hue9ZWRMaYo-747-bookmark.jpg"><img src="screenshots/hue9ZWRMaYo-747-bookmark.jpg" alt="Danielle Citron shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Brenton Barber</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=qtML-Alod6A&amp;t=895s">#691 — Why Commander SUCKS Sometimes</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=qtML-Alod6A&amp;t=895s"><strong>14:55</strong></a></td>
+      <td><a href="screenshots/qtML-Alod6A-895-bookmark.jpg"><img src="screenshots/qtML-Alod6A-895-bookmark.jpg" alt="Brenton Barber shout-out" width="300"></a></td>
     </tr>
     <tr>
       <td><strong>Jade Eyes</strong></td>
@@ -3151,6 +3163,12 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
       <td><a href="https://www.youtube.com/watch?v=obwekjqpYMQ&amp;t=263s">#178 — Ramos, Dragon Engine Deck Tech &amp; IXALAN PREVIEW</a><br><sub>Sep 13, 2017</sub></td>
       <td><a href="https://www.youtube.com/watch?v=obwekjqpYMQ&amp;t=263s"><strong>4:23</strong></a></td>
       <td><a href="screenshots/obwekjqpYMQ-263-bookmark.jpg"><img src="screenshots/obwekjqpYMQ-263-bookmark.jpg" alt="Zac Schueler shout-out" width="300"></a></td>
+    </tr>
+    <tr>
+      <td><strong>Planeswalker Project</strong></td>
+      <td><a href="https://www.youtube.com/watch?v=z6S9-VFFBt4&amp;t=169s">#177 — Mairsil, The Pretender DECK TECH</a><br><sub>Date unavailable</sub></td>
+      <td><a href="https://www.youtube.com/watch?v=z6S9-VFFBt4&amp;t=169s"><strong>Watch</strong></a></td>
+      <td>—</td>
     </tr>
     <tr>
       <td><strong>Travis Drake</strong></td>

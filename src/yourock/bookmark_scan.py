@@ -520,6 +520,7 @@ def _analysis_contains_scan_trigger(analysis: Any) -> bool:
 
 
 POST_PATREON_NAME_WINDOW_SECONDS = 20
+POST_PATREON_YOU_ROCK_SEARCH_SECONDS = 900
 NAME_ONLY_CONFIRM_GAP_SECONDS = 4
 
 
@@ -645,31 +646,48 @@ def _scan_entries_for_match(
     """Find a YOU ROCK banner or a post-Patreon name-only scroll.
 
     Coarse mode scans every 10 seconds and only looks for YOU ROCK or a
-    Patreon URL. Once Patreon is found, the scan switches to the configured
-    fine interval, usually 2 seconds, and checks the short shout-out window.
+    Patreon URL. Once Patreon is found, scan the short name-only window at the
+    configured fine interval, then keep a coarse post-Patreon YOU ROCK watch.
+    This handles episodes that insert an ad/promo between Patreon and YOU ROCK.
     """
     adaptive = scan_label in {"full-video sweep", "early-show sweep"}
-    fine_scan = not adaptive
     anchor = entries[0][0] if entries else 0
 
     patreon_second: int | None = None
     patreon_window_end: int | None = None
+    you_rock_search_end: int | None = None
+    reported_name_window_end = False
+
     pending_key = ""
     pending_second: int | None = None
     pending_analysis: _FrameAnalysis | None = None
     scanned = 0
 
     for second, bookmark in entries:
-        if adaptive and not fine_scan and (second - anchor) % 10 != 0:
-            continue
+        if adaptive:
+            if patreon_second is None:
+                if (second - anchor) % 10 != 0:
+                    continue
+            elif patreon_window_end is not None and second <= patreon_window_end:
+                pass
+            elif you_rock_search_end is not None and second <= you_rock_search_end:
+                if not reported_name_window_end:
+                    print(
+                        "  No name-only shout-out appeared within "
+                        f"{POST_PATREON_NAME_WINDOW_SECONDS} seconds after Patreon; "
+                        "continuing a coarse YOU ROCK watch."
+                    )
+                    reported_name_window_end = True
 
-        if patreon_window_end is not None and second > patreon_window_end:
-            print(
-                "  No shout-out appeared within "
-                f"{POST_PATREON_NAME_WINDOW_SECONDS} seconds after Patreon; "
-                "moving to the next video."
-            )
-            return None
+                if (second - patreon_second) % 10 != 0:
+                    continue
+            elif you_rock_search_end is not None and second > you_rock_search_end:
+                print(
+                    "  No YOU ROCK appeared within "
+                    f"{POST_PATREON_YOU_ROCK_SEARCH_SECONDS // 60} minutes "
+                    "after Patreon; moving to the next video."
+                )
+                return None
 
         remaining_ms = _remaining_video_timeout_ms(
             deadline,
@@ -744,12 +762,16 @@ def _scan_entries_for_match(
 
         if analysis.has_patreon_url:
             first_patreon_frame = patreon_second is None
-            fine_scan = True
             patreon_second = second
             patreon_window_end = min(
                 max(1, int(duration) - 1),
                 second + POST_PATREON_NAME_WINDOW_SECONDS,
             )
+            you_rock_search_end = min(
+                max(1, int(duration) - 1),
+                second + POST_PATREON_YOU_ROCK_SEARCH_SECONDS,
+            )
+            reported_name_window_end = False
             pending_key = ""
             pending_second = None
             pending_analysis = None
@@ -758,7 +780,7 @@ def _scan_entries_for_match(
                 print(
                     "  Patreon URL found at "
                     f"{format_timestamp(second)}; switching to 2-second scanning "
-                    "and checking the shout-out window."
+                    "for the name-only window, then continuing a coarse YOU ROCK watch."
                 )
 
         if (
@@ -814,13 +836,18 @@ def _scan_entries_for_match(
                 pending_analysis = None
 
         if scanned % 60 == 0:
-            if fine_scan:
-                print(f"  Scanned {scanned} {scan_label} frame(s)...")
-            else:
+            if patreon_second is None:
                 print(
                     f"  Scanned {scanned} coarse {scan_label} frame(s) "
                     "(10-second cadence)..."
                 )
+            elif (
+                patreon_window_end is not None
+                and second <= patreon_window_end
+            ):
+                print(f"  Scanned {scanned} post-Patreon fine frame(s)...")
+            else:
+                print(f"  Scanned {scanned} post-Patreon coarse frame(s)...")
 
     return None
 
