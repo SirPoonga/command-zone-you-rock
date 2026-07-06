@@ -10,3 +10,8 @@ cookies.txt
 backup-before-*/
 transcript-diagnostic-*.json
 test-you-rock.*
+
+# Local backup files
+data/backups/
+*.bak-*
+*.bak_*
