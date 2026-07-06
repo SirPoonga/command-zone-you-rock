@@ -100,7 +100,7 @@ def main(argv: list[str] | None = None) -> int:
         )
 
     if args.command == "build":
-        generate_markdown(config.shoutouts_csv, config.markdown_file)
+        generate_markdown(config.shoutouts_csv, config.markdown_file, config.videos_csv)
         print(f"Wrote {config.markdown_file}")
         return 0
 
@@ -167,7 +167,7 @@ def _capture(
             print(f"  Capture error: {exc}", file=sys.stderr)
         write_rows(config.shoutouts_csv, SHOUTOUT_FIELDS, rows)
 
-    generate_markdown(config.shoutouts_csv, config.markdown_file)
+    generate_markdown(config.shoutouts_csv, config.markdown_file, config.videos_csv)
     print(f"Captured {len(selected) - failures} candidate(s); {failures} failed.")
     return 1 if failures else 0
 
