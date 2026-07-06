@@ -1,7 +1,5 @@
 # Missing Shout-Outs
 
-Generated: 2026-07-05 18:50:56
-
 This file lists Command Zone videos that do not currently have a non-rejected row in `data/shoutouts.csv`.
 
 ## Notes
@@ -13,15 +11,14 @@ This file lists Command Zone videos that do not currently have a non-rejected ro
 ## Summary
 
 - Videos tracked: 680
-- Videos with non-rejected shoutouts: 537
-- Active research queue, episode 165+: 18
+- Videos with non-rejected shoutouts: 538
+- Active research queue, episode 165+: 17
 - Unknown episode rows: 1
 - Permanent skip, episode <=164: 123
-- Newly marked permanent skip: 0
 
 ## Active Research Queue: Episode 165+
 
-Count: **18**
+Count: **17**
 
 | Episode | Status | Video | Title |
 |---:|---|---|---|
@@ -42,7 +39,6 @@ Count: **18**
 | 257 | retry | [7ccfmSeCpR8](https://youtu.be/7ccfmSeCpR8) | Biggest Gameplay Mistakes (That Cost You Wins) l The Command Zone 257 l Magic: the Gathering EDH |
 | 225 | retry | [LOoUZdMptZg](https://youtu.be/LOoUZdMptZg) | C18: Best New Cards \| The Command Zone 225 \| Magic: the Gathering Commander/EDH Podcast |
 | 211 | retry | [kib6r2olta4](https://youtu.be/kib6r2olta4) | Shadowborn Apostle Deck Tech +Battlebond Previews \| The Command Zone 211 \| Magic the Gathering |
-| 177 | retry | [z6S9-VFFBt4](https://youtu.be/z6S9-VFFBt4) | Mairsil, The Pretender DECK TECH \| The Command Zone 177 \| Magic Commander EDH Podcast |
 
 ## Unknown Episode Rows
 
