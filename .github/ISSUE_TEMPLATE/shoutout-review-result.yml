@@ -1,0 +1,128 @@
+name: Shoutout Review Result
+description: Submit a reviewed Command Zone episode shoutout or no-shoutout finding.
+title: "Shoutout review: Episode [number]"
+labels:
+  - shoutout-submission
+  - needs-verification
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping complete the Command Zone shoutout archive.
+
+        Please submit one issue per episode review. A reviewer should be able to verify your finding using the episode number, link, timestamp, and notes.
+
+  - type: input
+    id: episode-number
+    attributes:
+      label: Episode number
+      description: The Command Zone episode number you reviewed.
+      placeholder: "164"
+    validations:
+      required: true
+
+  - type: input
+    id: episode-title
+    attributes:
+      label: Episode title
+      description: The episode title, if known.
+      placeholder: "Example: The Best Commanders from..."
+    validations:
+      required: false
+
+  - type: input
+    id: youtube-link
+    attributes:
+      label: YouTube link
+      description: Link to the episode you reviewed.
+      placeholder: "https://www.youtube.com/watch?v=..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: review-result
+    attributes:
+      label: Review result
+      description: What did you find for this episode?
+      options:
+        - Shoutout found
+        - No shoutout found
+        - Episode unavailable or removed
+        - Unsure / needs second review
+    validations:
+      required: true
+
+  - type: input
+    id: shoutout-name
+    attributes:
+      label: Shoutout name(s)
+      description: Required if a shoutout was found. Use the exact displayed or spoken name when possible. If multiple names are shouted out, include all of them.
+      placeholder: "Jane Doe"
+    validations:
+      required: false
+
+  - type: input
+    id: timestamp
+    attributes:
+      label: Timestamp(s)
+      description: Required if a shoutout was found. Include the timestamp where the shoutout is visible or spoken. If reporting no shoutout, include the section reviewed, such as “checked final 5 minutes.”
+      placeholder: "1:23:45"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: source-type
+    attributes:
+      label: Source type
+      description: How did you verify the result?
+      options:
+        - Visible on screen
+        - Verbal only
+        - YouTube captions / transcript
+        - YouTube description
+        - Manual full-episode review
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      description: How confident are you in this submission?
+      options:
+        - High - clear and directly verified
+        - Medium - likely, but needs another reviewer
+        - Low - possible lead only
+    validations:
+      required: true
+
+  - type: textarea
+    id: exact-wording
+    attributes:
+      label: Exact wording or evidence
+      description: Paste the exact spoken/visible wording if possible. For verbal-only findings, include enough nearby wording for another reviewer to find it quickly.
+      placeholder: "At 1:23:45 they say, 'And our shoutout today goes to Jane Doe...'"
+    validations:
+      required: false
+
+  - type: textarea
+    id: review-notes
+    attributes:
+      label: Review notes
+      description: Add anything useful for verification, including parts of the episode reviewed, unclear audio, alternate spellings, or duplicate possibilities.
+      placeholder: "Checked the last 7 minutes plus the description. Name may be spelled Jayne/Jane."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I searched the existing issues to avoid submitting a duplicate.
+          required: true
+        - label: I included a timestamp or review range that another person can verify.
+          required: true
+        - label: I submitted only one episode review in this issue.
+          required: true
