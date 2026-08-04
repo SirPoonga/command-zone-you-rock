@@ -1,11 +1,12 @@
 # The Command Zone ?You Rock? Shout-Outs
 
-**538 verified shout-outs** across **538 episodes**.
+**539 verified shout-outs** across **539 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
 | Shout-out | Episode | Date | Watch | Proof |
 |---|---|---|---|---|
+| Orion Moore | #756 ? The Hobbit’s Most Powerful New Commanders | Date unavailable | [13:13](https://www.youtube.com/watch?v=2UjW3dT3MXA&amp;t=793s) | [![Orion Moore shout-out](screenshots/2UjW3dT3MXA-793-bookmark.jpg)](https://www.youtube.com/watch?v=2UjW3dT3MXA&amp;t=793s) |
 | Duncan Robb | #750 ? “Fantastic Four” Precon Upgrade Guide \| Marvel Super Heroes | Jun 26, 2026 | [17:21](https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s) | [![Duncan Robb shout-out](screenshots/hcdAy7ne04U-1041-12981e7f.jpg)](https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s) |
 | Wordpuncher | #749 ? “Wakanda Forever” Precon Upgrade Guide \| Marvel Super Heroes | Jun 23, 2026 | [13:40](https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s) | [![Wordpuncher shout-out](screenshots/hqCE1M41Ro0-820-bookmark.jpg)](https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s) |
 | Davy Perez | #748 ? Marvel Super Heroes Most Powerful New Commanders | Jun 18, 2026 | [17:20](https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s) | [![Davy Perez shout-out](screenshots/Z0iX5xQ0_HA-1040-bookmark.jpg)](https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s) |
