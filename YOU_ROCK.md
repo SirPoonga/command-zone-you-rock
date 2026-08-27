@@ -1,11 +1,15 @@
 # The Command Zone ?You Rock? Shout-Outs
 
-**538 verified shout-outs** across **538 episodes**.
+**543 verified shout-outs** across **543 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
 | Shout-out | Episode | Date | Watch | Proof |
 |---|---|---|---|---|
+| Brentyn Tate | #759 ? Mystery Booster Commander’s Most Powerful New Legends | Aug 25, 2026 | [12:05](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) | [![Brentyn Tate shout-out](screenshots/7XpHTfYG_X0-715-4d677b75.jpg)](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) |
+| Peter Mercado | #758 ? The Hobbit’s Best New Cards (In the 99) | Aug 18, 2026 | [14:47](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) | [![Peter Mercado shout-out](screenshots/KNkN2usl80I-887-ca4f1bdb.jpg)](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) |
+| Nick Bunn | #757 ? Four Hobbit Commander Decks to Build Right Now | Aug 11, 2026 | [18:30](https://www.youtube.com/watch?v=2ZIKJYzsZtw&amp;t=1110s) | [![Nick Bunn shout-out](screenshots/2ZIKJYzsZtw-1099-8cebeef5.jpg)](https://www.youtube.com/watch?v=2ZIKJYzsZtw&amp;t=1110s) |
+| Orion Moore | #756 ? The Hobbit’s Most Powerful New Commanders | Date unavailable | [13:13](https://www.youtube.com/watch?v=2UjW3dT3MXA&amp;t=793s) | [![Orion Moore shout-out](screenshots/2UjW3dT3MXA-793-bookmark.jpg)](https://www.youtube.com/watch?v=2UjW3dT3MXA&amp;t=793s) |
 | Duncan Robb | #750 ? “Fantastic Four” Precon Upgrade Guide \| Marvel Super Heroes | Jun 26, 2026 | [17:21](https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s) | [![Duncan Robb shout-out](screenshots/hcdAy7ne04U-1041-12981e7f.jpg)](https://www.youtube.com/watch?v=hcdAy7ne04U&amp;t=1041s) |
 | Wordpuncher | #749 ? “Wakanda Forever” Precon Upgrade Guide \| Marvel Super Heroes | Jun 23, 2026 | [13:40](https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s) | [![Wordpuncher shout-out](screenshots/hqCE1M41Ro0-820-bookmark.jpg)](https://www.youtube.com/watch?v=hqCE1M41Ro0&amp;t=820s) |
 | Davy Perez | #748 ? Marvel Super Heroes Most Powerful New Commanders | Jun 18, 2026 | [17:20](https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s) | [![Davy Perez shout-out](screenshots/Z0iX5xQ0_HA-1040-bookmark.jpg)](https://www.youtube.com/watch?v=Z0iX5xQ0_HA&amp;t=1040s) |
@@ -369,6 +373,7 @@ This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 | Wyatt Drake | #350 ? The Best New Commanders from Zendikar Rising | Sep 16, 2020 | [3:52](https://www.youtube.com/watch?v=yP1K9p33g0w&amp;t=232s) | [![Wyatt Drake shout-out](screenshots/yP1K9p33g0w-232-bookmark.jpg)](https://www.youtube.com/watch?v=yP1K9p33g0w&amp;t=232s) |
 | Jonas Turner | #349 ? Rogue Tribal "Sneak Attack" Budget Upgrade Guide | Sep 11, 2020 | [4:21](https://www.youtube.com/watch?v=rEVzq9BFAVI&amp;t=261s) | [![Jonas Turner shout-out](screenshots/rEVzq9BFAVI-261-bookmark.jpg)](https://www.youtube.com/watch?v=rEVzq9BFAVI&amp;t=261s) |
 | Simon Wellsted | #348 ? Naya Landfall "Land's Wrath" Budget Upgrade Guide | Sep 10, 2020 | [4:49](https://www.youtube.com/watch?v=SpQ6sGkWTcA&amp;t=289s) | [![Simon Wellsted shout-out](screenshots/SpQ6sGkWTcA-289-bookmark.jpg)](https://www.youtube.com/watch?v=SpQ6sGkWTcA&amp;t=289s) |
+| Alexander Juliano | #347 ? ROGUE TRIBAL "Sneak Attack" ZNR Full Deck Reveal | Sep 9, 2020 | [5:32](https://www.youtube.com/watch?v=EkE_Hyyxhoc&amp;t=332s) | [![Alexander Juliano shout-out](screenshots/EkE_Hyyxhoc-332-446668a2.jpg)](https://www.youtube.com/watch?v=EkE_Hyyxhoc&amp;t=332s) |
 | Andreas Máni | #346 ? The Mulan Episode! Deck Tech + Giveaways | Sep 2, 2020 | [6:56](https://www.youtube.com/watch?v=DuasEh88Rxc&amp;t=416s) | [![Andreas Máni shout-out](screenshots/DuasEh88Rxc-416-bookmark.jpg)](https://www.youtube.com/watch?v=DuasEh88Rxc&amp;t=416s) |
 | Marcos Luevano | #345 ? Stopping the Opponent from Winning | Aug 26, 2020 | [7:25](https://www.youtube.com/watch?v=bACV94alOuM&amp;t=445s) | [![Marcos Luevano shout-out](screenshots/bACV94alOuM-445-bookmark.jpg)](https://www.youtube.com/watch?v=bACV94alOuM&amp;t=445s) |
 | Levi Hamer | #344 ? How To Make Your Decks Unique | Aug 20, 2020 | [5:04](https://www.youtube.com/watch?v=HjzPu9FLVmo&amp;t=304s) | [![Levi Hamer shout-out](screenshots/HjzPu9FLVmo-304-bookmark.jpg)](https://www.youtube.com/watch?v=HjzPu9FLVmo&amp;t=304s) |

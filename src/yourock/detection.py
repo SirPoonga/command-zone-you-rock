@@ -26,18 +26,29 @@ def find_candidates(
     candidates: list[Candidate] = []
 
     for index, snippet in enumerate(snippets):
-        window = " ".join(item.text for item in snippets[index : index + window_snippets])
-        window = _normalize_text(window)
+        window_items = [
+            _normalize_text(item.text)
+            for item in snippets[index : index + window_snippets]
+        ]
+        window = " ".join(window_items)
         match = next((pattern.search(window) for pattern in compiled if pattern.search(window)), None)
         if not match:
             continue
 
-        timestamp = float(snippet.start)
+        match_index = index
+        cursor = 0
+        for offset, text in enumerate(window_items):
+            if match.start() < cursor + len(text):
+                match_index = index + offset
+                break
+            cursor += len(text) + 1
+
+        timestamp = float(snippets[match_index].start)
         if candidates and timestamp - candidates[-1].timestamp_seconds < dedupe_seconds:
             continue
 
-        context_start = max(0, index - context_before)
-        context_end = min(len(snippets), index + context_after + 1)
+        context_start = max(0, match_index - context_before)
+        context_end = min(len(snippets), match_index + context_after + 1)
         context = " ".join(item.text for item in snippets[context_start:context_end])
         candidates.append(
             Candidate(

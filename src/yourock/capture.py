@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -70,11 +71,23 @@ def capture_candidate(
             _extract_frames(clip_path, frames_dir, config.sample_every_seconds)
             frame_paths = sorted(frames_dir.glob("*.jpg"))
 
-        best = _choose_best_ocr_frame(config, frame_paths)
+        best = _choose_best_ocr_frame(
+            config,
+            frame_paths,
+            target_timestamp=timestamp_seconds,
+        )
         if best is None:
             raise RuntimeError("Capture produced no readable frames")
 
         frame_path, crop, name, confidence, ocr_text = best
+        upper_text = ocr_text.upper()
+        if not name or "YOU" not in upper_text or "ROCK" not in upper_text:
+            debug_path = config.screenshots_dir / f"{candidate_id}-debug.jpg"
+            crop.save(debug_path, quality=90)
+            raise RuntimeError(
+                "Capture did not find a YOU ROCK name banner; "
+                f"existing evidence was left unchanged; debug frame: {debug_path}"
+            )
         suffix = frame_path.suffix.lower() if frame_path.suffix else ".jpg"
         output_path = config.screenshots_dir / f"{candidate_id}{suffix}"
         crop.save(output_path, quality=90)
@@ -161,9 +174,13 @@ def _extract_frames(clip_path: Path, frames_dir: Path, every_seconds: int) -> No
 def _choose_best_ocr_frame(
     config: ProjectConfig,
     frame_paths: list[Path],
+    *,
+    target_timestamp: float | None = None,
 ) -> tuple[Path, Image.Image, str, float, str] | None:
-    best: tuple[Path, Image.Image, str, float, str] | None = None
-    best_score = -1.0
+    phrase_best: tuple[Path, Image.Image, str, float, str] | None = None
+    phrase_best_score = -1.0
+    fallback_best: tuple[Path, Image.Image, str, float, str] | None = None
+    fallback_best_score: tuple[float, float] | None = None
 
     for frame_path in frame_paths:
         with Image.open(frame_path) as image:
@@ -174,14 +191,34 @@ def _choose_best_ocr_frame(
             ocr_text, confidence = _ocr(processed)
             name = parse_name_from_ocr(ocr_text)
             upper_text = ocr_text.upper()
-            phrase_bonus = 1.0 if "YOU" in upper_text and "ROCK" in upper_text else 0.0
-            name_bonus = 0.5 if name else 0.0
-            score = phrase_bonus + name_bonus + confidence
-            if score > best_score:
-                best_score = score
-                best = (frame_path, crop.copy(), name, confidence, ocr_text)
+            candidate = (frame_path, crop.copy(), name, confidence, ocr_text)
+            has_phrase = "YOU" in upper_text and "ROCK" in upper_text
+            if has_phrase:
+                score = (0.5 if name else 0.0) + confidence
+                if score > phrase_best_score:
+                    phrase_best_score = score
+                    phrase_best = candidate
 
-    return best
+            # If OCR misses YOU ROCK entirely, prefer the frame nearest the
+            # transcript match instead of a sharper but unrelated banner such
+            # as PATREON.COM/COMMANDZONE.
+            frame_second = _browser_frame_second(frame_path)
+            distance = (
+                abs(frame_second - target_timestamp)
+                if frame_second is not None and target_timestamp is not None
+                else float("inf")
+            )
+            fallback_score = (-distance, confidence)
+            if fallback_best_score is None or fallback_score > fallback_best_score:
+                fallback_best_score = fallback_score
+                fallback_best = candidate
+
+    return phrase_best or fallback_best
+
+
+def _browser_frame_second(path: Path) -> float | None:
+    match = re.search(r"-(\d+(?:\.\d+)?)s$", path.stem)
+    return float(match.group(1)) if match else None
 
 
 def _prepare_for_ocr(image: Image.Image) -> Image.Image:
