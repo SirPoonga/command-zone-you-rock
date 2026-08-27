@@ -31,12 +31,11 @@ def test_markdown_includes_only_verified(tmp_path: Path):
     text = output_path.read_text(encoding="utf-8")
 
     assert "**1 verified shout-out** across **1 episode**." in text
-    assert "<table>" in text
+    assert "| Shout-out | Episode | Date | Watch | Proof |" in text
     assert "A Person" in text
     assert "Pending Person" not in text
-    assert "#745 — Example" in text
+    assert "#745 ? Example" in text
     assert "The Command Zone 745" not in text
     assert "Jun 28, 2026" in text
-    assert '<img src="screenshots/example.jpg"' in text
-    assert "width=\"300\"" in text
+    assert "![A Person shout-out](screenshots/example.jpg)" in text
     assert "https://www.youtube.com/watch?v=abc&amp;t=65s" in text
