@@ -66,8 +66,15 @@ def capture_browser_frames(
         f"  Browser capture: {start}s through {end}s "
         f"using {runtime.channel} profile {runtime.profile_dir}"
     )
-    for index, second in enumerate(range(start, end + 1, step), start=1):
-        _seek_video(page, float(second), timeout_ms=min(timeout_ms, 30_000))
+    target = max(start, min(end, int(timestamp_seconds)))
+    sample_seconds = list(range(target, end + 1, step))
+    sample_seconds.extend(range(target - step, start - 1, -step))
+    for index, second in enumerate(sample_seconds, start=1):
+        try:
+            _seek_video(page, float(second), timeout_ms=min(timeout_ms, 30_000))
+        except RuntimeError as exc:
+            print(f"  Skipping frame at {second}s: {exc}")
+            continue
         page.wait_for_timeout(350)
         frame_path = frames_dir / f"frame-{index:04d}-{second}s.jpg"
         video.screenshot(path=str(frame_path), type="jpeg", quality=92)

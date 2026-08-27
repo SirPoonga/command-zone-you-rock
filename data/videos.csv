@@ -298,29 +298,9 @@ LB6HotI0ntI,424,Advanced Deckbuilding: Mastering Your Mana Curve | The Command Z
 GoFgsybYKdc,426,How To Get Into Commander | The Command Zone 452 | Magic: The Gathering EDH,452,2022-03-21,5214,https://www.youtube.com/watch?v=GoFgsybYKdc,complete,description-bookmarks+browser+rapidocr,2026-07-05T04:19:45+00:00,1,
 DykU-eK7bz8,427,Our Biggest Commander Level-Up Moments | The Command Zone 451 | Magic: The Gathering EDH,451,2022-03-16,5850,https://www.youtube.com/watch?v=DykU-eK7bz8,complete,description-bookmarks+browser+rapidocr,2026-07-05T04:21:41+00:00,1,
 5mCh6QKH6-Y,455,"""Vampiric Bloodline"" Full Deck Reveal - Crimson Vow | The Command Zone 430 | Magic The Gathering",430,2021-11-08,3355,https://www.youtube.com/watch?v=5mCh6QKH6-Y,complete,description-bookmarks+browser+rapidocr,2026-07-05T04:23:35+00:00,1,
-jH-0XjETyMM,456,Crimson Vow - Best Multi-Colored Commanders | The Command Zone 429 | Magic: The Gathering EDH,429,2021-11-05,6847,https://www.youtube.com/watch?v=jH-0XjETyMM,retry,,2026-08-04T00:01:48+00:00,0,"RuntimeError: youtube-transcript-api: IpBlocked: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=jH-0XjETyMM! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-Ways to work around this are explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests | browser transcript: RuntimeError: The browser opened the video, but no usable English transcript was retrieved; recursive player-data scan found 1 caption track(s); languages=en; track fetch errors=English (auto-generated): caption request failed with HTTP 429"
+jH-0XjETyMM,456,Crimson Vow - Best Multi-Colored Commanders | The Command Zone 429 | Magic: The Gathering EDH,429,2021-11-05,6847,https://www.youtube.com/watch?v=jH-0XjETyMM,complete,youtube-transcript-api:generated,2026-08-27T06:35:12+00:00,1,
 AvmMur5Lni8,457,Commander Politics: Dealing with Dealers | The Command Zone 428 | Magic The Gathering Commander EDH,428,2021-11-02,3575,https://www.youtube.com/watch?v=AvmMur5Lni8,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:24:09+00:00,1,
-fF3g-CKtGkI,459,Stranger Things - New Commander Breakdown | The Command Zone 427 | Magic: The Gathering Commander,427,2021-10-26,3615,https://www.youtube.com/watch?v=fF3g-CKtGkI,retry,,2026-08-04T00:05:33+00:00,0,"RuntimeError: youtube-transcript-api: IpBlocked: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=fF3g-CKtGkI! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-Ways to work around this are explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests | browser transcript: RuntimeError: The browser opened the video, but no usable English transcript was retrieved; recursive player-data scan found 1 caption track(s); languages=en; track fetch errors=English (auto-generated): caption request failed with HTTP 429"
+fF3g-CKtGkI,459,Stranger Things - New Commander Breakdown | The Command Zone 427 | Magic: The Gathering Commander,427,2021-10-26,3615,https://www.youtube.com/watch?v=fF3g-CKtGkI,complete,youtube-transcript-api:generated,2026-08-27T06:35:20+00:00,0,
 6BpqARm8zZI,460,Decks We Built...But Hated | The Command Zone 426 | Magic: The Gathering Commander EDH,426,2021-10-20,5235,https://www.youtube.com/watch?v=6BpqARm8zZI,complete,description-bookmarks+browser+rapidocr,2026-07-05T04:41:26+00:00,1,
 GKNcCw6_Ju8,462,Midnight Hunt - In the 99 Analysis | The Command Zone 425 | Magic: The Gathering Commander EDH,425,2021-10-05,4136,https://www.youtube.com/watch?v=GKNcCw6_Ju8,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:17:00+00:00,1,
 WNJMZauf0hw,467,The Mono-Colored Commanders from Midnight Hunt | The Command Zone 422 | Magic: The Gathering EDH,422,2021-09-17,3897,https://www.youtube.com/watch?v=WNJMZauf0hw,complete,description-bookmarks+browser+rapidocr,2026-07-01T11:39:11+00:00,1,
@@ -344,23 +324,7 @@ w7aC6TQSE8E,491,The Best Game Enders in Commander | The Command Zone 404 | Magic
 _BWguwtx40c,492,MH2 - Green & Red Review | The Command Zone 403 | Magic: The Gathering EDH,403,2021-06-28,4026,https://www.youtube.com/watch?v=_BWguwtx40c,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:20:57+00:00,1,
 OvWv7Os9kg4,494,MH2 - Blue & Colorless Review | The Command Zone 402 | Magic: The Gathering EDH,402,2021-06-21,4319,https://www.youtube.com/watch?v=OvWv7Os9kg4,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:20:32+00:00,1,
 y8LFCjTzCOc,496,"MH2 - White, Black & Multicolored Review | The Command Zone 401 | Magic: The Gathering EDH",401,2021-06-15,4989,https://www.youtube.com/watch?v=y8LFCjTzCOc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:22:18+00:00,1,
-eaNjXcAqCAY,499,How to Play Commander | The Command Zone 400 | Magic: The Gathering EDH,400,2021-06-07,4855,https://www.youtube.com/watch?v=eaNjXcAqCAY,retry,,2026-08-04T00:09:13+00:00,0,"RuntimeError: youtube-transcript-api: NoTranscriptFound: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=eaNjXcAqCAY! This is most likely caused by:
-
-No transcripts were found for any of the requested language codes: ['en', 'en-US', 'en-GB']
-
-For this video (eaNjXcAqCAY) transcripts are available in the following languages:
-
-(MANUALLY CREATED)
- - pt (""Portuguese"")[TRANSLATABLE]
-
-(GENERATED)
- - fr (""French (auto-generated)"")[TRANSLATABLE]
-
-(TRANSLATION LANGUAGES)
- - en (""English"")
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: Unable to download video subtitles for 'en': HTTP Error 429: Too Many Requests | browser transcript: RuntimeError: The browser opened the video, but no usable English transcript was retrieved; recursive player-data scan found 2 caption track(s); languages=fr,pt"
+eaNjXcAqCAY,499,How to Play Commander | The Command Zone 400 | Magic: The Gathering EDH,400,2021-06-07,4855,https://www.youtube.com/watch?v=eaNjXcAqCAY,complete,yt-dlp:eaNjXcAqCAY.fr.en.json3,2026-08-27T06:35:29+00:00,0,
 dvVVleUWbVo,500,The Best New Commanders from Modern Horizons 2 | The Command Zone 399 | Magic: The Gathering EDH,399,2021-06-03,7213,https://www.youtube.com/watch?v=dvVVleUWbVo,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:22:57+00:00,1,
 KwrSB085FSw,502,C21 New Commander Deep Dive (Part Two) | The Command Zone 398 | Magic: The Gathering EDH,398,2021-05-27,7017,https://www.youtube.com/watch?v=KwrSB085FSw,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:24:34+00:00,1,
 FT4IROaDnGk,504,C21 New Commander Deep Dive (Part One) | The Command Zone 397 | Magic: The Gathering EDH,397,2021-05-18,7209,https://www.youtube.com/watch?v=FT4IROaDnGk,complete,description-bookmarks+browser+rapidocr,2026-07-05T05:14:00+00:00,1,
@@ -378,28 +342,8 @@ ipS8qV-qiCU,519,Lorehold Precon Full Deck Reveal Strixhaven | The Command Zone 3
 TvNxaEtpxF4,520,Strixhaven Preview Card - Tempted by the Oriq | The Command Zone 384 | Magic: The Gathering EDH,384,2021-04-02,1140,https://www.youtube.com/watch?v=TvNxaEtpxF4,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:50:35+00:00,1,
 BN3-OJgW_mc,521,The Most Powerful Synergies in Commander| The Command Zone 383 | Magic: The Gathering EDH,383,2021-03-31,4165,https://www.youtube.com/watch?v=BN3-OJgW_mc,complete,description-bookmarks+browser+rapidocr,2026-07-01T12:51:36+00:00,1,
 ZrYvJqAuM-k,525,The Art of the Board Wipe | The Command Zone 382 | Magic: The Gathering Commander EDH,382,2021-03-16,4482,https://www.youtube.com/watch?v=ZrYvJqAuM-k,complete,description-bookmarks+browser+rapidocr,2026-07-05T07:14:30+00:00,1,
-GXxCMvhnVcg,526,How Did We Get Here? | Our Origin Stories | The Command Zone 381 | Magic Gathering Commander EDH,381,2021-03-10,5180,https://www.youtube.com/watch?v=GXxCMvhnVcg,retry,,2026-08-04T00:15:51+00:00,0,"RuntimeError: youtube-transcript-api: IpBlocked: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=GXxCMvhnVcg! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-Ways to work around this are explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests | browser transcript: RuntimeError: The browser opened the video, but no usable English transcript was retrieved; recursive player-data scan found 1 caption track(s); languages=en; track fetch errors=English (auto-generated): caption request failed with HTTP 429"
-sm6ySaTpBJc,527,Time Spiral Remastered Preview Cards | The Command Zone 380 | Magic: The Gathering Commander,380,2021-03-04,1157,https://www.youtube.com/watch?v=sm6ySaTpBJc,retry,,2026-08-04T00:19:28+00:00,0,"RuntimeError: youtube-transcript-api: IpBlocked: 
-Could not retrieve a transcript for the video https://www.youtube.com/watch?v=sm6ySaTpBJc! This is most likely caused by:
-
-YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
-- You have done too many requests and your IP has been blocked by YouTube
-- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
-
-Ways to work around this are explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
-
-
-If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: Unable to download video subtitles for 'en-orig': HTTP Error 429: Too Many Requests | browser transcript: RuntimeError: The browser opened the video, but no usable English transcript was retrieved; recursive player-data scan found 1 caption track(s); languages=en; track fetch errors=English (auto-generated): caption request failed with HTTP 429"
+GXxCMvhnVcg,526,How Did We Get Here? | Our Origin Stories | The Command Zone 381 | Magic Gathering Commander EDH,381,2021-03-10,5180,https://www.youtube.com/watch?v=GXxCMvhnVcg,complete,youtube-transcript-api:generated,2026-08-27T06:35:51+00:00,0,
+sm6ySaTpBJc,527,Time Spiral Remastered Preview Cards | The Command Zone 380 | Magic: The Gathering Commander,380,2021-03-04,1157,https://www.youtube.com/watch?v=sm6ySaTpBJc,complete,youtube-transcript-api:generated,2026-08-27T06:35:57+00:00,0,
 3K9PEeLG_6M,528,The NEW Commander Deck Building Template | The Command Zone 379 | Magic: the Gathering EDH Podcast,379,2021-03-02,5833,https://www.youtube.com/watch?v=3K9PEeLG_6M,complete,description-bookmarks+browser+rapidocr,2026-07-05T07:25:10+00:00,1,
 Jxng3koUR5o,530,"Azorius ""Phantom Premonition"" Budget Upgrade | The Command Zone 378 | Magic The Gathering Commander",378,2021-02-23,4924,https://www.youtube.com/watch?v=Jxng3koUR5o,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:06:37+00:00,1,
 3D_tsJsnG9A,532,"Golgari ""Elven Empire"" Budget Upgrade Guide | The Command Zone 377 | Magic: The Gathering",377,2021-02-15,3789,https://www.youtube.com/watch?v=3D_tsJsnG9A,complete,description-bookmarks+browser+rapidocr,2026-07-01T13:07:02+00:00,1,
@@ -432,7 +376,7 @@ _R61_iFXisE,567,Zendikar Rising Set Review | The Command Zone 351 | Magic: the G
 yP1K9p33g0w,568,The Best New Commanders from Zendikar Rising | The Command Zone 350 | Magic: The Gathering EDH,350,2020-09-16,6538,https://www.youtube.com/watch?v=yP1K9p33g0w,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:35:22+00:00,1,
 rEVzq9BFAVI,570,"Rogue Tribal ""Sneak Attack"" Budget Upgrade Guide | The Command Zone 349 | Magic: The Gathering EDH",349,2020-09-11,2341,https://www.youtube.com/watch?v=rEVzq9BFAVI,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:38:54+00:00,1,
 SpQ6sGkWTcA,571,"Naya Landfall ""Land's Wrath"" Budget Upgrade Guide | The Command Zone 348 | Magic The Gathering",348,2020-09-10,3404,https://www.youtube.com/watch?v=SpQ6sGkWTcA,complete,description-bookmarks+browser+rapidocr,2026-07-05T07:49:17+00:00,1,
-EkE_Hyyxhoc,572,"ROGUE TRIBAL ""Sneak Attack"" ZNR Full Deck Reveal | The Command Zone 347 | Magic The Gathering",347,,3039,https://www.youtube.com/watch?v=EkE_Hyyxhoc,retry,description-bookmarks+browser+rapidocr,2026-07-05T07:52:17+00:00,0,
+EkE_Hyyxhoc,572,"ROGUE TRIBAL ""Sneak Attack"" ZNR Full Deck Reveal | The Command Zone 347 | Magic The Gathering",347,2020-09-09,3038,https://www.youtube.com/watch?v=EkE_Hyyxhoc,complete,youtube-transcript-api:generated,2026-08-27T06:36:03+00:00,1,
 DuasEh88Rxc,573,The Mulan Episode! Deck Tech + Giveaways | The Command Zone 346 | Magic: The Gathering Commander,346,2020-09-02,3782,https://www.youtube.com/watch?v=DuasEh88Rxc,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:42:22+00:00,1,
 bACV94alOuM,574,Stopping the Opponent from Winning | The Command Zone 345 | Magic: The Gathering Commander EDH,345,2020-08-26,5016,https://www.youtube.com/watch?v=bACV94alOuM,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:47:24+00:00,1,
 HjzPu9FLVmo,575,How To Make Your Decks Unique | The Command Zone 344 | Magic: The Gathering Commander EDH,344,2020-08-20,4584,https://www.youtube.com/watch?v=HjzPu9FLVmo,complete,description-bookmarks+browser+rapidocr,2026-07-01T20:53:03+00:00,1,
@@ -771,3 +715,6 @@ bBZ-PvOyYKY,2,Does Commander Have a Turn Order Problem? | The Command Zone 755 |
 ntmLWMJDk8Y,3,Every Playgroup Has THAT Person | The Command Zone 754 | MTG Magic: The Gathering Commander EDH,754,2026-07-22,5004,https://www.youtube.com/watch?v=ntmLWMJDk8Y,complete,youtube-transcript-api:generated,2026-08-03T23:53:29+00:00,1,
 jPIEwjr_UgE,4,The Best Commander from EVERY Magic Set | The Command Zone 753 | Magic: The Gathering MTG EDH,753,2026-07-16,14856,https://www.youtube.com/watch?v=jPIEwjr_UgE,complete,youtube-transcript-api:generated,2026-08-03T23:53:36+00:00,1,
 vfMVgF9S6yw,6,We Draft the Commander Banned List | The Command Zone 752 | MTG EDH Magic Gathering,752,2026-07-08,5438,https://www.youtube.com/watch?v=vfMVgF9S6yw,complete,youtube-transcript-api:generated,2026-08-03T23:53:42+00:00,1,
+7XpHTfYG_X0,1,Mystery Booster Commander’s Most Powerful New Legends | The Command Zone 759 | MTG EDH Magic,759,2026-08-25,5722,https://www.youtube.com/watch?v=7XpHTfYG_X0,complete,youtube-transcript-api:generated,2026-08-27T06:34:43+00:00,1,
+KNkN2usl80I,3,The Hobbit’s Best New Cards (In the 99) | The Command Zone 758 | MTG Magic: The Gathering Commander,758,2026-08-18,7594,https://www.youtube.com/watch?v=KNkN2usl80I,complete,youtube-transcript-api:generated,2026-08-27T06:34:58+00:00,1,
+2ZIKJYzsZtw,5,Four Hobbit Commander Decks to Build Right Now | The Command Zone 757 | MTG Magic: The Gathering EDH,757,2026-08-11,5476,https://www.youtube.com/watch?v=2ZIKJYzsZtw,complete,youtube-transcript-api:generated,2026-08-27T06:35:05+00:00,1,

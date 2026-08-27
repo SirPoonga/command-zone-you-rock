@@ -18,7 +18,26 @@ def test_finds_phrase_split_across_snippets():
         dedupe_seconds=20,
     )
     assert len(matches) == 1
-    assert matches[0].timestamp_seconds == 10.0
+    assert matches[0].timestamp_seconds == 11.0
+
+
+def test_timestamp_points_to_matching_snippet_not_context_start():
+    snippets = [
+        TranscriptSnippet("Join our Patreon", 100.0, 3.0),
+        TranscriptSnippet("one lucky patron every episode", 103.0, 3.0),
+        TranscriptSnippet("Nick, you rock", 106.0, 3.0),
+    ]
+
+    matches = find_candidates(
+        snippets,
+        (r"\byou rock\b",),
+        window_snippets=3,
+        context_before=2,
+        context_after=0,
+        dedupe_seconds=20,
+    )
+
+    assert matches[0].timestamp_seconds == 106.0
 
 
 def test_deduplicates_overlapping_windows():
