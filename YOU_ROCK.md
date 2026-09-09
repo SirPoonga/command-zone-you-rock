@@ -1,11 +1,12 @@
 # The Command Zone ?You Rock? Shout-Outs
 
-**543 verified shout-outs** across **543 episodes**.
+**544 verified shout-outs** across **544 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
 | Shout-out | Episode | Date | Watch | Proof |
 |---|---|---|---|---|
+| Joshua Hollands | #760 ? We Upgrade Each Other’s Decks w/ Murph | Sep 1, 2026 | [12:39](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) | [![Joshua Hollands shout-out](screenshots/hokDxT8sc78-759-9651c8a1.jpg)](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) |
 | Brentyn Tate | #759 ? Mystery Booster Commander’s Most Powerful New Legends | Aug 25, 2026 | [12:05](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) | [![Brentyn Tate shout-out](screenshots/7XpHTfYG_X0-715-4d677b75.jpg)](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) |
 | Peter Mercado | #758 ? The Hobbit’s Best New Cards (In the 99) | Aug 18, 2026 | [14:47](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) | [![Peter Mercado shout-out](screenshots/KNkN2usl80I-887-ca4f1bdb.jpg)](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) |
 | Nick Bunn | #757 ? Four Hobbit Commander Decks to Build Right Now | Aug 11, 2026 | [18:30](https://www.youtube.com/watch?v=2ZIKJYzsZtw&amp;t=1110s) | [![Nick Bunn shout-out](screenshots/2ZIKJYzsZtw-1099-8cebeef5.jpg)](https://www.youtube.com/watch?v=2ZIKJYzsZtw&amp;t=1110s) |
