@@ -3,7 +3,7 @@ name: Update You Rock List
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 7 * * 1,4"
+    - cron: "23 7 1 * *"
       timezone: "America/Chicago"
 
 permissions:
@@ -34,7 +34,7 @@ jobs:
           pip install -e .
 
       - name: Scan new episodes
-        run: yourock scan --limit 5 --retry-errors --sleep 2
+        run: yourock scan --limit 5 --retry-errors --sleep 2 --backend auto
 
       - name: Rebuild Markdown
         run: yourock build

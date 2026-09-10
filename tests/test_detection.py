@@ -57,6 +57,22 @@ def test_deduplicates_overlapping_windows():
     assert len(matches) == 1
 
 
+def test_finds_you_also_rock_variant():
+    snippets = [TranscriptSnippet("Joshua, you also rock", 42.0, 2.0)]
+
+    matches = find_candidates(
+        snippets,
+        (r"\byou(?: also)? rock\b",),
+        window_snippets=1,
+        context_before=0,
+        context_after=0,
+        dedupe_seconds=20,
+    )
+
+    assert len(matches) == 1
+    assert matches[0].timestamp_seconds == 42.0
+
+
 def test_parses_banner_name():
     assert parse_name_from_ocr("BEN WYROSDICK- YOU ROCK!!!!") == "Ben Wyrosdick"
 
