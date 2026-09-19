@@ -1,11 +1,14 @@
 # The Command Zone ?You Rock? Shout-Outs
 
-**544 verified shout-outs** across **544 episodes**.
+**547 verified shout-outs** across **547 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
 | Shout-out | Episode | Date | Watch | Proof |
 |---|---|---|---|---|
+| Dakotadj | #764 ? “Multiverse Reforged” Precon Upgrade Guide \| Reality Fracture | Sep 18, 2026 | [7:19](https://www.youtube.com/watch?v=wk-MsHsXyko&amp;t=439s) | [![Dakotadj shout-out](screenshots/wk-MsHsXyko-439-manual.jpg)](https://www.youtube.com/watch?v=wk-MsHsXyko&amp;t=439s) |
+| Brad Hensley | #763 ? Cards We’ll Never Stop Playing in Commander | Sep 15, 2026 | [13:28](https://www.youtube.com/watch?v=Q-n3xUTbZlg&amp;t=808s) | [![Brad Hensley shout-out](screenshots/Q-n3xUTbZlg-808-78c3f1ff.jpg)](https://www.youtube.com/watch?v=Q-n3xUTbZlg&amp;t=808s) |
+| Nadav Levintov | #761 ? There Are No Staples Anymore | Sep 8, 2026 | [15:43](https://www.youtube.com/watch?v=o-1yxSHzTKs&amp;t=943s) | [![Nadav Levintov shout-out](screenshots/o-1yxSHzTKs-943-45706964.jpg)](https://www.youtube.com/watch?v=o-1yxSHzTKs&amp;t=943s) |
 | Joshua Hollands | #760 ? We Upgrade Each Other’s Decks w/ Murph | Sep 1, 2026 | [12:39](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) | [![Joshua Hollands shout-out](screenshots/hokDxT8sc78-759-9651c8a1.jpg)](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) |
 | Brentyn Tate | #759 ? Mystery Booster Commander’s Most Powerful New Legends | Aug 25, 2026 | [12:05](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) | [![Brentyn Tate shout-out](screenshots/7XpHTfYG_X0-715-4d677b75.jpg)](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) |
 | Peter Mercado | #758 ? The Hobbit’s Best New Cards (In the 99) | Aug 18, 2026 | [14:47](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) | [![Peter Mercado shout-out](screenshots/KNkN2usl80I-887-ca4f1bdb.jpg)](https://www.youtube.com/watch?v=KNkN2usl80I&amp;t=887s) |
