@@ -723,3 +723,27 @@ LDkLS6fo6cU,1,How to Level-Up Your Removal | The Command Zone 762 | Magic: The G
 o-1yxSHzTKs,3,There Are No Staples Anymore | The Command Zone 761 | MTG Magic The Gathering Commander EDH,761,2026-09-08,6561,https://www.youtube.com/watch?v=o-1yxSHzTKs,complete,youtube-transcript-api:generated,2026-09-11T19:37:44+00:00,1,
 wk-MsHsXyko,1,“Multiverse Reforged” Precon Upgrade Guide | Reality Fracture | The Command Zone 764 | MTG Commander,764,2026-09-18,3664,https://www.youtube.com/watch?v=wk-MsHsXyko,complete,youtube-transcript-api:generated,2026-09-19T13:20:42+00:00,0,
 Q-n3xUTbZlg,2,Cards We’ll Never Stop Playing in Commander | The Command Zone 763 | Magic Gathering MTG EDH,763,2026-09-15,5104,https://www.youtube.com/watch?v=Q-n3xUTbZlg,complete,youtube-transcript-api:generated,2026-09-19T13:20:51+00:00,1,
+7VT9V_ZHeUE,2,Reality Fracture’s Best New Cards (In the 99) | The Command Zone 766 | Magic Gathering MTG Commander,766,,7060,https://www.youtube.com/watch?v=7VT9V_ZHeUE,retry,,2026-10-01T18:30:28+00:00,0,"RuntimeError: youtube-transcript-api: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=7VT9V_ZHeUE! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: [youtube] 7VT9V_ZHeUE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | browser transcript: RuntimeError: Chrome exited before remote debugging became available"
+8-vyTDVOOOE,3,Reality Fracture’s Most Powerful New Commanders | The Command Zone 765 | Magic Gathering MTG EDH,765,,6568,https://www.youtube.com/watch?v=8-vyTDVOOOE,retry,,2026-10-01T18:30:51+00:00,0,"RuntimeError: youtube-transcript-api: RequestBlocked: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=8-vyTDVOOOE! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+There are two things you can do to work around this:
+1. Use proxies to hide your IP address, as explained in the ""Working around IP bans"" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+2. (NOT RECOMMENDED) If you authenticate your requests using cookies, you will be able to continue doing requests for a while. However, YouTube will eventually permanently ban the account that you have used to authenticate with! So only do this if you don't mind your account being banned!
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem! | yt-dlp subtitles: RuntimeError: ERROR: [youtube] 8-vyTDVOOOE: Sign in to confirm you’re not a bot. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | browser transcript: RuntimeError: Chrome exited before remote debugging became available"
