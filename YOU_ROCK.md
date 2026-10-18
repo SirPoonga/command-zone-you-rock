@@ -1,13 +1,18 @@
 # The Command Zone ?You Rock? Shout-Outs
 
-**547 verified shout-outs** across **547 episodes**.
+**552 verified shout-outs** across **552 episodes**.
 
 This page is generated from [`data/shoutouts.csv`](data/shoutouts.csv).
 
 | Shout-out | Episode | Date | Watch | Proof |
 |---|---|---|---|---|
+| Brandon Shah | #768 ? THAT’S How It Works??!! | Oct 13, 2026 | [8:37](https://www.youtube.com/watch?v=GX6ow9SJkXM&amp;t=517s) | [![Brandon Shah shout-out](screenshots/GX6ow9SJkXM-517-77cdb1ec.jpg)](https://www.youtube.com/watch?v=GX6ow9SJkXM&amp;t=517s) |
+| Jacob Heimer | #767 ? Stop Falling for these Commander Deckbuilding Traps | Oct 8, 2026 | [9:06](https://www.youtube.com/watch?v=K5UGydfRKBw&amp;t=546s) | [![Jacob Heimer shout-out](screenshots/K5UGydfRKBw-546-f9f1ef85.jpg)](https://www.youtube.com/watch?v=K5UGydfRKBw&amp;t=546s) |
+| Jeff Oyler | #766 ? Reality Fracture’s Best New Cards (In the 99) | Sep 29, 2026 | [13:24](https://www.youtube.com/watch?v=7VT9V_ZHeUE&amp;t=804s) | [![Jeff Oyler shout-out](screenshots/7VT9V_ZHeUE-804-d36d3b41.jpg)](https://www.youtube.com/watch?v=7VT9V_ZHeUE&amp;t=804s) |
+| David Hurse | #765 ? Reality Fracture’s Most Powerful New Commanders | Sep 22, 2026 | [10:14](https://www.youtube.com/watch?v=8-vyTDVOOOE&amp;t=614s) | [![David Hurse shout-out](screenshots/8-vyTDVOOOE-614-f7a8351a.jpg)](https://www.youtube.com/watch?v=8-vyTDVOOOE&amp;t=614s) |
 | Dakotadj | #764 ? “Multiverse Reforged” Precon Upgrade Guide \| Reality Fracture | Sep 18, 2026 | [7:19](https://www.youtube.com/watch?v=wk-MsHsXyko&amp;t=439s) | [![Dakotadj shout-out](screenshots/wk-MsHsXyko-439-manual.jpg)](https://www.youtube.com/watch?v=wk-MsHsXyko&amp;t=439s) |
 | Brad Hensley | #763 ? Cards We’ll Never Stop Playing in Commander | Sep 15, 2026 | [13:28](https://www.youtube.com/watch?v=Q-n3xUTbZlg&amp;t=808s) | [![Brad Hensley shout-out](screenshots/Q-n3xUTbZlg-808-78c3f1ff.jpg)](https://www.youtube.com/watch?v=Q-n3xUTbZlg&amp;t=808s) |
+| Notta Ninja | #762 ? How to Level-Up Your Removal | Sep 11, 2026 | [11:35](https://www.youtube.com/watch?v=LDkLS6fo6cU&amp;t=695s) | [![Notta Ninja shout-out](screenshots/LDkLS6fo6cU-695-manual.jpg)](https://www.youtube.com/watch?v=LDkLS6fo6cU&amp;t=695s) |
 | Nadav Levintov | #761 ? There Are No Staples Anymore | Sep 8, 2026 | [15:43](https://www.youtube.com/watch?v=o-1yxSHzTKs&amp;t=943s) | [![Nadav Levintov shout-out](screenshots/o-1yxSHzTKs-943-45706964.jpg)](https://www.youtube.com/watch?v=o-1yxSHzTKs&amp;t=943s) |
 | Joshua Hollands | #760 ? We Upgrade Each Other’s Decks w/ Murph | Sep 1, 2026 | [12:39](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) | [![Joshua Hollands shout-out](screenshots/hokDxT8sc78-759-9651c8a1.jpg)](https://www.youtube.com/watch?v=hokDxT8sc78&amp;t=759s) |
 | Brentyn Tate | #759 ? Mystery Booster Commander’s Most Powerful New Legends | Aug 25, 2026 | [12:05](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) | [![Brentyn Tate shout-out](screenshots/7XpHTfYG_X0-715-4d677b75.jpg)](https://www.youtube.com/watch?v=7XpHTfYG_X0&amp;t=725s) |
